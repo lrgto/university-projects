@@ -1,0 +1,251 @@
+<Fmt TEXT>
+<Name ABNet>
+<Epoch 0>
+<Lay Location>
+<Ug>
+<UgUn 0 A>
+<Un>
+0
+</Un>
+</UgUn>
+<UgUn 1 B>
+<Un>
+0
+</Un>
+</UgUn>
+<UgUn 2 C>
+<Un>
+0
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Hidden>
+<Ug>
+<UgUn 0 A>
+<Un>
+0
+<Cg 0 Fm:Location>
+<Cn 3>
+0 0.7
+1 0.3
+2 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden>
+<Cn 1>
+0 0.4
+</Cn>
+</Cg>
+<Cg 2 Fm:Cover>
+<Cn 2>
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+<Cg 3 Fm:Toy>
+<Cn 2>
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 1 B>
+<Un>
+0
+<Cg 0 Fm:Location>
+<Cn 3>
+1 0.7
+2 0.3
+0 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden>
+<Cn 1>
+1 0.4
+</Cn>
+</Cg>
+<Cg 2 Fm:Cover>
+<Cn 2>
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+<Cg 3 Fm:Toy>
+<Cn 2>
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 2 C>
+<Un>
+0
+<Cg 0 Fm:Location>
+<Cn 3>
+2 0.7
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden>
+<Cn 1>
+2 0.4
+</Cn>
+</Cg>
+<Cg 2 Fm:Cover>
+<Cn 2>
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+<Cg 3 Fm:Toy>
+<Cn 2>
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Gaze_Expectation>
+<Ug>
+<UgUn 0 A>
+<Un>
+0
+<Cg 0 Fm:Hidden>
+<Cn 3>
+0 0.7
+1 0.3
+2 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Gaze_Expectation>
+<Cn 1>
+0 0.4
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 1 B>
+<Un>
+0
+<Cg 0 Fm:Hidden>
+<Cn 3>
+1 0.7
+2 0.3
+0 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Gaze_Expectation>
+<Cn 1>
+1 0.4
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 2 C>
+<Un>
+0
+<Cg 0 Fm:Hidden>
+<Cn 3>
+2 0.7
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Gaze_Expectation>
+<Cn 1>
+2 0.4
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Reach>
+<Ug>
+<UgUn 0 A>
+<Un>
+0
+<Cg 0 Fm:Hidden>
+<Cn 3>
+0 0.7
+1 0.3
+2 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Reach>
+<Cn 1>
+0 0.4
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 1 B>
+<Un>
+0
+<Cg 0 Fm:Hidden>
+<Cn 3>
+1 0.7
+2 0.3
+0 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Reach>
+<Cn 1>
+1 0.4
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 2 C>
+<Un>
+0
+<Cg 0 Fm:Hidden>
+<Cn 3>
+2 0.7
+0 0.3
+1 0.3
+</Cn>
+</Cg>
+<Cg 1 Fm:Reach>
+<Cn 1>
+2 0.4
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Cover>
+<Ug>
+<UgUn 0 C1>
+<Un>
+0
+</Un>
+</UgUn>
+<UgUn 1 C2>
+<Un>
+0
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Toy>
+<Ug>
+<UgUn 0 T1>
+<Un>
+0
+</Un>
+</UgUn>
+<UgUn 1 T2>
+<Un>
+0
+</Un>
+</UgUn>
+</Ug>
+</Lay>

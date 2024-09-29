@@ -1,0 +1,46 @@
+\section{Background Research}
+\label{Background Research Section}
+
+\subsection{Two Naïves Bayes Models}
+\label{Two Naïves Bayes Models Research Section}
+
+Fairness-aware algorithms are designed to analyze data without being too bias on the result. The model algorithm described in \cite{Naive} is altered to lose dependence on $A_s$ so that the data-set will be processed differently without losing accuracy in the number of attributes. Normally the data-set will process $S$ from $A_s$ through the data-set and produce the result $S$, to lose the results dependence on $A_s$ the model splits into two ($M_+$ and $M_-$). $M_+$ takes the favour values of $S_+$ whereas $M_-$ takes the discriminated values $S_-$ to which the final classifier will be dependent on $S$ which is shown in \cref{NaiveBayesFig} where All the values in the tree (array) are associated with $S$, this is applicable for both $M_+$ and $M_-$ as both share an identical Naïve Bayes model, the 2 Naïve models related to the $M_+$ and $M_-$ models.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1.0]{Media/naivebayes.png}
+    \caption{Illustration of the 2 Naïves Bayes models where S connects to each attribute. \cite{Naive}}
+    \label{NaiveBayesFig}
+\end{figure}
+
+In this model specifically as stated takes all the discriminated values and assigns them to the $M_-$ model based off of the $S_-$ values. The algorithms in \cref{1} is a base Naïve model algorithm which depends on a class C, instead of this class its modified into \cref{2} where the S values are used. The $S_-$ discriminated values are used in \cref{2} that removes this discrimination from the Naïve Bayes algorithm.
+
+\begin{equation}
+    P(C,S,A1,...,An) = P(C)P(S|C)P(A1|C)...P(An|C)
+    \label{1}
+\end{equation}
+
+\begin{equation}
+    P(C,S,A1,...,An) = P(S)P(C|S)P(A1|C)...P(An|C)
+    \label{2}
+\end{equation}
+
+\subsection{Decision Tree Algorithms}
+\label{Decision Tree Algorithms Research Section}
+
+In the second paper \cite{Tree}, a discrimination-aware tree was proposed by "adapting" the splitting criterion for the tree's branches, however multiple adaptations were formed and tested: \\
+
+\begin{equation}
+    IGC = H_{Class}(D) - \sum_{i=1}^{k} \dfrac{|D_i|}{|D|} H_{Class}(D_i)
+    \label{IGC}
+\end{equation}
+
+\begin{equation}
+    IGS = H_B(D) - \sum_{i=1}^{k} \dfrac{|D_i|}{|D|} H_B(D_i)
+    \label{IGS}
+\end{equation}
+\vspace{0.5cm}
+
+A formula is used to calculate the information gain (IGC) in \cref{IGC} the data is split into $D_i$ per individual data point under evaluation and $H_{Class}$ is the entropy of the class, so as the tree continues to split, each split of ($D_i$) is based off of the splitting criterion. However a second formula is conceived \cref{IGS} to state the influence of gain (labelled as B) of the individual splits of the trees branches labeled as the influence gain (IGS), "the gain sensitivity to B" \cite{Tree} where $H_B$ is the entropy of B. \\
+
+From these two formulae, three other formulae are formed (IGC-IGS, IGC/IGS and IGC+IGS). All three equations serve a purpose, the first allows the split only if no discrimination, the second is "a trade-off between accuracy and discrimination" \cite{Tree} and the third is a sum total of the gains. Another method in this paper associated with the decision trees algorithm is relabelling, "The relabeling technique, however, will now change this strategy of assigning the label of the majority class. Instead, we try to relabel the leaves of the decision tree in such a way that the discrimination decreases while trading in as little accuracy as possible." \cite{Tree}, the relabelling method would later show that in terms of the IGC, IGC-IGS, IGC/IGS and IGC+IGS with relabelling applied, all showed increased accuracy and slight improvement to discrimination. \\

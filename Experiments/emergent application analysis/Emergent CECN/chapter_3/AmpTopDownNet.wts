@@ -1,0 +1,45 @@
+<Fmt TEXT>
+<Name AmpTopDownNet>
+<Epoch 0>
+<Lay Input>
+<Ug>
+<UgUn 0 >
+<Un>
+0
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Hidden1>
+<Ug>
+<UgUn 0 >
+<Un>
+0
+<Cg 0 Fm:Input>
+<Cn 1>
+0 1
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden2>
+<Cn 1>
+0 1
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Hidden2>
+<Ug>
+<UgUn 0 >
+<Un>
+0
+<Cg 0 Fm:Hidden1>
+<Cn 1>
+0 1
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+</Ug>
+</Lay>

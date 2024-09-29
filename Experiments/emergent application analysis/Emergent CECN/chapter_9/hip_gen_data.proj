@@ -1,0 +1,6147 @@
+// ta_Dump File v2.0 -- code v4.0.21.0
+LeabraProject .projects[0] { 
+  Doc_Group @.docs = [1] {
+    taDoc @[0] { };
+  };
+
+  Wizard_Group @.wizards = [1] {
+    LeabraWizard @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+
+      LayerWizElList @.layer_cfg = [3] {
+	LayerWizEl @[0] { };
+	LayerWizEl @[1] { };
+	LayerWizEl @[2] { };
+      };
+    };
+  };
+
+  DataTable_Group @.data = [0] {
+    DataTable_Group @.gp[0] = [5] { 
+      DataTable @[0] { 
+	DataTableCols @.data = [3] {
+	  String_Data @[0] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	  float_Data @[1] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	  float_Data @[2] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	};
+      };
+      DataTable @[1] { 
+	DataTableCols @.data = [3] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	  float_Data @[2] { };
+	};
+      };
+      DataTable @[2] { 
+	DataTableCols @.data = [3] {
+	  String_Data @[0] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	  float_Data @[1] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	  float_Data @[2] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	};
+      };
+      DataTable @[3] { 
+	DataTableCols @.data = [3] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	  float_Data @[2] { };
+	};
+      };
+      DataTable @[4] { 
+	DataTableCols @.data = [3] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	  float_Data @[2] { };
+	};
+      };
+    };
+    DataTable_Group @.gp[1] { };
+    DataTable_Group @.gp[2] { };
+    DataTable_Group @.gp[3] = [6] { 
+      DataTable @[0] { 
+	DataTableCols @.data = [2] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	};
+      };
+      DataTable @[1] { 
+	DataTableCols @.data = [2] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	};
+      };
+      DataTable @[2] { 
+	DataTableCols @.data = [2] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	};
+      };
+      DataTable @[3] { 
+	DataTableCols @.data = [2] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	};
+      };
+      DataTable @[4] { 
+	DataTableCols @.data = [2] {
+	  String_Data @[0] { };
+	  float_Data @[1] { };
+	};
+      };
+      DataTable @[5] { 
+	DataTableCols @.data = [3] {
+	  String_Data @[0] { };
+	  String_Data @[1] { };
+	  float_Data @[2] { };
+	};
+      };
+    };
+  };
+
+  taBase_Group @.data_proc = [4] {
+    taDataProc @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+    taDataAnal @[1] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+    taDataGen @[2] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+    taImageProc @[3] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+  };
+
+  Program_Group @.programs = [1] {
+    Program @[0] { 
+      ProgObjList @.objs = [8] {
+	DataTable @[0] { 
+	  DataTableCols @.data = [2] {
+	    String_Data @[0] { };
+	    float_Data @[1] { };
+	  };
+	};
+	DataTable @[1] { 
+	  DataTableCols @.data = [2] {
+	    String_Data @[0] { };
+	    float_Data @[1] { };
+	  };
+	};
+	DataTable @[2] { 
+	  DataTableCols @.data = [2] {
+	    String_Data @[0] { };
+	    float_Data @[1] { };
+	  };
+	};
+	DataTable @[3] { 
+	  DataTableCols @.data = [2] {
+	    String_Data @[0] { };
+	    float_Data @[1] { };
+	  };
+	};
+	DataTable @[4] { 
+	  DataTableCols @.data = [2] {
+	    String_Data @[0] { };
+	    float_Data @[1] { };
+	  };
+	};
+	DataTable @[5] { 
+     UserDataItem_List @*(.user_data_) {
+	    UserDataItem @[0] { };
+	    UserDataItem @[1] { };
+     };
+
+	  DataTableCols @.data = [1] {
+	    float_Data @[0] { 
+       UserDataItem_List @*(.user_data_) {
+		UserDataItem @[0] { };
+       };
+};
+	  };
+	};
+	DataTable @[6] { 
+     UserDataItem_List @*(.user_data_) {
+	    UserDataItem @[0] { };
+	    UserDataItem @[1] { };
+     };
+
+	  DataTableCols @.data = [1] {
+	    float_Data @[0] { 
+       UserDataItem_List @*(.user_data_) {
+		UserDataItem @[0] { };
+       };
+};
+	  };
+	};
+	SubMatrixOpSpec @[7] { };
+      };
+
+      ProgType_List @.types = [1] {
+	DynEnumType @[0] { 
+	  DynEnumItem_List @.enums = [4] {
+	    DynEnumItem @[0] { };
+	    DynEnumItem @[1] { };
+	    DynEnumItem @[2] { };
+	    DynEnumItem @[3] { };
+	  };
+	};
+      };
+
+      ProgVar_List @.vars = [11] {
+	ProgVar @[0] { };
+	ProgVar @[1] { };
+	ProgVar @[2] { };
+	ProgVar @[3] { };
+	ProgVar @[4] { };
+	ProgVar @[5] { };
+	ProgVar @[6] { };
+	ProgVar @[7] { };
+	ProgVar @[8] { };
+	ProgVar @[9] { };
+	ProgVar @[10] { };
+      };
+
+      ProgEl_List @.prog_code = [1] {
+	Switch @[0] { 
+	  ProgEl_List @.cases = [4] {
+	    CaseBlock @[0] { 
+	      ProgEl_List @.prog_code = [3] {
+		DataGenCall @[0] { 
+		  ProgArg_List @.meth_args = [5] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		    ProgArg @[3] { };
+		    ProgArg @[4] { };
+		  };
+		};
+		MethodCall @[1] { 
+		  ProgArg_List @.meth_args = [3] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		  };
+		};
+		MethodCall @[2] { 
+		  ProgArg_List @.meth_args = [3] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		  };
+		};
+	      };
+	    };
+	    CaseBlock @[1] { 
+	      ProgEl_List @.prog_code = [2] {
+		DataGenCall @[0] { 
+		  ProgArg_List @.meth_args = [7] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		    ProgArg @[3] { };
+		    ProgArg @[4] { };
+		    ProgArg @[5] { };
+		    ProgArg @[6] { };
+		  };
+		};
+		DataAnalCall @[1] { 
+		  ProgArg_List @.meth_args = [9] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		    ProgArg @[3] { };
+		    ProgArg @[4] { };
+		    ProgArg @[5] { };
+		    ProgArg @[6] { };
+		    ProgArg @[7] { };
+		    ProgArg @[8] { };
+		  };
+		};
+	      };
+	    };
+	    CaseBlock @[2] { 
+	      ProgEl_List @.prog_code = [2] {
+		DataGenCall @[0] { 
+		  ProgArg_List @.meth_args = [5] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		    ProgArg @[3] { };
+		    ProgArg @[4] { };
+		  };
+		};
+		MethodCall @[1] { 
+		  ProgArg_List @.meth_args = [3] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		  };
+		};
+	      };
+	    };
+	    CaseBlock @[3] { 
+	      ProgEl_List @.prog_code = [2] {
+		DataGenCall @[0] { 
+		  ProgArg_List @.meth_args = [7] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		    ProgArg @[3] { };
+		    ProgArg @[4] { };
+		    ProgArg @[5] { };
+		    ProgArg @[6] { };
+		  };
+		};
+		DataAnalCall @[1] { 
+		  ProgArg_List @.meth_args = [9] {
+		    ProgArg @[0] { };
+		    ProgArg @[1] { };
+		    ProgArg @[2] { };
+		    ProgArg @[3] { };
+		    ProgArg @[4] { };
+		    ProgArg @[5] { };
+		    ProgArg @[6] { };
+		    ProgArg @[7] { };
+		    ProgArg @[8] { };
+		  };
+		};
+	      };
+	    };
+	  };
+	};
+      };
+    };
+  };
+
+  DataViewer_List @.viewers = [1] {
+    MainWindowViewer @[0] { 
+      ToolBar_List @.toolbars = [1] {
+	ToolBar @[0] { };
+      };
+
+      FrameViewer_List @.frames = [3] {
+	tabBrowseViewer @[0] { };
+	PanelViewer @[1] { };
+	T3DataViewer @[2] { 
+	  T3DataViewFrame_List @.frames = [5] {
+	    T3DataViewFrame @[0] { 
+	      T3DataView_List @.children = [1] {
+		GridTableView @[0] { 
+		  T3DataView_List @.children = [3] {
+		    GridColView @[0] { };
+		    GridColView @[1] { };
+		    GridColView @[2] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	    T3DataViewFrame @[1] { 
+	      T3DataView_List @.children = [1] {
+		GridTableView @[0] { 
+		  T3DataView_List @.children = [2] {
+		    GridColView @[0] { };
+		    GridColView @[1] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	    T3DataViewFrame @[2] { 
+	      T3DataView_List @.children = [4] {
+		GridTableView @[0] { 
+		  T3DataView_List @.children = [2] {
+		    GridColView @[0] { };
+		    GridColView @[1] { };
+		  };
+		};
+		GridTableView @[1] { 
+		  T3DataView_List @.children = [2] {
+		    GridColView @[0] { };
+		    GridColView @[1] { };
+		  };
+		};
+		GridTableView @[2] { 
+		  T3DataView_List @.children = [2] {
+		    GridColView @[0] { };
+		    GridColView @[1] { };
+		  };
+		};
+		GridTableView @[3] { 
+		  T3DataView_List @.children = [2] {
+		    GridColView @[0] { };
+		    GridColView @[1] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	    T3DataViewFrame @[3] { 
+	      T3DataView_List @.children = [1] {
+		GridTableView @[0] { 
+		  T3DataView_List @.children = [1] {
+		    GridColView @[0] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	    T3DataViewFrame @[4] { 
+	      T3DataView_List @.children = [1] {
+		GridTableView @[0] { 
+		  T3DataView_List @.children = [1] {
+		    GridColView @[0] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	  };
+	};
+      };
+
+      DockViewer_List @.docks = [1] {
+	ToolBoxDockViewer @[0] { };
+      };
+    };
+  };
+};
+LeabraProject .projects[0] {
+ name="Project_0";
+ desc=;
+ tags=;
+ version {
+  major=0;
+  minor=0;
+  step=0;
+ };
+ wiki_url {
+  sync=0;
+  wiki=;
+  url=;
+ };
+ templates {
+  name=;
+  el_typ=taBase;
+  el_def=0;
+ };
+ docs {
+  name=;
+  el_typ=taDoc;
+  el_def=0;
+  taDoc @[0] {
+   name="HelpDoc";
+   auto_open=0;
+   web_doc=1;
+   wiki="emergent";
+   url="Matrix";
+   full_url="http://grey.colorado.edu/emergent/index.php/Matrix";
+   text_size=1;
+   text="<html>
+<head></head>
+<body>
+== Enter Title Here ==
+</body>
+</html>
+";
+   html_text="<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" dir=\"ltr\"><head>
+		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
+		<meta http-equiv=\"Content-Style-Type\" content=\"text/css\">
+		<meta name=\"generator\" content=\"MediaWiki 1.16alpha\">
+		<meta name=\"robots\" content=\"noindex,nofollow\">
+		<meta name=\"keywords\" content=\"String Matrix\">
+		<link rel=\"stylesheet\" type=\"text/css\" href=\"/emergent/extensions/BreadCrumbs/BreadCrumbs.css\">
+		<link rel=\"alternate\" type=\"application/x-wiki\" title=\"Edit\" href=\"/emergent/index.php?title=String_Matrix&amp;action=edit\">
+		<link rel=\"edit\" title=\"Edit\" href=\"/emergent/index.php?title=String_Matrix&amp;action=edit\">
+		<link rel=\"stylesheet\" type=\"text/css\" media=\"screen, projection\" href=\"http://yui.yahooapis.com/2.5.1/build/fonts/fonts-min.css\">
+		<link rel=\"stylesheet\" type=\"text/css\" media=\"screen, projection\" href=\"http://yui.yahooapis.com/2.5.1/build/tabview/assets/skins/sam/tabview.css\">
+		<link rel=\"stylesheet\" type=\"text/css\" media=\"screen, projection\" href=\"/emergent/extensions/HeaderTabs/skins/headertabs.css\">
+		<link rel=\"shortcut icon\" href=\"/emergent/favicon.ico\">
+		<link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/emergent/opensearch_desc.php\" title=\"Emergent (en)\">
+		<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Emergent RSS Feed\" href=\"/emergent/index.php?title=Special:RecentChanges&amp;feed=rss\">
+		<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Emergent Atom Feed\" href=\"/emergent/index.php?title=Special:RecentChanges&amp;feed=atom\">
+		<title>String Matrix - Emergent</title>
+		<link rel=\"stylesheet\" href=\"/emergent/skins/common/shared.css?228\" type=\"text/css\" media=\"screen\">
+		<link rel=\"stylesheet\" href=\"/emergent/skins/common/commonPrint.css?228\" type=\"text/css\" media=\"print\">
+		<link rel=\"stylesheet\" href=\"/emergent/skins/monobook/main.css?228\" type=\"text/css\" media=\"screen\">
+		<!--[if lt IE 5.5000]><link rel=\"stylesheet\" href=\"/emergent/skins/monobook/IE50Fixes.css?228\" type=\"text/css\" media=\"screen\" /><![endif]-->
+		<!--[if IE 5.5000]><link rel=\"stylesheet\" href=\"/emergent/skins/monobook/IE55Fixes.css?228\" type=\"text/css\" media=\"screen\" /><![endif]-->
+		<!--[if IE 6]><link rel=\"stylesheet\" href=\"/emergent/skins/monobook/IE60Fixes.css?228\" type=\"text/css\" media=\"screen\" /><![endif]-->
+		<!--[if IE 7]><link rel=\"stylesheet\" href=\"/emergent/skins/monobook/IE70Fixes.css?228\" type=\"text/css\" media=\"screen\" /><![endif]-->
+		<link rel=\"stylesheet\" href=\"/emergent/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000\" type=\"text/css\">
+		<link rel=\"stylesheet\" href=\"/emergent/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000\" type=\"text/css\" media=\"print\">
+		<link rel=\"stylesheet\" href=\"/emergent/index.php?title=MediaWiki:monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000\" type=\"text/css\">
+		<link rel=\"stylesheet\" href=\"/emergent/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;smaxage=0&amp;ts=20090708075640&amp;gen=css\" type=\"text/css\">
+		<!--[if lt IE 7]><script type=\"text/javascript\" src=\"/emergent/skins/common/IEFixes.js?228\"></script>
+		<meta http-equiv=\"imagetoolbar\" content=\"no\" /><![endif]-->
+
+		<script type=\"text/javascript\">/*<![CDATA[*/
+var skin=\"monobook\",
+stylepath=\"/emergent/skins\",
+wgArticlePath=\"/emergent/index.php/$1\",
+wgScriptPath=\"/emergent\",
+wgScript=\"/emergent/index.php\",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer=\"http://grey.colorado.edu\",
+wgCanonicalNamespace=\"\",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName=\"String_Matrix\",
+wgTitle=\"String Matrix\",
+wgAction=\"view\",
+wgArticleId=0,
+wgIsArticle=true,
+wgUserName=\"Oreilly\",
+wgUserGroups=[\"*\", \"user\", \"autoconfirmed\"],
+wgUserLanguage=\"en\",
+wgContentLanguage=\"en\",
+wgBreakFrames=false,
+wgCurRevisionId=0,
+wgVersion=\"1.16alpha\",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=[\"\", \"\"],
+wgDigitTransformTable=[\"\", \"\"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[],
+wgAjaxWatch={\"watchMsg\": \"Watch\", \"unwatchMsg\": \"Unwatch\", \"watchingMsg\": \"Watching...\", \"unwatchingMsg\": \"Unwatching...\"}
+/*]]>*/</script>
+
+		<script type=\"text/javascript\" src=\"/emergent/skins/common/wikibits.js?228\"></script><style type=\"text/css\">@import \"/emergent/skins/monobook/KHTMLFixes.css\";</style>
+		<script type=\"text/javascript\" src=\"/emergent/skins/common/ajax.js?228\"></script>
+		<script type=\"text/javascript\" src=\"/emergent/skins/common/ajaxwatch.js?228\"></script>
+		<script type=\"text/javascript\" src=\"http://yui.yahooapis.com/2.5.1/build/utilities/utilities.js\"></script>
+		<script type=\"text/javascript\" src=\"http://yui.yahooapis.com/2.5.1/build/tabview/tabview-min.js\"></script>
+		<script type=\"text/javascript\" src=\"http://yui.yahooapis.com/2.5.1/build/event/event-min.js\"></script>
+		<script type=\"text/javascript\" src=\"http://yui.yahooapis.com/2.5.1/build/history/history-min.js\"></script>
+		<script type=\"text/javascript\" src=\"/emergent/extensions/HeaderTabs/skins/headertabs.js\"></script>
+		<link rel=\"alternate\" type=\"application/rdf+xml\" title=\"String Matrix\" href=\"/emergent/index.php?title=Special:ExportRDF/String_Matrix&amp;xmlmime=rdf\">
+		<script type=\"text/javascript\" src=\"/emergent/index.php?title=-&amp;action=raw&amp;smaxage=0&amp;gen=js&amp;useskin=monobook\"></script><script src=\"http://meta.wikimedia.org/w/index.php?title=MediaWiki:Wikiminiatlas.js&amp;action=raw&amp;ctype=text/javascript&amp;smaxage=21600&amp;maxage=86400\" type=\"text/javascript\"></script>
+	</head><body class=\"mediawiki ltr ns-0 ns-subject page-String_Matrix skin-monobook\">
+	<div id=\"globalWrapper\">
+		<div id=\"column-content\">
+	<div id=\"content\">
+		<a name=\"top\" id=\"top\"></a>
+				<h1 id=\"firstHeading\" class=\"firstHeading\">String Matrix</h1>
+		<div id=\"bodyContent\">
+			<h3 id=\"siteSub\">From Emergent</h3>
+			<div id=\"contentSub\"></div>
+									<div id=\"jump-to-nav\">Jump to: <a href=\"#column-one\">navigation</a>, <a href=\"#searchInput\">search</a></div>			<!-- start content -->
+			<div id=\"BreadCrumbsTrail\"><a href=\"/emergent/index.php/Matrix\" title=\"Matrix\">Matrix</a> &gt; <a href=\"/emergent/index.php?title=gendoc/int_Matrix&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"gendoc/int Matrix (page does not exist)\">gendoc/int Matrix</a> &gt; <a href=\"/emergent/index.php/int_Matrix\" title=\"int Matrix\">int Matrix</a> &gt; <a href=\"/emergent/index.php/Matrix\" title=\"Matrix\">Matrix</a> &gt; <a href=\"/emergent/index.php?title=String_Matrix&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"String Matrix (page does not exist)\">String Matrix</a></div><div class=\"noarticletext\">
+<p>There is currently no text in this page.
+You can <a href=\"/emergent/index.php/Special:Search/String_Matrix\" title=\"Special:Search/String Matrix\">search for this page title</a> in other pages,
+<span class=\"plainlinks\"><a href=\"http://grey.colorado.edu/emergent/index.php?title=Special:Log&amp;page=String+Matrix\" class=\"external text\" title=\"http://grey.colorado.edu/emergent/index.php?title=Special:Log&amp;page=String+Matrix\" rel=\"nofollow\">search the related logs</a>,
+or <a href=\"http://grey.colorado.edu/emergent/index.php?title=String_Matrix&amp;action=edit\" class=\"external text\" title=\"http://grey.colorado.edu/emergent/index.php?title=String_Matrix&amp;action=edit\" rel=\"nofollow\">edit this page</a></span>.
+</p>
+</div>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 3/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class=\"printfooter\">
+Retrieved from \"<a href=\"http://grey.colorado.edu/emergent/index.php/String_Matrix\">http://grey.colorado.edu/emergent/index.php/String_Matrix</a>\"</div>
+						<!-- end content -->
+						<div class=\"visualClear\"></div>
+		</div>
+	</div>
+		</div>
+		<div id=\"column-one\">
+	<div id=\"p-cactions\" class=\"portlet\">
+		<h5>Views</h5>
+		<div class=\"pBody\">
+			<ul lang=\"en\" xml:lang=\"en\">
+	
+				 <li id=\"ca-nstab-main\" class=\"selected new\"><a href=\"/emergent/index.php?title=String_Matrix&amp;action=edit&amp;redlink=1\" title=\"View the content page [ctrl-alt-c]\" accesskey=\"c\">Page</a></li>
+				 <li id=\"ca-talk\" class=\"new\"><a href=\"/emergent/index.php?title=Talk:String_Matrix&amp;action=edit&amp;redlink=1\" title=\"Discussion about the content page [ctrl-alt-t]\" accesskey=\"t\">Discussion</a></li>
+				 <li id=\"ca-edit\"><a href=\"/emergent/index.php?title=String_Matrix&amp;action=edit\" title=\"You can edit this page.
+Please use the preview button before saving [ctrl-alt-e]\" accesskey=\"e\">Create</a></li>
+				 <li id=\"ca-watch\"><a href=\"/emergent/index.php?title=String_Matrix&amp;action=watch\" title=\"Add this page to your watchlist [ctrl-alt-w]\" accesskey=\"w\">Watch</a></li>			<li id=\"ca-upload\"><a href=\"http://grey.colorado.edu/emergent/index.php/Special:Upload\" accesskey=\"0\" title=\"Special:Upload [ctrl-alt-0]\">upload</a></li><li id=\"ca-recent-changes\"><a href=\"http://grey.colorado.edu/emergent/index.php/Special:RecentChanges\" accesskey=\"0\" title=\"Special:RecentChanges [ctrl-alt-0]\">recent changes</a></li><li id=\"ca-help\"><a href=\"http://grey.colorado.edu/emergent/index.php/Help:Contents\" accesskey=\"0\" title=\"Help:Contents [ctrl-alt-0]\">help</a></li><li id=\"ca-search\"><a href=\"http://grey.colorado.edu/emergent/index.php/Special:Search\" accesskey=\"0\" title=\"Special:Search [ctrl-alt-0]\">search</a></li><li id=\"ca-home\"><a href=\"http://grey.colorado.edu/emergent\" accesskey=\"0\" title=\"Main_Page [ctrl-alt-0]\">home</a></li></ul>
+		</div>
+	</div>
+	<div class=\"portlet\" id=\"p-personal\">
+		<h5>Personal tools</h5>
+		<div class=\"pBody\">
+			<ul lang=\"en\" xml:lang=\"en\">
+				<li id=\"pt-userpage\"><a href=\"/emergent/index.php/User:Oreilly\" title=\"Your user page [ctrl-alt-.]\" accesskey=\".\">Oreilly</a></li>
+				<li id=\"pt-mytalk\"><a href=\"/emergent/index.php/User_talk:Oreilly\" title=\"Your talk page [ctrl-alt-n]\" accesskey=\"n\" class=\"new\">My talk</a></li>
+				<li id=\"pt-preferences\"><a href=\"/emergent/index.php/Special:Preferences\" title=\"Your preferences\">My preferences</a></li>
+				<li id=\"pt-watchlist\"><a href=\"/emergent/index.php/Special:Watchlist\" title=\"The list of pages you are monitoring for changes [ctrl-alt-l]\" accesskey=\"l\">My watchlist</a></li>
+				<li id=\"pt-mycontris\"><a href=\"/emergent/index.php/Special:Contributions/Oreilly\" title=\"List of your contributions [ctrl-alt-y]\" accesskey=\"y\">My contributions</a></li>
+				<li id=\"pt-logout\"><a href=\"/emergent/index.php?title=Special:UserLogout&amp;returnto=String_Matrix\" title=\"Log out\">Log out</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class=\"portlet\" id=\"p-logo\">
+		<a style=\"background-image: url(/mediawiki/sites//emergent/logo.png);\" href=\"/emergent/index.php/Main_Page\" title=\"Visit the main page [ctrl-alt-z]\" accesskey=\"z\"></a>
+	</div>
+	<script type=\"text/javascript\"> if (window.isMSIE55) fixalpha(); </script>
+	<div class=\"generated-sidebar portlet\" id=\"p-navigation\">
+		<h5 lang=\"en\" xml:lang=\"en\">Navigation</h5>
+		<div class=\"pBody\">
+			<ul>
+				<li id=\"n-Documentation\"><a href=\"/emergent/index.php/User_hub\">Documentation</a></li>
+				<li id=\"n-FAQ\"><a href=\"/emergent/index.php/FAQ\">FAQ</a></li>
+				<li id=\"n-Submit-a-bug\"><a href=\"/emergent/index.php/How_to_submit_a_bug_report\">Submit a bug</a></li>
+				<li id=\"n-Bug-tracker\"><a href=\"http://grey.colorado.edu/cgi-bin/bugzilla/index.cgi\">Bug tracker</a></li>
+				<li id=\"n-Mailing-list\"><a href=\"http://grey.colorado.edu/cgi-bin/mailman/listinfo/emergent-users\">Mailing list</a></li>
+				<li id=\"n-CodeReview\"><a href=\"/emergent/index.php/Special:Code/emergent\">CodeReview</a></li>
+				<li id=\"n-Nightly-build-status\"><a href=\"http://grey.colorado.edu/CDash\">Nightly build status</a></li>
+				<li id=\"n-Browse-source-code\"><a href=\"http://grey.colorado.edu/cgi-bin/viewvc.cgi/emergent/\">Browse source code</a></li>
+				<li id=\"n-ChangeLog\"><a href=\"/emergent/index.php/ChangeLog\">ChangeLog</a></li>
+				<li id=\"n-Installation\"><a href=\"/emergent/index.php/Installation\">Installation</a></li>
+				<li id=\"n-recentchanges\"><a href=\"/emergent/index.php/Special:RecentChanges\" title=\"The list of recent changes in the wiki [ctrl-alt-r]\" accesskey=\"r\">Recent changes</a></li>
+				<li id=\"n-help\"><a href=\"/emergent/index.php/Help:Contents\" title=\"The place to find out\">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id=\"p-search\" class=\"portlet\">
+		<h5 lang=\"en\" xml:lang=\"en\"><label for=\"searchInput\">Search</label></h5>
+		<div id=\"searchBody\" class=\"pBody\">
+			<form action=\"/emergent/index.php\" id=\"searchform\"><div>
+				<input type=\"hidden\" name=\"title\" value=\"Special:Search\">
+				<input id=\"searchInput\" name=\"search\" type=\"text\" title=\"Search Emergent [ctrl-alt-f]\" accesskey=\"f\" value=\"\">
+				<input type=\"submit\" name=\"go\" class=\"searchButton\" id=\"searchGoButton\" value=\"Go\" title=\"Go to a page with this exact name if exists\">&nbsp;
+				<input type=\"submit\" name=\"fulltext\" class=\"searchButton\" id=\"mw-searchButton\" value=\"Search\" title=\"Search the pages for this text\">
+			</div></form>
+		</div>
+	</div>
+	<div class=\"portlet\" id=\"p-tb\">
+		<h5 lang=\"en\" xml:lang=\"en\">Toolbox</h5>
+		<div class=\"pBody\">
+			<ul>
+				<li id=\"t-whatlinkshere\"><a href=\"/emergent/index.php/Special:WhatLinksHere/String_Matrix\" title=\"List of all wiki pages that link here [ctrl-alt-j]\" accesskey=\"j\">What links here</a></li>
+<li id=\"t-upload\"><a href=\"/emergent/index.php/Special:Upload\" title=\"Upload files [ctrl-alt-u]\" accesskey=\"u\">Upload file</a></li>
+<li id=\"t-specialpages\"><a href=\"/emergent/index.php/Special:SpecialPages\" title=\"List of all special pages [ctrl-alt-q]\" accesskey=\"q\">Special pages</a></li>
+				<li id=\"t-print\"><a href=\"/emergent/index.php?title=String_Matrix&amp;printable=yes\" rel=\"alternate\" title=\"Printable version of this page [ctrl-alt-p]\" accesskey=\"p\">Printable version</a></li><li id=\"t-smwbrowselink\"><a href=\"/emergent/index.php/Special:Browse/String_Matrix\" title=\"Special:Browse/String Matrix\">Browse properties</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class=\"visualClear\"></div>
+			<div id=\"footer\">
+				<div id=\"f-poweredbyico\"><a href=\"http://www.mediawiki.org/\"><img src=\"/emergent/skins/common/images/poweredby_mediawiki_88x31.png\" alt=\"Powered by MediaWiki\"></a></div>
+			<ul id=\"f-list\">
+					<li id=\"about\"><a href=\"/emergent/index.php/Emergent:About\" class=\"mw-redirect\" title=\"Emergent:About\">About Emergent</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type=\"text/javascript\">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.170 secs. -->
+</body></html>";
+  };
+ };
+ wizards {
+  name=;
+  el_typ=LeabraWizard;
+  el_def=0;
+  LeabraWizard @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItem;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+    };
+   };
+   name="LeabraWizard_0";
+   auto_open=0;
+   n_layers=3;
+   layer_cfg {
+    name=;
+    el_typ=LayerWizEl;
+    el_def=0;
+    LayerWizEl @[0] {
+     name="Input";
+     n_units=25;
+     io_type=INPUT;
+    };
+    LayerWizEl @[1] {
+     name="Hidden";
+     n_units=25;
+     io_type=HIDDEN;
+    };
+    LayerWizEl @[2] {
+     name="Output";
+     n_units=25;
+     io_type=OUTPUT;
+    };
+   };
+   connectivity=BIDIRECTIONAL;
+   default_net_type=LeabraNetwork;
+  };
+ };
+ edits {
+  name=;
+  el_typ=SelectEdit;
+  el_def=0;
+ };
+ data {
+  name=;
+  el_typ=DataTable;
+  el_def=0;
+  DataTable_Group @.gp[0] {
+   name="InputData";
+   el_typ=DataTable;
+   el_def=0;
+   DataTable @[0] {
+    name="Train_AB";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1862197369337082;
+       };
+      };
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [10] "ab_0";"ab_1";"ab_2";"ab_3";"ab_4";"ab_5";"ab_6";"ab_7";"ab_8";"ab_9";
+      };
+     };
+     float_Data @[1] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1862197369337082;
+       };
+      };
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+0;0;1;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+      };
+     };
+     float_Data @[2] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1862197369337082;
+       };
+      };
+      name="EC_out";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+0;0;1;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[1] {
+    name="Train_AC";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [10] "ac_0";"ac_1";"ac_2";"ac_3";"ac_4";"ac_5";"ac_6";"ac_7";"ac_8";"ac_9";
+      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;1;0;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+      };
+     };
+     float_Data @[2] {
+      name="EC_out";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;1;0;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[2] {
+    name="Test_AB";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1862197369337082;
+       };
+      };
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [10] "ab_0";"ab_1";"ab_2";"ab_3";"ab_4";"ab_5";"ab_6";"ab_7";"ab_8";"ab_9";
+      };
+     };
+     float_Data @[1] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1862197369337082;
+       };
+      };
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+0;0;1;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+      };
+     };
+     float_Data @[2] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1862197369337082;
+       };
+      };
+      name="EC_out";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+0;0;1;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[3] {
+    name="Test_AC";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [10] "ac_0";"ac_1";"ac_2";"ac_3";"ac_4";"ac_5";"ac_6";"ac_7";"ac_8";"ac_9";
+      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;1;0;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+      };
+     };
+     float_Data @[2] {
+      name="EC_out";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;2;6;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 2 6 10] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;1;0;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[4] {
+    name="SlotTrain";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [64] "Feat_0_0_0";"Feat_0_0_1";"Feat_0_0_2";"Feat_0_0_3";"Feat_0_1_0";"Feat_0_1_1";"Feat_0_1_2";"Feat_0_1_3";"Feat_0_2_0";"Feat_0_2_1";
+"Feat_0_2_2";"Feat_0_2_3";"Feat_0_3_0";"Feat_0_3_1";"Feat_0_3_2";"Feat_0_3_3";"Feat_1_0_0";"Feat_1_0_1";"Feat_1_0_2";"Feat_1_0_3";
+"Feat_1_1_0";"Feat_1_1_1";"Feat_1_1_2";"Feat_1_1_3";"Feat_1_2_0";"Feat_1_2_1";"Feat_1_2_2";"Feat_1_2_3";"Feat_1_3_0";"Feat_1_3_1";
+"Feat_1_3_2";"Feat_1_3_3";"Feat_2_0_0";"Feat_2_0_1";"Feat_2_0_2";"Feat_2_0_3";"Feat_2_1_0";"Feat_2_1_1";"Feat_2_1_2";"Feat_2_1_3";
+"Feat_2_2_0";"Feat_2_2_1";"Feat_2_2_2";"Feat_2_2_3";"Feat_2_3_0";"Feat_2_3_1";"Feat_2_3_2";"Feat_2_3_3";"Feat_3_0_0";"Feat_3_0_1";
+"Feat_3_0_2";"Feat_3_0_3";"Feat_3_1_0";"Feat_3_1_1";"Feat_3_1_2";"Feat_3_1_3";"Feat_3_2_0";"Feat_3_2_1";"Feat_3_2_2";"Feat_3_2_3";
+"Feat_3_3_0";"Feat_3_3_1";"Feat_3_3_2";"Feat_3_3_3";      };
+     };
+     float_Data @[1] {
+      name="EC_in";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 64] 1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;1;0;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;0;1;1;0;0;0;0;0;
+1;0;0;0;0;1;1;0;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;0;1;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;      };
+     };
+     float_Data @[2] {
+      name="EC_out";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;3;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 3 64] 1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;1;0;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;0;1;1;0;0;0;0;0;
+1;0;0;0;0;1;1;0;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;0;1;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+  };
+  DataTable_Group @.gp[1] {
+   name="OutputData";
+   el_typ=DataTable;
+   el_def=0;
+  };
+  DataTable_Group @.gp[2] {
+   name="AnalysisData";
+   el_typ=DataTable;
+   el_def=0;
+  };
+  DataTable_Group @.gp[3] {
+   name="GenBitPatternData";
+   el_typ=DataTable;
+   el_def=0;
+   DataTable @[0] {
+    name="STIMULUS_ONE_Proto";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [1] "initial item";      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;9;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 9 1] 0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[1] {
+    name="STIMULUS_ONE_Items";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [30] "i0";"i1";"i2";"i3";"i4";"i5";"i6";"i7";"i8";"i9";
+"i10";"i11";"i12";"i13";"i14";"i15";"i16";"i17";"i18";"i19";
+"i20";"i21";"i22";"i23";"i24";"i25";"i26";"i27";"i28";"i29";
+      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;9;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 9 30] 0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;0;0;1;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;1;0;0;0;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;1;0;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;0;0;1;0;0;1;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[2] {
+    name="STIMULUS_TWO_Proto";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [1] "initial item";      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;9;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 9 1] 0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[3] {
+    name="STIMULUS_TWO_Items";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [30] "i0";"i1";"i2";"i3";"i4";"i5";"i6";"i7";"i8";"i9";
+"i10";"i11";"i12";"i13";"i14";"i15";"i16";"i17";"i18";"i19";
+"i20";"i21";"i22";"i23";"i24";"i25";"i26";"i27";"i28";"i29";
+      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;9;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 9 30] 1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;1;0;0;0;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;1;1;0;0;0;
+1;0;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;1;0;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;0;1;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;0;0;1;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;1;0;0;0;0;0;0;1;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;0;0;0;1;
+0;0;1;0;1;0;0;0;0;0;
+0;1;0;1;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[4] {
+    name="CONTEXT_Proto";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [3] "c0";"c1";"c2";      };
+     };
+     float_Data @[1] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;18;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 18 3] 1;0;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+   DataTable @[5] {
+    name="CONTEXT_Items";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      name="Group";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [30] "c0_r";"c0_r";"c0_r";"c0_r";"c0_r";"c0_r";"c0_r";"c0_r";"c0_r";"c0_r";
+"c1_r";"c1_r";"c1_r";"c1_r";"c1_r";"c1_r";"c1_r";"c1_r";"c1_r";"c1_r";
+"c2_r";"c2_r";"c2_r";"c2_r";"c2_r";"c2_r";"c2_r";"c2_r";"c2_r";"c2_r";
+      };
+     };
+     String_Data @[1] {
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [30] "c0i0";"c0i1";"c0i2";"c0i3";"c0i4";"c0i5";"c0i6";"c0i7";"c0i8";"c0i9";
+"c1i0";"c1i1";"c1i2";"c1i3";"c1i4";"c1i5";"c1i6";"c1i7";"c1i8";"c1i9";
+"c2i0";"c2i1";"c2i2";"c2i3";"c2i4";"c2i5";"c2i6";"c2i7";"c2i8";"c2i9";
+      };
+     };
+     float_Data @[2] {
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 4;18;      };
+      calc_expr {
+       expr=;
+      };
+      ar {
+       name=;
+	    [4 18 30] 0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+0;0;0;0;0;0;0;0;0;0;
+      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+  };
+ };
+ data_proc {
+  name=;
+  el_typ=taDataProc;
+  el_def=0;
+  taDataProc @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItem;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+    };
+   };
+   name="data_base";
+  };
+  taDataAnal @[1] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItem;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+    };
+   };
+   name="data_anal";
+  };
+  taDataGen @[2] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItem;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+    };
+   };
+   name="data_gen";
+  };
+  taImageProc @[3] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItem;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+    };
+   };
+   name="image_proc";
+  };
+ };
+ programs {
+  name=;
+  el_typ=Program;
+  el_def=0;
+  step_prog=NULL;
+  tags=;
+  desc=;
+  Program @[0] {
+   name="GenHipInputData";
+   tags=;
+   desc="generate input data for the hippocampus model, using SubMatrix code";
+   flags=;
+   objs {
+    name=;
+    el_typ=DataTable;
+    el_def=0;
+    DataTable @[0] {
+     name="Vocab";
+     desc=;
+     data {
+      name="data";
+      el_typ=String_Data;
+      el_def=0;
+      String_Data @[0] {
+       name="Name";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=0;
+       cell_geom{ 1;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [4] "Feature_0";"Feature_1";"Feature_2";"Feature_3";       };
+      };
+      float_Data @[1] {
+       name="Slot";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 4;1;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [4 1 4] 1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;0;1;       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    DataTable @[1] {
+     name="Stim_proto";
+     desc=;
+     data {
+      name="data";
+      el_typ=String_Data;
+      el_def=0;
+      String_Data @[0] {
+       name="Name";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=0;
+       cell_geom{ 1;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [2] "Stim1";"Stim2";       };
+      };
+      float_Data @[1] {
+       name="Input";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 4;3;1;3;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [4 3 1 3 2] 0;0;0;1;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;0;
+0;1;       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    DataTable @[2] {
+     name="Stim_items";
+     desc=;
+     data {
+      name="data";
+      el_typ=DataColTp;
+      el_def=0;
+      String_Data @[0] {
+       name="Name";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=0;
+       cell_geom{ 1;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [60] "Stim1_0";"Stim1_1";"Stim1_2";"Stim1_3";"Stim1_4";"Stim1_5";"Stim1_6";"Stim1_7";"Stim1_8";"Stim1_9";
+"Stim1_10";"Stim1_11";"Stim1_12";"Stim1_13";"Stim1_14";"Stim1_15";"Stim1_16";"Stim1_17";"Stim1_18";"Stim1_19";
+"Stim1_20";"Stim1_21";"Stim1_22";"Stim1_23";"Stim1_24";"Stim1_25";"Stim1_26";"Stim1_27";"Stim1_28";"Stim1_29";
+"Stim2_0";"Stim2_1";"Stim2_2";"Stim2_3";"Stim2_4";"Stim2_5";"Stim2_6";"Stim2_7";"Stim2_8";"Stim2_9";
+"Stim2_10";"Stim2_11";"Stim2_12";"Stim2_13";"Stim2_14";"Stim2_15";"Stim2_16";"Stim2_17";"Stim2_18";"Stim2_19";
+"Stim2_20";"Stim2_21";"Stim2_22";"Stim2_23";"Stim2_24";"Stim2_25";"Stim2_26";"Stim2_27";"Stim2_28";"Stim2_29";
+       };
+      };
+      float_Data @[1] {
+       name="Input";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 4;3;1;3;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [4 3 1 3 60] 0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;1;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;1;0;1;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;1;0;0;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;0;1;0;0;1;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;1;0;0;0;0;
+1;0;1;0;0;0;0;0;1;0;
+0;0;1;0;0;0;0;1;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;0;0;1;0;1;0;
+0;0;1;0;0;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;1;0;0;0;1;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;1;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;0;0;1;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;1;0;0;0;0;
+1;0;1;0;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;0;1;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;1;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+0;0;0;1;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;1;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;0;1;1;0;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;0;0;1;1;0;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;0;1;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;1;0;0;0;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;0;1;0;0;
+0;1;0;0;0;1;1;0;0;0;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;1;0;0;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;1;
+0;0;0;0;0;1;0;0;0;1;
+0;0;0;1;1;0;0;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;1;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;0;0;1;0;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;0;0;0;1;0;0;0;1;
+1;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;1;0;0;0;1;0;0;
+       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    DataTable @[3] {
+     name="Context_proto";
+     desc=;
+     data {
+      name="data";
+      el_typ=String_Data;
+      el_def=0;
+      String_Data @[0] {
+       name="Name";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=0;
+       cell_geom{ 1;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [1] "Ctxt";       };
+      };
+      float_Data @[1] {
+       name="Input";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 4;3;2;3;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [4 3 2 3 1] 0;0;1;0;0;0;0;1;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    DataTable @[4] {
+     name="Context_items";
+     desc=;
+     data {
+      name="data";
+      el_typ=DataColTp;
+      el_def=0;
+      String_Data @[0] {
+       name="Name";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=0;
+       cell_geom{ 1;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [30] "Ctxt_0";"Ctxt_1";"Ctxt_2";"Ctxt_3";"Ctxt_4";"Ctxt_5";"Ctxt_6";"Ctxt_7";"Ctxt_8";"Ctxt_9";
+"Ctxt_10";"Ctxt_11";"Ctxt_12";"Ctxt_13";"Ctxt_14";"Ctxt_15";"Ctxt_16";"Ctxt_17";"Ctxt_18";"Ctxt_19";
+"Ctxt_20";"Ctxt_21";"Ctxt_22";"Ctxt_23";"Ctxt_24";"Ctxt_25";"Ctxt_26";"Ctxt_27";"Ctxt_28";"Ctxt_29";
+       };
+      };
+      float_Data @[1] {
+       name="Input";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 4;3;2;3;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [4 3 2 3 30] 0;0;1;0;0;0;1;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;0;1;0;1;0;0;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;0;1;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;1;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;1;0;
+0;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+1;0;0;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;0;1;0;0;0;0;1;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;1;
+0;0;0;1;0;0;0;0;1;0;
+1;0;0;0;0;0;0;1;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;0;1;0;0;0;1;0;0;1;
+0;0;0;1;0;0;1;0;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;0;0;0;1;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;1;0;0;0;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;0;0;1;
+0;0;0;1;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+1;0;1;0;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;1;0;0;0;
+0;0;0;1;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;1;0;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;1;0;0;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;1;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;0;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;1;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;1;0;0;0;1;0;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;1;0;0;0;0;0;0;1;
+0;0;0;1;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;1;0;0;0;1;0;0;0;
+0;0;0;1;0;0;1;0;1;0;
+0;0;0;0;0;1;0;0;1;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+1;0;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;0;1;0;
+0;1;0;0;0;0;0;1;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;0;0;1;0;0;1;0;0;
+0;1;0;0;1;0;0;0;0;0;
+0;1;0;0;1;0;0;1;0;0;
+1;0;0;0;0;1;0;0;1;0;
+0;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;1;0;0;1;0;0;0;
+0;0;0;1;0;0;0;1;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;0;1;0;0;
+0;1;0;1;0;0;1;0;0;0;
+1;0;0;0;0;0;0;1;0;1;
+0;0;0;0;1;0;0;0;1;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;0;0;1;0;1;0;0;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;1;0;0;0;
+0;0;0;1;0;0;0;1;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;0;1;0;0;0;1;0;0;0;
+1;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;1;0;0;1;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;1;0;0;0;
+0;0;1;0;0;0;0;1;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;0;1;0;1;0;0;0;0;
+0;1;0;0;1;0;0;0;1;0;
+0;0;1;0;1;0;0;0;0;0;
+1;0;1;0;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;0;0;
+1;0;0;0;1;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;0;1;0;0;0;
+0;1;0;0;0;1;1;0;0;0;
+0;0;0;1;1;0;0;0;0;1;
+0;0;1;0;0;0;0;1;0;0;
+0;0;1;0;0;0;1;0;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;1;0;0;0;1;
+0;0;0;0;0;1;0;0;1;0;
+0;1;0;0;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;1;0;0;0;0;1;
+0;0;0;0;1;0;0;0;1;0;
+0;0;0;1;0;1;0;0;1;0;
+0;0;0;1;0;0;0;0;0;1;
+0;1;0;0;0;0;1;0;0;1;
+0;0;0;1;0;0;0;1;0;0;
+1;0;0;0;0;0;0;1;1;0;
+0;0;0;1;0;0;1;0;0;0;
+0;1;0;0;0;0;1;0;0;0;
+1;0;0;0;0;1;0;1;0;0;
+1;0;0;0;0;1;0;0;0;0;
+0;1;0;1;0;0;0;0;0;1;
+0;0;1;0;1;0;0;0;0;1;
+0;0;1;0;0;0;0;0;0;1;
+1;0;0;0;0;0;0;1;0;0;
+0;1;0;1;0;0;0;0;1;0;
+       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    DataTable @[5] {
+     UserDataItem_List @*(.user_data_) {
+      name=;
+      el_typ=UserDataItem;
+      el_def=0;
+      UserDataItem @[0] {
+       name="N_ROWS";
+       value 2 0=1;
+      };
+      UserDataItem @[1] {
+       name="AUTO_SCALE";
+       value 1 0=1;
+      };
+     };
+     name="Stim_Dist_Matrix";
+     desc=;
+     data {
+      name="data";
+      el_typ=String_Data;
+      el_def=0;
+      float_Data @[0] {
+       UserDataItem_List @*(.user_data_) {
+	name=;
+	el_typ=UserDataItem;
+	el_def=0;
+	UserDataItem @[0] {
+	 name="TOP_ZERO";
+	 value 1 0=1;
+	};
+       };
+       name="Stim_items_DistMatrix";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 60;60;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [60 60 1] 0;2.8284271;2;1.4142135;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;
+2;2.8284271;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2.4494898;
+3.1622777;2.4494898;3.1622777;2.4494898;2.8284271;3.1622777;3.4641016;2.8284271;3.1622777;3.1622777;
+2.8284271;2.4494898;2.4494898;3.1622777;3.1622777;2.8284271;3.1622777;3.1622777;3.1622777;3.1622777;
+2.8284271;2.4494898;3.1622777;3.4641016;2.4494898;2.4494898;2.8284271;3.4641016;3.1622777;3.1622777;
+2.8284271;0;2.8284271;2.4494898;2.4494898;1.4142135;2.8284271;2.8284271;2.8284271;2.8284271;
+2.8284271;2.4494898;2.8284271;2.8284271;1.4142135;2.8284271;2;2;2.4494898;2.8284271;
+2.4494898;2.8284271;1.4142135;2.4494898;2.4494898;2;2.4494898;2;2;2.4494898;
+3.7416575;3.7416575;3.7416575;3.7416575;4;4;4.2426405;4;4;3.7416575;
+3.7416575;3.7416575;3.7416575;4.2426405;3.7416575;3.4641016;3.7416575;4;4.2426405;4.2426405;
+4;3.7416575;4;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;4.2426405;3.7416575;
+2;2.8284271;0;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;
+2;2.8284271;2.4494898;2;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;2.4494898;
+2.4494898;1.4142135;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2.4494898;
+2.8284271;2.8284271;2.8284271;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;
+3.4641016;2.8284271;2.8284271;3.4641016;3.4641016;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;
+3.1622777;2.8284271;3.4641016;3.1622777;3.1622777;2.8284271;3.1622777;3.7416575;3.4641016;3.4641016;
+1.4142135;2.4494898;2.4494898;0;2;2;2.4494898;2;2.4494898;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;
+2;2.4494898;2;2;2;2.4494898;2;2.4494898;2;2;
+3.4641016;2.8284271;3.4641016;2.8284271;3.1622777;3.1622777;3.7416575;3.1622777;3.1622777;2.8284271;
+2.8284271;2.8284271;2.8284271;3.4641016;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;
+3.1622777;2.8284271;3.1622777;3.7416575;2.8284271;2.8284271;3.1622777;3.7416575;3.4641016;3.4641016;
+2.4494898;2.4494898;2.4494898;2;0;2;2.4494898;1.4142135;1.4142135;2.4494898;
+2.4494898;2.4494898;2;2.4494898;2;2.4494898;2;2.4494898;2.4494898;2.4494898;
+2;2.4494898;2;2;2;2;2;2.4494898;2;0;
+2.8284271;2.8284271;2.8284271;2.8284271;3.1622777;3.1622777;3.4641016;3.1622777;3.1622777;2.8284271;
+2.8284271;2.8284271;3.1622777;3.4641016;2.8284271;3.1622777;3.7416575;3.4641016;3.4641016;3.4641016;
+3.1622777;2.8284271;3.1622777;3.1622777;2.8284271;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;
+2.4494898;1.4142135;2.4494898;2;2;0;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2;2.4494898;2.4494898;2;2.4494898;2;2;2.4494898;2.4494898;
+2;2.4494898;2;2;2;1.4142135;2;2.4494898;2;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.1622777;4;4;4;4;
+3.7416575;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;3.1622777;4;4;3.4641016;
+2.8284271;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;0;2.8284271;2.4494898;2;
+2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;
+2.4494898;2.8284271;2.4494898;2;1.4142135;2.8284271;2;2.8284271;2.4494898;2.4494898;
+3.4641016;3.7416575;3.4641016;3.4641016;3.7416575;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;
+3.4641016;3.7416575;3.7416575;3.7416575;3.4641016;4;4;4;3.7416575;3.7416575;
+3.7416575;3.7416575;3.7416575;3.7416575;3.4641016;3.4641016;3.7416575;4.2426405;3.7416575;4;
+2.4494898;2.8284271;2.8284271;2;1.4142135;2.4494898;2.8284271;0;2;2.8284271;
+2.8284271;2.8284271;2.4494898;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.8284271;
+2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;1.4142135;
+3.1622777;2.8284271;3.1622777;2.8284271;3.1622777;3.1622777;3.4641016;3.1622777;3.1622777;2.8284271;
+2.8284271;2.8284271;3.1622777;3.4641016;2.8284271;3.1622777;3.7416575;3.4641016;3.4641016;3.4641016;
+3.1622777;2.8284271;3.1622777;3.4641016;2.8284271;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;
+2.8284271;2.8284271;2.8284271;2.4494898;1.4142135;2.4494898;2.4494898;2;0;2.4494898;
+2.4494898;2.8284271;2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;
+2.4494898;2.8284271;2.4494898;2.4494898;2;2.4494898;2;2.8284271;2.4494898;1.4142135;
+2.4494898;3.1622777;2.4494898;2.4494898;2.8284271;2.8284271;3.1622777;2.8284271;2.8284271;2.4494898;
+2.4494898;3.1622777;3.4641016;3.1622777;2.8284271;3.4641016;3.4641016;3.1622777;3.1622777;3.1622777;
+2.8284271;3.1622777;2.8284271;2.8284271;2.4494898;3.1622777;3.4641016;3.4641016;3.1622777;3.1622777;
+2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;2;2.8284271;2.4494898;0;
+2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;
+2.4494898;2.4494898;2.4494898;2.4494898;1.4142135;2.8284271;2;2.8284271;2.4494898;2.4494898;
+3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;2.8284271;
+3.4641016;3.4641016;3.4641016;3.7416575;3.1622777;3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;
+3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;4;3.4641016;3.7416575;
+2;2.8284271;2;2.4494898;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2.4494898;
+0;2.8284271;2.8284271;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;2;2.8284271;1.4142135;2;2.4494898;2.4494898;
+2.8284271;3.1622777;2.8284271;2.8284271;3.1622777;3.4641016;3.4641016;3.1622777;3.4641016;3.4641016;
+3.1622777;3.1622777;3.1622777;3.4641016;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;
+3.1622777;3.1622777;3.4641016;3.1622777;2.8284271;2.8284271;3.1622777;3.7416575;3.4641016;3.4641016;
+2.8284271;2.4494898;2.8284271;2.4494898;2.4494898;2;2.8284271;2.8284271;2.8284271;2.8284271;
+2.8284271;0;2.8284271;2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2.4494898;
+2;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2.4494898;
+3.4641016;3.4641016;3.1622777;3.7416575;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.4641016;4;4;4;4;
+3.7416575;3.4641016;3.4641016;3.7416575;3.4641016;3.1622777;3.4641016;4;4;3.7416575;
+2.8284271;2.8284271;2.4494898;2.4494898;2;2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;
+2.8284271;2.8284271;0;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;2.8284271;
+2.4494898;2.4494898;2.4494898;2.4494898;2.4494898;2;2.4494898;2.8284271;2.4494898;2;
+2.8284271;2.8284271;2.8284271;2.8284271;3.1622777;3.1622777;3.4641016;3.7416575;3.1622777;3.1622777;
+3.4641016;2.8284271;2.8284271;3.4641016;2.8284271;3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;
+3.4641016;2.8284271;3.1622777;3.1622777;3.4641016;3.1622777;3.4641016;3.7416575;3.7416575;3.4641016;
+2.8284271;2.8284271;2;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;
+2.8284271;2.4494898;2.4494898;0;2.4494898;2.8284271;2.4494898;2.8284271;2;2.4494898;
+1.4142135;2;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;2.4494898;2.4494898;
+3.1622777;3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.1622777;
+3.4641016;3.1622777;3.1622777;3.7416575;3.1622777;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;
+3.4641016;2.8284271;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;4;3.7416575;3.7416575;
+2.4494898;1.4142135;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;0;2.4494898;1.4142135;2;2;2.4494898;
+2;2.4494898;0;2;2;2.4494898;2;1.4142135;1.4142135;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.7416575;3.4641016;3.7416575;4;4;
+3.7416575;3.4641016;3.7416575;3.1622777;3.4641016;3.4641016;3.7416575;3.7416575;4;4;
+2.4494898;2.8284271;2.8284271;2;2.4494898;2.4494898;2.4494898;2;2.4494898;2.4494898;
+2;2.8284271;2.8284271;2.8284271;2.4494898;0;2.4494898;2.8284271;2.8284271;2.8284271;
+2.4494898;2.8284271;2.4494898;2.4494898;2;2.8284271;1.4142135;2.8284271;2.4494898;2.4494898;
+3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.4641016;3.7416575;3.4641016;3.4641016;3.1622777;
+3.1622777;3.4641016;3.4641016;3.7416575;2.8284271;3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;
+3.4641016;3.4641016;3.4641016;3.7416575;3.1622777;3.1622777;3.4641016;4;3.7416575;3.7416575;
+2.4494898;2;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;1.4142135;2.4494898;0;2;2;2.4494898;
+2;2.4494898;1.4142135;2;2;2.4494898;2;2;1.4142135;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.7416575;3.7416575;3.4641016;4;4;
+3.7416575;3.4641016;3.7416575;3.4641016;3.4641016;3.4641016;3.7416575;4;4;4;
+2.8284271;2;2.8284271;2.4494898;2.4494898;2;2.8284271;2.8284271;2.8284271;2.8284271;
+2.8284271;2;2.8284271;2.8284271;2;2.8284271;2;0;2;2.8284271;
+2.4494898;2.8284271;2;2.4494898;2.4494898;2.4494898;2.4494898;2.4494898;1.4142135;2.4494898;
+3.7416575;3.7416575;3.7416575;3.7416575;4;4;4.2426405;4;4;3.7416575;
+3.7416575;3.7416575;3.7416575;4.2426405;3.7416575;3.7416575;4;4;4.2426405;4.2426405;
+4;3.7416575;4;3.7416575;3.7416575;3.7416575;3.7416575;4;4.2426405;4;
+2.8284271;2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.8284271;
+2.8284271;2.4494898;2.8284271;2;2;2.8284271;2;2;0;2.4494898;
+1.4142135;2.8284271;2;2.4494898;2.4494898;2.8284271;2.4494898;2.4494898;1.4142135;2.4494898;
+3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.7416575;3.7416575;3.7416575;3.7416575;4;
+3.7416575;3.1622777;3.7416575;3.4641016;3.4641016;3.4641016;3.7416575;4;4;4;
+2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.8284271;
+2.4494898;2.4494898;2.8284271;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;2.4494898;0;
+2;2;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;
+2.8284271;2.8284271;3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;3.1622777;3.1622777;3.1622777;
+2.8284271;2.8284271;2.8284271;3.4641016;3.1622777;3.1622777;3.4641016;3.4641016;3.7416575;3.4641016;
+3.1622777;3.1622777;3.4641016;3.1622777;2.8284271;3.1622777;3.1622777;3.7416575;3.4641016;3.4641016;
+2.4494898;2.4494898;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2;2.4494898;1.4142135;2;2.4494898;2;2.4494898;1.4142135;2;
+0;2.4494898;2;2;2;2.4494898;2;2.4494898;2;2;
+3.1622777;3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;3.4641016;3.1622777;
+3.1622777;3.1622777;3.1622777;3.7416575;3.1622777;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;
+3.4641016;2.8284271;3.4641016;3.4641016;3.1622777;3.1622777;3.4641016;4;3.7416575;3.7416575;
+2.4494898;2.8284271;1.4142135;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;
+2.4494898;2.8284271;2.4494898;2;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;2;
+2.4494898;0;2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;
+3.1622777;3.1622777;3.1622777;3.1622777;3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;
+3.4641016;3.1622777;3.1622777;3.7416575;3.4641016;3.4641016;3.7416575;3.7416575;3.7416575;3.7416575;
+3.4641016;3.1622777;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;4;3.7416575;3.7416575;
+2.4494898;1.4142135;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;0;2.4494898;1.4142135;2;2;2.4494898;
+2;2.4494898;0;2;2;2.4494898;2;1.4142135;1.4142135;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.7416575;3.4641016;3.7416575;4;4;
+3.7416575;3.4641016;3.7416575;3.1622777;3.4641016;3.4641016;3.7416575;3.7416575;4;4;
+2.4494898;2.4494898;2.4494898;2;2;2;2;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;2;2.4494898;2;2.4494898;2.4494898;2.4494898;
+2;2.4494898;2;0;2;2.4494898;2;2.4494898;2;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;4;4;3.7416575;3.4641016;
+3.7416575;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;3.7416575;4.2426405;3.7416575;4;
+2.4494898;2.4494898;2.4494898;2;2;2;1.4142135;2.4494898;2;1.4142135;
+2;2.4494898;2.4494898;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;
+2;2.4494898;2;2;0;2.4494898;1.4142135;2.4494898;2;2;
+3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;3.4641016;3.7416575;3.4641016;3.4641016;3.1622777;
+3.1622777;3.4641016;3.4641016;3.7416575;3.1622777;3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;
+3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.1622777;3.4641016;4;3.7416575;3.7416575;
+2.8284271;2;2.8284271;2.4494898;2;1.4142135;2.8284271;2.4494898;2.4494898;2.8284271;
+2.8284271;2.4494898;2;2.8284271;2.4494898;2.8284271;2.4494898;2.4494898;2.8284271;2.8284271;
+2.4494898;2.8284271;2.4494898;2.4494898;2.4494898;0;2.4494898;2.8284271;2.4494898;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.1622777;3.7416575;4;4;4;
+3.7416575;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;4;4;3.4641016;
+2.4494898;2.4494898;2.4494898;2;2;2;2;2.4494898;2;2;
+1.4142135;2.4494898;2.4494898;2.4494898;2;1.4142135;2;2.4494898;2.4494898;2.4494898;
+2;2.4494898;2;2;1.4142135;2.4494898;0;2.4494898;2;2;
+3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;3.4641016;3.7416575;3.4641016;3.4641016;3.1622777;
+3.1622777;3.4641016;3.4641016;3.7416575;2.8284271;3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;
+3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.1622777;3.4641016;4;3.7416575;3.7416575;
+2;2;2;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.8284271;
+2;2.8284271;2.8284271;2.8284271;1.4142135;2.8284271;2;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;1.4142135;2.4494898;2.4494898;2.8284271;2.4494898;0;2;2.4494898;
+3.1622777;3.1622777;3.1622777;3.1622777;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.7416575;
+3.4641016;3.1622777;3.1622777;3.7416575;3.7416575;3.4641016;3.1622777;3.4641016;3.7416575;3.7416575;
+3.4641016;3.1622777;3.7416575;2.8284271;3.1622777;3.1622777;3.4641016;3.4641016;3.7416575;3.7416575;
+2.4494898;2;2.4494898;2;2;2;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2.4494898;2.4494898;1.4142135;2.4494898;1.4142135;1.4142135;1.4142135;2.4494898;
+2;2.4494898;1.4142135;2;2;2.4494898;2;2;0;2;
+3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.4641016;3.4641016;4;3.4641016;3.7416575;3.7416575;3.7416575;4;4;
+3.7416575;3.4641016;3.7416575;3.4641016;3.4641016;3.4641016;3.7416575;4;4;4;
+2.4494898;2.4494898;2.4494898;2;0;2;2.4494898;1.4142135;1.4142135;2.4494898;
+2.4494898;2.4494898;2;2.4494898;2;2.4494898;2;2.4494898;2.4494898;2.4494898;
+2;2.4494898;2;2;2;2;2;2.4494898;2;0;
+2.8284271;2.8284271;2.8284271;2.8284271;3.1622777;3.1622777;3.4641016;3.1622777;3.1622777;2.8284271;
+2.8284271;2.8284271;3.1622777;3.4641016;2.8284271;3.1622777;3.7416575;3.4641016;3.4641016;3.4641016;
+3.1622777;2.8284271;3.1622777;3.1622777;2.8284271;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;
+3.1622777;3.7416575;2.8284271;3.4641016;2.8284271;3.4641016;3.4641016;3.1622777;2.4494898;3.1622777;
+2.8284271;3.4641016;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;2.8284271;
+3.1622777;3.1622777;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;2.8284271;
+0;2;1.4142135;2;1.4142135;2;2;2.4494898;2;2.4494898;
+2.4494898;2;2.4494898;2;2.4494898;2.4494898;2.4494898;2;2.4494898;2;
+2;2.4494898;2.4494898;1.4142135;2;2.4494898;2.4494898;2.4494898;2.4494898;2;
+2.4494898;3.7416575;2.8284271;2.8284271;2.8284271;3.4641016;3.7416575;2.8284271;3.1622777;3.4641016;
+3.1622777;3.4641016;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;2.8284271;
+3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;2.8284271;
+2;0;2.4494898;2;1.4142135;2;2.4494898;2.4494898;2;2.4494898;
+2.4494898;0;1.4142135;2;2;1.4142135;2.4494898;2;2.4494898;2;
+2;1.4142135;2.4494898;2.4494898;2;2.4494898;2.4494898;2.4494898;2.4494898;2;
+3.1622777;3.7416575;2.8284271;3.4641016;2.8284271;3.4641016;3.4641016;3.1622777;2.4494898;3.1622777;
+2.8284271;3.1622777;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;3.1622777;
+3.1622777;3.1622777;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;2.8284271;
+1.4142135;2.4494898;0;2;2;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;
+2.8284271;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2;2;2.4494898;2;2.8284271;2.8284271;2.8284271;2.4494898;
+2.4494898;3.7416575;2.8284271;2.8284271;2.8284271;3.4641016;3.4641016;2.8284271;2.4494898;3.1622777;
+2.8284271;3.7416575;2.8284271;3.4641016;3.4641016;3.1622777;3.4641016;3.7416575;3.7416575;3.4641016;
+3.4641016;3.1622777;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;2.8284271;
+2;2;2;0;1.4142135;2;2.4494898;2.4494898;2;2.4494898;
+2.4494898;2;2.4494898;2;2.4494898;2.4494898;2.4494898;2;2;2;
+2;2;2;2.4494898;2;2;2.4494898;2.4494898;2.4494898;2;
+2.8284271;4;3.1622777;3.1622777;3.1622777;3.7416575;3.7416575;3.1622777;2.8284271;3.4641016;
+3.1622777;3.7416575;3.1622777;3.4641016;3.7416575;3.4641016;3.7416575;4;3.7416575;3.1622777;
+3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;3.4641016;3.7416575;3.1622777;
+1.4142135;1.4142135;2;1.4142135;0;1.4142135;2;2;1.4142135;2;
+2;1.4142135;2;1.4142135;2;2;2;1.4142135;2;1.4142135;
+1.4142135;2;2;2;1.4142135;2;2;2;2;1.4142135;
+3.1622777;4;3.4641016;3.1622777;3.1622777;3.7416575;3.7416575;3.1622777;2.8284271;3.4641016;
+3.4641016;3.7416575;3.1622777;3.4641016;3.7416575;3.4641016;3.7416575;4;3.7416575;3.1622777;
+3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;3.7416575;3.7416575;3.1622777;
+2;2;2.4494898;2;1.4142135;0;2.4494898;2.4494898;0;2;
+1.4142135;2;2.4494898;2;2;2.4494898;2.4494898;2;2.4494898;2;
+2;2.4494898;1.4142135;2.4494898;2;2.4494898;2.4494898;2.4494898;2.4494898;2;
+3.4641016;4.2426405;3.4641016;3.7416575;3.4641016;4;3.7416575;3.4641016;3.1622777;3.7416575;
+3.4641016;4;3.4641016;3.7416575;4;3.7416575;4;4.2426405;4;3.4641016;
+3.7416575;3.7416575;4;3.7416575;3.7416575;4;3.7416575;3.7416575;4;3.4641016;
+2;2.4494898;2.4494898;2.4494898;2;2.4494898;0;2;2.4494898;2.8284271;
+2.8284271;2.4494898;2.8284271;2;2.8284271;2.8284271;2.8284271;2.4494898;2;2;
+2.4494898;2.8284271;2.8284271;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2;2.4494898;
+2.8284271;4;3.4641016;3.1622777;3.1622777;3.7416575;3.4641016;3.1622777;2.8284271;3.7416575;
+3.1622777;3.7416575;3.7416575;3.7416575;3.7416575;3.4641016;3.7416575;4;3.7416575;3.1622777;
+3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;3.7416575;3.4641016;3.4641016;3.7416575;3.1622777;
+2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2;0;2.4494898;2.4494898;
+2;2.4494898;2.8284271;2;2.8284271;2.8284271;2.8284271;2.4494898;2;2;
+2;2.8284271;2.8284271;2.8284271;1.4142135;2.8284271;2.8284271;2.8284271;1.4142135;2.4494898;
+3.1622777;4;3.4641016;3.1622777;3.1622777;3.7416575;3.7416575;3.1622777;2.8284271;3.4641016;
+3.4641016;3.7416575;3.1622777;3.4641016;3.7416575;3.4641016;3.7416575;4;3.7416575;3.1622777;
+3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;3.7416575;3.7416575;3.1622777;
+2;2;2.4494898;2;1.4142135;0;2.4494898;2.4494898;0;2;
+1.4142135;2;2.4494898;2;2;2.4494898;2.4494898;2;2.4494898;2;
+2;2.4494898;1.4142135;2.4494898;2;2.4494898;2.4494898;2.4494898;2.4494898;2;
+3.1622777;3.7416575;3.4641016;2.8284271;2.8284271;3.4641016;3.4641016;2.8284271;2.4494898;2.8284271;
+3.4641016;3.4641016;3.1622777;3.1622777;3.4641016;3.1622777;3.4641016;3.7416575;3.4641016;3.1622777;
+3.1622777;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.7416575;3.4641016;2.8284271;
+2.4494898;2.4494898;2.8284271;2.4494898;2;2;2.8284271;2.4494898;2;0;
+2;2.4494898;2.8284271;2.4494898;2;2.8284271;2.8284271;2.4494898;2.8284271;2.4494898;
+1.4142135;2.8284271;2.4494898;2.8284271;2;2.8284271;2.8284271;2.8284271;2;2.4494898;
+2.8284271;3.7416575;3.4641016;2.8284271;2.8284271;3.4641016;3.4641016;2.8284271;2.4494898;3.4641016;
+3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.7416575;3.4641016;2.8284271;
+3.1622777;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.4641016;3.4641016;2.8284271;
+2.4494898;2.4494898;2.8284271;2.4494898;2;1.4142135;2.8284271;2;1.4142135;2;
+0;2.4494898;2.8284271;2.4494898;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;2.4494898;
+2;2.8284271;2;2.8284271;1.4142135;2.8284271;2.8284271;2.8284271;2.4494898;2.4494898;
+2.4494898;3.7416575;2.8284271;2.8284271;2.8284271;3.4641016;3.7416575;2.8284271;3.1622777;3.4641016;
+3.1622777;3.4641016;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;2.8284271;
+3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;2.8284271;
+2;0;2.4494898;2;1.4142135;2;2.4494898;2.4494898;2;2.4494898;
+2.4494898;0;1.4142135;2;2;1.4142135;2.4494898;2;2.4494898;2;
+2;1.4142135;2.4494898;2.4494898;2;2.4494898;2.4494898;2.4494898;2.4494898;2;
+2.4494898;3.7416575;2.8284271;2.8284271;3.1622777;3.4641016;3.7416575;3.1622777;3.4641016;3.4641016;
+3.1622777;3.4641016;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;2.8284271;
+3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;
+2.4494898;1.4142135;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;1.4142135;0;2.4494898;2.4494898;2;2.4494898;2.4494898;2.8284271;2.4494898;
+2.4494898;2;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.4494898;
+3.1622777;4.2426405;3.4641016;3.4641016;3.4641016;4;3.7416575;3.4641016;3.1622777;3.7416575;
+3.4641016;4;3.4641016;3.7416575;4;3.7416575;4;4.2426405;4;3.4641016;
+3.7416575;3.7416575;4;3.4641016;3.7416575;4;3.7416575;3.7416575;4;3.4641016;
+2;2;2.4494898;2;1.4142135;2;2;2;2;2.4494898;
+2.4494898;2;2.4494898;0;2.4494898;2.4494898;2.4494898;2;2;0;
+2;2.4494898;2.4494898;2.4494898;2;2.4494898;2.4494898;2.4494898;2;2;
+3.1622777;3.7416575;3.4641016;2.8284271;2.8284271;3.4641016;3.4641016;2.8284271;2.8284271;3.1622777;
+3.1622777;3.4641016;2.8284271;3.1622777;3.4641016;2.8284271;3.4641016;3.7416575;3.4641016;3.1622777;
+3.1622777;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;2.8284271;3.7416575;3.4641016;2.8284271;
+2.4494898;2;2.8284271;2.4494898;2;2;2.8284271;2.8284271;2;2;
+2.4494898;2;2.4494898;2.4494898;0;2.4494898;2.8284271;2.4494898;2.8284271;2.4494898;
+2.4494898;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;2.8284271;2.8284271;2.4494898;
+2.8284271;3.4641016;3.1622777;3.1622777;3.1622777;3.1622777;4;3.1622777;3.4641016;3.7416575;
+3.4641016;3.4641016;3.1622777;3.4641016;3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;3.1622777;
+3.4641016;3.4641016;3.7416575;3.7416575;3.7416575;3.1622777;3.7416575;3.4641016;3.7416575;3.1622777;
+2.4494898;1.4142135;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;1.4142135;2;2.4494898;2.4494898;0;2.8284271;2.4494898;2.8284271;2.4494898;
+2.4494898;2;2.8284271;2.8284271;2.4494898;2.8284271;2;2.4494898;2.8284271;1.4142135;
+3.1622777;3.7416575;3.4641016;3.4641016;3.7416575;4;4;3.7416575;3.4641016;3.7416575;
+3.4641016;4;3.1622777;3.7416575;3.4641016;3.7416575;3.7416575;4;3.7416575;3.4641016;
+3.7416575;3.7416575;3.4641016;4;3.7416575;3.7416575;3.7416575;3.1622777;3.7416575;3.7416575;
+2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;0;2;2.8284271;2.4494898;
+2.4494898;2.8284271;2.8284271;2;2.4494898;2.4494898;2.4494898;2;2.8284271;2.4494898;
+3.1622777;4;3.4641016;3.4641016;3.4641016;4;4;3.4641016;3.1622777;3.7416575;
+3.4641016;4;3.4641016;3.7416575;3.7416575;3.7416575;3.4641016;4;3.7416575;3.4641016;
+3.7416575;3.7416575;3.7416575;4;3.7416575;4;3.7416575;3.4641016;3.7416575;3.4641016;
+2;2;2.4494898;2;1.4142135;2;2.4494898;2.4494898;2;2.4494898;
+2.4494898;2;2.4494898;2;2.4494898;2.4494898;2;0;2.4494898;2;
+2;2.4494898;2.4494898;2;2;2.4494898;2.4494898;2;2.4494898;2;
+3.1622777;4.2426405;3.4641016;3.4641016;3.4641016;4;3.7416575;3.4641016;3.1622777;3.7416575;
+3.4641016;4;3.4641016;3.4641016;4;3.7416575;4;4.2426405;3.7416575;3.7416575;
+3.4641016;3.7416575;4;3.7416575;3.7416575;4;3.7416575;3.7416575;4;3.4641016;
+2.4494898;2.4494898;2.4494898;2;2;2.4494898;2;2;2.4494898;2.8284271;
+2.8284271;2.4494898;2.8284271;2;2.8284271;2.8284271;2.8284271;2.4494898;0;2;
+2.4494898;2;2.4494898;2.8284271;2.4494898;2.4494898;2.8284271;2.8284271;2;2.4494898;
+3.1622777;4.2426405;3.4641016;3.4641016;3.4641016;4;3.7416575;3.4641016;3.1622777;3.7416575;
+3.4641016;4;3.4641016;3.7416575;4;3.7416575;4;4.2426405;4;3.4641016;
+3.7416575;3.7416575;4;3.4641016;3.7416575;4;3.7416575;3.7416575;4;3.4641016;
+2;2;2.4494898;2;1.4142135;2;2;2;2;2.4494898;
+2.4494898;2;2.4494898;0;2.4494898;2.4494898;2.4494898;2;2;0;
+2;2.4494898;2.4494898;2.4494898;2;2.4494898;2.4494898;2.4494898;2;2;
+2.8284271;4;3.1622777;3.1622777;3.1622777;3.7416575;3.7416575;3.1622777;2.8284271;3.1622777;
+3.1622777;3.7416575;3.4641016;3.4641016;3.7416575;3.4641016;3.7416575;4;3.7416575;3.1622777;
+3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;3.4641016;3.7416575;3.1622777;
+2;2;2.4494898;2;1.4142135;2;2.4494898;2;2;1.4142135;
+2;2;2.4494898;2;2.4494898;2.4494898;2.4494898;2;2.4494898;2;
+0;2.4494898;2.4494898;2.4494898;1.4142135;2.4494898;2.4494898;2.4494898;1.4142135;2;
+2.4494898;3.7416575;2.8284271;2.8284271;2.8284271;3.4641016;3.7416575;2.8284271;3.1622777;3.4641016;
+3.1622777;3.4641016;2.8284271;2.8284271;3.4641016;3.4641016;3.4641016;3.7416575;3.1622777;3.1622777;
+2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;2.8284271;
+2.4494898;1.4142135;2.4494898;2;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;1.4142135;2;2.4494898;2.4494898;2;2.8284271;2.4494898;2;2.4494898;
+2.4494898;0;2.4494898;2.8284271;2.4494898;2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;
+3.1622777;4;3.4641016;3.1622777;3.1622777;3.7416575;3.7416575;3.1622777;2.8284271;3.4641016;
+3.4641016;3.4641016;3.1622777;3.4641016;3.7416575;3.4641016;3.7416575;4;3.7416575;3.4641016;
+3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;3.7416575;3.7416575;3.1622777;
+2.4494898;2.4494898;2;2;2;1.4142135;2.8284271;2.8284271;1.4142135;2.4494898;
+2;2.4494898;2.8284271;2.4494898;2.4494898;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;0;2.8284271;2.4494898;2;2.8284271;2.8284271;2.8284271;2.4494898;
+3.4641016;3.4641016;3.1622777;3.7416575;3.1622777;3.7416575;3.7416575;3.4641016;2.8284271;3.4641016;
+3.1622777;3.7416575;3.1622777;3.4641016;3.1622777;3.7416575;3.4641016;3.7416575;3.4641016;3.1622777;
+3.4641016;3.4641016;3.1622777;3.7416575;3.4641016;3.7416575;3.4641016;2.8284271;3.4641016;3.1622777;
+1.4142135;2.4494898;2;2.4494898;2;2.4494898;2.4494898;2.8284271;2.4494898;2.8284271;
+2.8284271;2.4494898;2.8284271;2.4494898;2.8284271;2.8284271;2;2;2.8284271;2.4494898;
+2.4494898;2.8284271;2.8284271;0;2.4494898;2.8284271;2.8284271;2;2.8284271;2.4494898;
+2.4494898;3.7416575;3.1622777;2.8284271;2.8284271;3.4641016;3.4641016;2.8284271;2.4494898;3.4641016;
+2.8284271;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.7416575;3.4641016;2.8284271;
+3.1622777;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.1622777;3.4641016;2.8284271;
+2;2;2.4494898;2;1.4142135;2;2.4494898;1.4142135;2;2;
+1.4142135;2;2.4494898;2;2.4494898;2.4494898;2.4494898;2;2.4494898;2;
+1.4142135;2.4494898;2.4494898;2.4494898;0;2.4494898;2.4494898;2.4494898;2;2;
+2.4494898;3.7416575;2.8284271;2.8284271;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.1622777;
+2.8284271;3.1622777;3.1622777;3.1622777;3.4641016;3.1622777;3.4641016;3.7416575;3.4641016;3.1622777;
+3.1622777;3.1622777;3.4641016;3.4641016;3.1622777;3.7416575;3.1622777;3.1622777;3.4641016;3.4641016;
+2.4494898;2.4494898;2;2;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2.8284271;2.4494898;2.4494898;2.4494898;2.4494898;
+2.4494898;2.4494898;2;2.8284271;2.4494898;0;2;2.8284271;2.8284271;2.4494898;
+2.8284271;3.4641016;3.1622777;3.1622777;3.7416575;3.1622777;3.7416575;3.7416575;3.4641016;3.4641016;
+3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;3.7416575;3.7416575;3.7416575;3.1622777;
+3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.7416575;
+2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;2.4494898;2.4494898;2.4494898;2.8284271;2;2.4494898;2.4494898;2.8284271;2.4494898;
+2.4494898;2.8284271;2.8284271;2.8284271;2.4494898;2;0;2.4494898;2.8284271;1.4142135;
+3.4641016;3.7416575;3.7416575;3.7416575;3.7416575;4;4.2426405;3.7416575;3.4641016;4;
+3.7416575;4;3.7416575;4;3.7416575;4;4;4;4;3.7416575;
+4;4;3.7416575;4.2426405;4;4;4;3.4641016;4;3.7416575;
+2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2.8284271;2.8284271;2.4494898;2.8284271;
+2.8284271;2.4494898;2.8284271;2.4494898;2.8284271;2.4494898;2;2;2.8284271;2.4494898;
+2.4494898;2.8284271;2.8284271;2;2.4494898;2.8284271;2.4494898;0;2.8284271;2;
+3.1622777;4.2426405;3.4641016;3.4641016;3.4641016;4;3.7416575;3.4641016;3.1622777;3.4641016;
+3.4641016;4;3.7416575;3.7416575;4;3.7416575;4;4.2426405;4;3.4641016;
+3.7416575;3.7416575;4;3.7416575;3.7416575;4;3.7416575;3.7416575;4;3.4641016;
+2.4494898;2.4494898;2.8284271;2.4494898;2;2.4494898;2;1.4142135;2.4494898;2;
+2.4494898;2.4494898;2.8284271;2;2.8284271;2.8284271;2.8284271;2.4494898;2;2;
+1.4142135;2.8284271;2.8284271;2.8284271;2;2.8284271;2.8284271;2.8284271;0;2.4494898;
+3.1622777;3.7416575;3.4641016;3.4641016;3.4641016;3.4641016;4;3.4641016;3.1622777;3.7416575;
+3.4641016;3.7416575;3.4641016;3.7416575;4;3.7416575;4;4;4;3.4641016;
+3.7416575;3.7416575;4;4;3.7416575;3.4641016;3.7416575;3.7416575;4;3.4641016;
+2;2;2.4494898;2;1.4142135;2;2.4494898;2.4494898;2;2.4494898;
+2.4494898;2;2.4494898;2;2.4494898;1.4142135;2.4494898;2;2.4494898;2;
+2;2.4494898;2.4494898;2.4494898;2;2.4494898;1.4142135;2;2.4494898;0;
+       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    DataTable @[6] {
+     UserDataItem_List @*(.user_data_) {
+      name=;
+      el_typ=UserDataItem;
+      el_def=0;
+      UserDataItem @[0] {
+       name="N_ROWS";
+       value 2 0=1;
+      };
+      UserDataItem @[1] {
+       name="AUTO_SCALE";
+       value 1 0=1;
+      };
+     };
+     name="Ctxt_Dist_Matrix";
+     desc=;
+     data {
+      name="data";
+      el_typ=String_Data;
+      el_def=0;
+      float_Data @[0] {
+       UserDataItem_List @*(.user_data_) {
+	name=;
+	el_typ=UserDataItem;
+	el_def=0;
+	UserDataItem @[0] {
+	 name="TOP_ZERO";
+	 value 1 0=1;
+	};
+       };
+       name="Context_items_DistMatrix";
+       col_flags=SAVE_ROWS|SAVE_DATA;
+       is_matrix=1;
+       cell_geom{ 30;30;       };
+       calc_expr {
+	expr=;
+       };
+       ar {
+	name=;
+	      [30 30 1] 0;3.7416575;3.1622777;3.4641016;3.7416575;3.4641016;3.1622777;4.2426405;3.4641016;3.4641016;
+3.1622777;3.7416575;3.7416575;4.2426405;3.7416575;4;3.7416575;3.4641016;4;4;
+4;3.1622777;3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;2.8284271;3.4641016;3.7416575;
+3.7416575;0;3.1622777;4;3.4641016;3.4641016;3.4641016;4;3.4641016;4.2426405;
+3.1622777;3.4641016;2.8284271;4;4;3.7416575;3.7416575;3.7416575;4;3.7416575;
+4;2.8284271;3.7416575;3.4641016;3.7416575;4;3.7416575;3.4641016;3.4641016;3.7416575;
+3.1622777;3.1622777;0;3.4641016;3.4641016;3.7416575;3.4641016;4.2426405;3.4641016;4.2426405;
+3.1622777;4;3.4641016;3.7416575;4;4;3.7416575;3.7416575;3.7416575;4;
+4.2426405;3.1622777;3.7416575;3.7416575;4;3.4641016;3.1622777;3.4641016;3.4641016;3.7416575;
+3.4641016;4;3.4641016;0;3.7416575;3.7416575;3.4641016;4.2426405;3.4641016;4;
+3.1622777;3.7416575;4;4;3.1622777;3.4641016;3.4641016;3.7416575;3.4641016;4;
+4;3.7416575;3.7416575;3.1622777;4;3.1622777;2.8284271;4;2.8284271;3.4641016;
+3.7416575;3.4641016;3.4641016;3.7416575;0;3.7416575;3.4641016;4;3.1622777;3.7416575;
+3.1622777;3.4641016;3.1622777;4.2426405;3.7416575;4;4;3.4641016;4;4;
+3.7416575;3.4641016;3.7416575;3.7416575;4;4;3.4641016;3.4641016;3.1622777;3.7416575;
+3.4641016;3.4641016;3.7416575;3.7416575;3.7416575;0;3.4641016;4;3.1622777;3.7416575;
+2.4494898;3.1622777;3.4641016;3.4641016;3.7416575;3.1622777;3.7416575;3.1622777;4;3.4641016;
+3.1622777;3.7416575;3.4641016;3.4641016;2.8284271;3.7416575;3.4641016;3.4641016;3.1622777;3.4641016;
+3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;0;4.2426405;3.4641016;4;
+3.1622777;3.1622777;3.4641016;3.7416575;3.7416575;4;3.4641016;3.7416575;3.4641016;4;
+3.4641016;3.7416575;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;2.8284271;3.7416575;
+4.2426405;4;4.2426405;4.2426405;4;4;4.2426405;0;3.4641016;4;
+3.4641016;4.2426405;3.7416575;4;3.7416575;4;3.1622777;3.1622777;4.2426405;3.1622777;
+4;4.2426405;4.2426405;4;3.7416575;4;4;3.7416575;3.7416575;3.7416575;
+3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.1622777;3.4641016;3.4641016;0;3.1622777;
+2.4494898;3.1622777;3.1622777;3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.4641016;
+3.4641016;3.4641016;3.4641016;3.4641016;3.1622777;3.4641016;3.1622777;3.4641016;2.8284271;3.1622777;
+3.4641016;4.2426405;4.2426405;4;3.7416575;3.7416575;4;4;3.1622777;0;
+3.4641016;3.7416575;4;4.2426405;3.1622777;4.2426405;4.2426405;3.7416575;4;4;
+3.1622777;4;3.7416575;4;3.4641016;4.2426405;3.7416575;3.7416575;3.4641016;3.7416575;
+3.1622777;3.1622777;3.1622777;3.1622777;3.1622777;2.4494898;3.1622777;3.4641016;2.4494898;3.4641016;
+0;3.1622777;3.1622777;3.1622777;3.1622777;2.8284271;3.1622777;2.8284271;3.4641016;2.4494898;
+3.1622777;3.1622777;2.8284271;2.4494898;3.1622777;3.1622777;2.8284271;3.1622777;2.4494898;2.8284271;
+3.7416575;3.4641016;4;3.7416575;3.4641016;3.1622777;3.1622777;4.2426405;3.1622777;3.7416575;
+3.1622777;0;2.8284271;4;3.7416575;4;4;3.1622777;4;4;
+3.7416575;4;3.4641016;3.7416575;3.4641016;4;3.4641016;3.4641016;2.8284271;3.7416575;
+3.7416575;2.8284271;3.4641016;4;3.1622777;3.4641016;3.4641016;3.7416575;3.1622777;4;
+3.1622777;2.8284271;0;4;3.4641016;4;4;3.7416575;4.2426405;3.4641016;
+4;3.4641016;4;4;3.4641016;4;3.7416575;3.4641016;3.4641016;3.4641016;
+4.2426405;4;3.7416575;4;4.2426405;3.4641016;3.7416575;4;3.4641016;4.2426405;
+3.1622777;4;4;0;4.2426405;4;4;4;4.2426405;4;
+3.1622777;4;3.7416575;4;3.4641016;3.7416575;3.1622777;4.2426405;3.7416575;3.4641016;
+3.7416575;4;4;3.1622777;3.7416575;3.7416575;3.7416575;3.7416575;3.4641016;3.1622777;
+3.1622777;3.7416575;3.4641016;4.2426405;0;3.7416575;4;3.7416575;3.7416575;3.4641016;
+3.4641016;3.7416575;3.4641016;3.4641016;3.7416575;4;3.1622777;3.7416575;2.8284271;3.4641016;
+4;3.7416575;4;3.4641016;4;3.1622777;4;4;3.4641016;4.2426405;
+2.8284271;4;4;4;3.7416575;0;3.7416575;3.7416575;3.7416575;2.8284271;
+3.7416575;4;3.7416575;3.4641016;4;4;3.7416575;4;3.1622777;3.4641016;
+3.7416575;3.7416575;3.7416575;3.4641016;4;3.7416575;3.4641016;3.1622777;3.4641016;4.2426405;
+3.1622777;4;4;4;4;3.7416575;0;3.4641016;3.7416575;3.4641016;
+4.2426405;3.4641016;4;3.4641016;4;2.8284271;3.1622777;3.4641016;3.4641016;3.4641016;
+3.4641016;3.7416575;3.7416575;3.7416575;3.4641016;3.1622777;3.7416575;3.1622777;3.1622777;3.7416575;
+2.8284271;3.1622777;3.7416575;4;3.7416575;3.7416575;3.4641016;0;4;3.7416575;
+4;3.7416575;3.7416575;3.7416575;3.4641016;3.4641016;3.4641016;2.8284271;3.1622777;3.4641016;
+4;4;3.7416575;3.4641016;4;4;3.4641016;4.2426405;3.4641016;4;
+3.4641016;4;4.2426405;4.2426405;3.7416575;3.7416575;3.7416575;4;0;3.7416575;
+4;4;3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;4.2426405;3.4641016;3.7416575;
+4;3.7416575;4;4;4;3.4641016;4;3.1622777;3.4641016;4;
+2.4494898;4;3.4641016;4;3.4641016;2.8284271;3.4641016;3.7416575;3.7416575;0;
+4;4;3.7416575;3.1622777;3.7416575;4;3.7416575;4;3.4641016;3.1622777;
+4;4;4.2426405;4;3.7416575;3.1622777;3.4641016;4;3.4641016;3.1622777;
+3.1622777;3.7416575;4;3.1622777;3.4641016;3.7416575;4.2426405;4;4;4;
+0;4;3.4641016;3.7416575;3.4641016;4.2426405;3.7416575;4;3.4641016;4;
+3.1622777;2.8284271;3.1622777;3.7416575;3.4641016;3.7416575;3.7416575;4.2426405;3.4641016;4;
+3.1622777;4;3.4641016;4;3.7416575;4;3.4641016;3.7416575;4;4;
+4;0;3.4641016;4;4;3.7416575;3.1622777;2.8284271;3.4641016;3.4641016;
+3.7416575;3.7416575;3.7416575;3.7416575;3.7416575;3.4641016;3.4641016;4.2426405;3.4641016;3.7416575;
+2.8284271;3.4641016;4;3.7416575;3.4641016;3.7416575;4;3.7416575;3.4641016;3.7416575;
+3.4641016;3.4641016;0;3.4641016;4;4;3.4641016;3.7416575;2.8284271;3.7416575;
+3.7416575;3.4641016;3.7416575;3.1622777;3.7416575;3.4641016;3.4641016;4;3.4641016;4;
+2.4494898;3.7416575;4;4;3.4641016;3.4641016;3.4641016;3.7416575;3.4641016;3.1622777;
+3.7416575;4;3.4641016;0;4;3.7416575;3.1622777;4;3.1622777;3.7416575;
+3.7416575;3.7416575;4;4;4;2.8284271;3.4641016;3.7416575;3.1622777;3.4641016;
+3.1622777;3.4641016;3.4641016;3.4641016;3.7416575;4;4;3.4641016;3.7416575;3.7416575;
+3.4641016;4;4;4;0;4;3.7416575;3.7416575;3.4641016;3.1622777;
+3.7416575;4;3.4641016;3.1622777;4;3.7416575;3.4641016;4;3.4641016;4.2426405;
+3.1622777;4;4;3.7416575;4;4;2.8284271;3.4641016;3.7416575;4;
+4.2426405;3.7416575;4;3.7416575;4;0;3.1622777;3.7416575;3.4641016;3.4641016;
+3.7416575;3.7416575;3.1622777;2.8284271;3.4641016;3.4641016;3.4641016;4;3.1622777;3.7416575;
+2.8284271;3.4641016;3.7416575;3.1622777;3.1622777;3.7416575;3.1622777;3.4641016;3.4641016;3.7416575;
+3.7416575;3.1622777;3.4641016;3.1622777;3.7416575;3.1622777;0;3.7416575;2.8284271;3.1622777;
+2.8284271;3.4641016;3.4641016;4;3.4641016;3.4641016;3.7416575;3.7416575;3.4641016;3.7416575;
+3.1622777;3.4641016;3.4641016;4.2426405;3.7416575;4;3.4641016;2.8284271;4.2426405;4;
+4;2.8284271;3.7416575;4;3.7416575;3.7416575;3.7416575;0;3.4641016;3.7416575;
+3.4641016;3.4641016;3.4641016;2.8284271;3.1622777;3.1622777;2.8284271;3.7416575;2.8284271;3.4641016;
+2.4494898;2.8284271;3.4641016;3.7416575;2.8284271;3.1622777;3.4641016;3.1622777;3.4641016;3.4641016;
+3.4641016;3.4641016;2.8284271;3.1622777;3.4641016;3.4641016;2.8284271;3.4641016;0;3.1622777;
+3.7416575;3.7416575;3.7416575;3.4641016;3.7416575;3.4641016;3.7416575;3.7416575;3.1622777;3.7416575;
+2.8284271;3.7416575;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.4641016;3.7416575;3.1622777;
+4;3.4641016;3.7416575;3.7416575;3.1622777;3.4641016;3.1622777;3.7416575;3.1622777;0;
+       };
+      };
+     };
+     data_flags=SAVE_ROWS|AUTO_CALC;
+     auto_load=NO_AUTO_LOAD;
+     auto_load_file=;
+     keygen 4 0=0;
+    };
+    SubMatrixOpSpec @[7] {
+     name="SubMatrixOpSpec_0";
+     ops {
+      name=;
+      el_typ=SubMatrixOpEl;
+      el_def=0;
+     };
+     sub_matrix_table=NULL;
+    };
+   };
+   types {
+    name=;
+    el_typ=DynEnumType;
+    el_def=0;
+    DynEnumType @[0] {
+     name="GenAction";
+     desc="action to perform";
+     enums {
+      name=;
+      el_typ=DynEnumItem;
+      el_def=0;
+      DynEnumItem @[0] {
+       name="STIM_PROTO";
+       value=0;
+       desc="generate stimulus prototypes";
+      };
+      DynEnumItem @[1] {
+       name="STIM_ITEMS";
+       value=1;
+       desc="stimulus items from prototypes";
+      };
+      DynEnumItem @[2] {
+       name="CONTEXT_PROTO";
+       value=2;
+       desc="generate context prototypes";
+      };
+      DynEnumItem @[3] {
+       name="CONTEXT_ITEMS";
+       value=3;
+       desc="generate context items";
+      };
+     };
+     bits=0;
+    };
+   };
+   args {
+    name=;
+    el_typ=ProgVar;
+    el_def=0;
+   };
+   vars {
+    name=;
+    el_typ=ProgVar;
+    el_def=0;
+    ProgVar @[0] {
+     name="stims_per_proto";
+     var_type=T_Int;
+     int_val=30;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="number of stimulus items per prototype to generate";
+     init_from=NULL;
+    };
+    ProgVar @[1] {
+     name="stim_flip_pct";
+     var_type=T_Real;
+     real_val=0.33;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="proportion of features to flip per item";
+     init_from=NULL;
+    };
+    ProgVar @[2] {
+     name="gen_action";
+     var_type=T_DynEnum;
+     dyn_enum_val {
+      enum_type=.projects[0].programs[0].types[0]$0$;
+      value=3;
+     };
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="generation action to perform";
+     init_from=NULL;
+    };
+    ProgVar @[3] {
+     name="Vocab";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[0]$1$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[4] {
+     name="Stim_proto";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[1]$2$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[5] {
+     name="Stim_items";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[2]$3$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[6] {
+     name="Context_proto";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[3]$4$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[7] {
+     name="Context_items";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[4]$5$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[8] {
+     name="Stim_Dist_Matrix";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[5]$6$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[9] {
+     name="Ctxt_Dist_Matrix";
+     var_type=T_Object;
+     object_type=DataTable;
+     object_val=.projects[0].programs[0].objs[6]$7$;
+     objs_ptr=1;
+     flags=NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[10] {
+     name="SubMatrixOpSpec_0";
+     var_type=T_Object;
+     object_type=SubMatrixOpSpec;
+     object_val=.projects[0].programs[0].objs[7]$8$;
+     objs_ptr=1;
+     flags=NULL_CHECK|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+   };
+   functions {
+    name=;
+    el_typ=Function;
+    el_def=0;
+   };
+   load_code {
+    name=;
+    el_typ=ProgEl;
+    el_def=0;
+   };
+   init_code {
+    name=;
+    el_typ=ProgEl;
+    el_def=0;
+   };
+   prog_code {
+    name=;
+    el_typ=ProgEl;
+    el_def=0;
+    Switch @[0] {
+     desc=;
+     flags=;
+     switch_var=.projects[0].programs[0].vars[2]$9$;
+     cases {
+      name=;
+      el_typ=CaseBlock;
+      el_def=0;
+      CaseBlock @[0] {
+       desc=;
+       flags=;
+       prog_code {
+	name=;
+	el_typ=ProgEl;
+	el_def=0;
+	DataGenCall @[0] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 object_type=taDataGen;
+	 method=taDataGen::GenRndFeatPats;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="dest";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Stim_proto";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="dest_col";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Input\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=int;
+	   type="int";
+	   name="n_pats";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="2";
+	   };
+	  };
+	  ProgArg @[3] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="feat_vocab";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Vocab";
+	   };
+	  };
+	  ProgArg @[4] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="feat_col_nm";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Slot\"";
+	   };
+	  };
+	 };
+	};
+	MethodCall @[1] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 obj=.projects[0].programs[0].vars[4]$10$;
+	 method=DataTable::SetVal;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=const_Variant_ref;
+	   type="const Variant&";
+	   name="val";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="\"Stim1\"";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=Variant;
+	   type="Variant";
+	   name="col";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="\"Name\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=int;
+	   type="int";
+	   name="row";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="0";
+	   };
+	  };
+	 };
+	};
+	MethodCall @[2] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 obj=$10$;
+	 method=DataTable::SetVal;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=const_Variant_ref;
+	   type="const Variant&";
+	   name="val";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="\"Stim2\"";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=Variant;
+	   type="Variant";
+	   name="col";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="\"Name\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=int;
+	   type="int";
+	   name="row";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="1";
+	   };
+	  };
+	 };
+	};
+       };
+       case_val {
+	expr="STIM_PROTO";
+       };
+      };
+      CaseBlock @[1] {
+       desc=;
+       flags=;
+       prog_code {
+	name=;
+	el_typ=ProgEl;
+	el_def=0;
+	DataGenCall @[0] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 object_type=taDataGen;
+	 method=taDataGen::GenItemsFmProtos;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="items";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Stim_items";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="dest_col";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Input\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="protos";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Stim_proto";
+	   };
+	  };
+	  ProgArg @[3] {
+	   arg_type=int;
+	   type="int";
+	   name="n_items";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="stims_per_proto";
+	   };
+	  };
+	  ProgArg @[4] {
+	   arg_type=float;
+	   type="float";
+	   name="flip_pct";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="stim_flip_pct";
+	   };
+	  };
+	  ProgArg @[5] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="feat_vocab";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Vocab";
+	   };
+	  };
+	  ProgArg @[6] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="feat_col_nm";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Slot\"";
+	   };
+	  };
+	 };
+	};
+	DataAnalCall @[1] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 object_type=taDataAnal;
+	 method=taDataAnal::DistMatrixTable;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="dist_mat";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="Stim_Dist_Matrix";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=bool;
+	   type="bool";
+	   name="view";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="true";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="src_data";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="Stim_items";
+	   };
+	  };
+	  ProgArg @[3] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="data_col_nm";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="\"Input\"";
+	   };
+	  };
+	  ProgArg @[4] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="name_col_nm";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="\"\"";
+	   };
+	  };
+	  ProgArg @[5] {
+	   arg_type=taMath::DistMetric;
+	   type="taMath::DistMetric";
+	   name="metric";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="taMath::EUCLIDIAN";
+	   };
+	  };
+	  ProgArg @[6] {
+	   arg_type=bool;
+	   type="bool";
+	   name="norm";
+	   required=0;
+	   def_val="false";
+	   expr {
+	    expr="false";
+	   };
+	  };
+	  ProgArg @[7] {
+	   arg_type=float;
+	   type="float";
+	   name="tol";
+	   required=0;
+	   def_val="0.0f";
+	   expr {
+	    expr=;
+	   };
+	  };
+	  ProgArg @[8] {
+	   arg_type=bool;
+	   type="bool";
+	   name="incl_scalars";
+	   required=0;
+	   def_val="false";
+	   expr {
+	    expr=;
+	   };
+	  };
+	 };
+	};
+       };
+       case_val {
+	expr="STIM_ITEMS";
+       };
+      };
+      CaseBlock @[2] {
+       desc=;
+       flags=;
+       prog_code {
+	name=;
+	el_typ=ProgEl;
+	el_def=0;
+	DataGenCall @[0] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 object_type=taDataGen;
+	 method=taDataGen::GenRndFeatPats;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="dest";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Context_proto";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="dest_col";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Input\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=int;
+	   type="int";
+	   name="n_pats";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="1";
+	   };
+	  };
+	  ProgArg @[3] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="feat_vocab";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Vocab";
+	   };
+	  };
+	  ProgArg @[4] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="feat_col_nm";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Slot\"";
+	   };
+	  };
+	 };
+	};
+	MethodCall @[1] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 obj=.projects[0].programs[0].vars[6]$11$;
+	 method=DataTable::SetVal;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=const_Variant_ref;
+	   type="const Variant&";
+	   name="val";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="\"Ctxt\"";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=Variant;
+	   type="Variant";
+	   name="col";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="\"Name\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=int;
+	   type="int";
+	   name="row";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="0";
+	   };
+	  };
+	 };
+	};
+       };
+       case_val {
+	expr="CONTEXT_PROTO";
+       };
+      };
+      CaseBlock @[3] {
+       desc=;
+       flags=;
+       prog_code {
+	name=;
+	el_typ=ProgEl;
+	el_def=0;
+	DataGenCall @[0] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 object_type=taDataGen;
+	 method=taDataGen::GenItemsFmProtos;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="items";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Context_items";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="dest_col";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Input\"";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="protos";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Context_proto";
+	   };
+	  };
+	  ProgArg @[3] {
+	   arg_type=int;
+	   type="int";
+	   name="n_items";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="stims_per_proto";
+	   };
+	  };
+	  ProgArg @[4] {
+	   arg_type=float;
+	   type="float";
+	   name="flip_pct";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="stim_flip_pct";
+	   };
+	  };
+	  ProgArg @[5] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="feat_vocab";
+	   required=0;
+	   def_val=;
+	   expr {
+	    expr="Vocab";
+	   };
+	  };
+	  ProgArg @[6] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="feat_col_nm";
+	   required=0;
+	   def_val="\"\"";
+	   expr {
+	    expr="\"Slot\"";
+	   };
+	  };
+	 };
+	};
+	DataAnalCall @[1] {
+	 desc=;
+	 flags=;
+	 result_var=NULL;
+	 object_type=taDataAnal;
+	 method=taDataAnal::DistMatrixTable;
+	 meth_args {
+	  name=;
+	  el_typ=ProgArg;
+	  el_def=0;
+	  ProgArg @[0] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="dist_mat";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="Ctxt_Dist_Matrix";
+	   };
+	  };
+	  ProgArg @[1] {
+	   arg_type=bool;
+	   type="bool";
+	   name="view";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="true";
+	   };
+	  };
+	  ProgArg @[2] {
+	   arg_type=DataTable_ptr;
+	   type="DataTable*";
+	   name="src_data";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="Context_items";
+	   };
+	  };
+	  ProgArg @[3] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="data_col_nm";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="\"Input\"";
+	   };
+	  };
+	  ProgArg @[4] {
+	   arg_type=const_taString_ref;
+	   type="const taString&";
+	   name="name_col_nm";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="\"\"";
+	   };
+	  };
+	  ProgArg @[5] {
+	   arg_type=taMath::DistMetric;
+	   type="taMath::DistMetric";
+	   name="metric";
+	   required=1;
+	   def_val=;
+	   expr {
+	    expr="taMath::EUCLIDIAN";
+	   };
+	  };
+	  ProgArg @[6] {
+	   arg_type=bool;
+	   type="bool";
+	   name="norm";
+	   required=0;
+	   def_val="false";
+	   expr {
+	    expr="false";
+	   };
+	  };
+	  ProgArg @[7] {
+	   arg_type=float;
+	   type="float";
+	   name="tol";
+	   required=0;
+	   def_val="0.0f";
+	   expr {
+	    expr=;
+	   };
+	  };
+	  ProgArg @[8] {
+	   arg_type=bool;
+	   type="bool";
+	   name="incl_scalars";
+	   required=0;
+	   def_val="false";
+	   expr {
+	    expr=;
+	   };
+	  };
+	 };
+	};
+       };
+       case_val {
+	expr="CONTEXT_ITEMS";
+       };
+      };
+     };
+    };
+   };
+  };
+ };
+ viewers {
+  name=;
+  el_typ=TopLevelViewer;
+  el_def=0;
+  MainWindowViewer @[0] {
+   m_data=.projects[0]$12$;
+   name="Browser2";
+   visible=1;
+   m_is_root=0;
+   m_is_viewer_xor_browser=0;
+   m_is_proj_viewer=1;
+   m_is_dialog=0;
+   toolbars {
+    name=;
+    el_typ=ToolBar;
+    el_def=0;
+    ToolBar @[0] {
+     m_data=NULL;
+     name="Application";
+     visible=0;
+     lft=0;
+     top=0;
+     o=Horizontal;
+    };
+   };
+   frames {
+    name=;
+    el_typ=FrameViewer;
+    el_def=0;
+    tabBrowseViewer @[0] {
+     m_data=NULL;
+     name="Tree";
+     visible=1;
+     root_typ=LeabraProject;
+     root_md=NULL;
+     m_root=$12$;
+    };
+    PanelViewer @[1] {
+     m_data=NULL;
+     name="Panels";
+     visible=1;
+    };
+    T3DataViewer @[2] {
+     m_data=NULL;
+     name="T3Frames";
+     visible=1;
+     frames {
+      name=;
+      el_typ=T3DataViewFrame;
+      el_def=0;
+      T3DataViewFrame @[0] {
+       m_data=NULL;
+       name="Train_AB";
+       visible=1;
+       root_view {
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataViewMain;
+	 el_def=0;
+	 GridTableView @[0] {
+	  m_data=.projects[0].data.gp[0][0]$13$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].data.gp[0][0].data[0]$14$;
+	    m_transform=NULL;
+	    name="Name";
+	    visible=1;
+	    text_width=16;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[1] {
+	    m_data=.projects[0].data.gp[0][0].data[1]$15$;
+	    m_transform=NULL;
+	    name="Input";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[2] {
+	    m_data=.projects[0].data.gp[0][0].data[2]$16$;
+	    m_transform=NULL;
+	    name="EC_out";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  view_rows=3;
+	  view_range {min=0: max=2: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=2: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=.colorspecs[0]$17$;
+	   auto_scale=0;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=1.5325: y=0.5174999: z=1.443747: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=1.453747;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+      T3DataViewFrame @[1] {
+       m_data=NULL;
+       name="Vocab";
+       visible=1;
+       root_view {
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataViewMain;
+	 el_def=0;
+	 GridTableView @[0] {
+	  m_data=$1$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[0].data[0]$18$;
+	    m_transform=NULL;
+	    name="Name";
+	    visible=1;
+	    text_width=16;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[1] {
+	    m_data=.projects[0].programs[0].objs[0].data[1]$19$;
+	    m_transform=NULL;
+	    name="Slot";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  view_rows=10;
+	  view_range {min=0: max=3: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=1: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=1;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=1.5325: y=0.5174999: z=1.443747: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=1.453747;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+      T3DataViewFrame @[2] {
+       m_data=NULL;
+       name="ProtosItems";
+       visible=1;
+       root_view {
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataViewMain;
+	 el_def=0;
+	 GridTableView @[0] {
+	  m_data=$2$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[1].data[0]$20$;
+	    m_transform=NULL;
+	    name="Name";
+	    visible=1;
+	    text_width=16;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[1] {
+	    m_data=.projects[0].programs[0].objs[1].data[1]$21$;
+	    m_transform=NULL;
+	    name="Input";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  view_rows=2;
+	  view_range {min=0: max=1: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=1: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=0;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	 GridTableView @[1] {
+	  m_data=$4$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=0.9894298: y=1.183728: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[3].data[0]$22$;
+	    m_transform=NULL;
+	    name="Name";
+	    visible=1;
+	    text_width=16;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[1] {
+	    m_data=.projects[0].programs[0].objs[3].data[1]$23$;
+	    m_transform=NULL;
+	    name="Input";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=0.9894298: y=1.183728: z=0: }: };
+	  view_rows=1;
+	  view_range {min=0: max=0: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=1: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=0;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	 GridTableView @[2] {
+	  m_data=$3$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=2.203066: y=-0.00232482: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[2].data[0]$24$;
+	    m_transform=NULL;
+	    name="Name";
+	    visible=1;
+	    text_width=16;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[1] {
+	    m_data=.projects[0].programs[0].objs[2].data[1]$25$;
+	    m_transform=NULL;
+	    name="Input";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=2.203066: y=-0.00232482: z=0: }: };
+	  view_rows=4;
+	  view_range {min=0: max=3: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=1: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=0;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	 GridTableView @[3] {
+	  m_data=$5$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=2.19443: y=1.183464: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[4].data[0]$26$;
+	    m_transform=NULL;
+	    name="Name";
+	    visible=1;
+	    text_width=16;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	   GridColView @[1] {
+	    m_data=.projects[0].programs[0].objs[4].data[1]$27$;
+	    m_transform=NULL;
+	    name="Input";
+	    visible=1;
+	    text_width=4;
+	    scale_on=1;
+	    mat_layout=BOT_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=2.19443: y=1.183464: z=0: }: };
+	  view_rows=4;
+	  view_range {min=0: max=3: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=1: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=0;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=2.094033: y=1.158838: z=3.076734: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=3.076734;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+      T3DataViewFrame @[3] {
+       m_data=NULL;
+       name="Stim_Dist_Matrix";
+       visible=1;
+       root_view {
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataViewMain;
+	 el_def=0;
+	 GridTableView @[0] {
+	  m_data=$6$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[5].data[0]$28$;
+	    m_transform=NULL;
+	    name="Stim_items_DistMatrix";
+	    visible=1;
+	    text_width=60;
+	    scale_on=1;
+	    mat_layout=TOP_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  view_rows=1;
+	  view_range {min=0: max=0: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=0: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-4.24264;
+	   max=4.24264;
+	   range=4.24264;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=1;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=1.5325: y=0.5174999: z=1.443747: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=1.453747;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+      T3DataViewFrame @[4] {
+       m_data=NULL;
+       name="Ctxt_Dist_Matrix";
+       visible=1;
+       root_view {
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataViewMain;
+	 el_def=0;
+	 GridTableView @[0] {
+	  m_data=$7$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GridColView;
+	   el_def=0;
+	   GridColView @[0] {
+	    m_data=.projects[0].programs[0].objs[6].data[0]$29$;
+	    m_transform=NULL;
+	    name="Context_items_DistMatrix";
+	    visible=1;
+	    text_width=30;
+	    scale_on=1;
+	    mat_layout=TOP_ZERO;
+	    mat_image=0;
+	    mat_odd_vert=1;
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  view_rows=1;
+	  view_range {min=0: max=0: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  col_n=5;
+	  col_range {min=0: max=0: };
+	  width=1;
+	  grid_on=1;
+	  header_on=1;
+	  row_num_on=0;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	  mat_val_text=0;
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-4.24264;
+	   max=4.24264;
+	   range=4.24264;
+	   zero=0;
+	   spec=$17$;
+	   auto_scale=1;
+	  };
+	  grid_margin=0.01;
+	  grid_line_size=0.005;
+	  row_num_width=4;
+	  mat_block_spc=0.1;
+	  mat_block_height=0;
+	  mat_rot=0;
+	  mat_trans=0.6;
+	  mat_size_range {min=4: max=16: };
+	  text_size_range {min=0.02: max=0.05: };
+	  click_vals=0;
+	  lmb_val=1;
+	  mmb_val=0;
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=1.5325: y=0.5174999: z=1.443747: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=1.453747;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+     };
+    };
+   };
+   docks {
+    name=;
+    el_typ=DockViewer;
+    el_def=0;
+    ToolBoxDockViewer @[0] {
+     m_data=NULL;
+     name="Tools";
+     visible=1;
+     dock_flags=DV_MOVABLE|DV_FLOATABLE;
+     dock_area=1;
+    };
+   };
+  };
+ };
+ last_change_desc=;
+ networks {
+  name=;
+  el_typ=LeabraNetwork;
+  el_def=0;
+ };
+};

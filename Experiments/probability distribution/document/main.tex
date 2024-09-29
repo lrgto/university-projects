@@ -1,0 +1,484 @@
+\documentclass[11pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[left=2cm,right= 2cm,top=3cm,bottom=2.5cm,a4paper]{geometry}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{cleveref}
+\usepackage{siunitx}
+\setlength{\columnsep}{1cm}
+\setlength{\parindent}{0pt}
+\newcommand{\deriv}{\mathrm{d}}
+\usepackage{color}  
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, 
+    linktoc=all,    
+    linkcolor=black,
+    citecolor=black,
+}
+\lstset{
+    language=R,
+    basicstyle=\scriptsize\ttfamily,
+    commentstyle=\ttfamily\color{red},
+    numbers=left,
+    numberstyle=\ttfamily\color{blue}\footnotesize,
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{white},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=single,
+    tabsize=2,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    title=\lstname,
+    escapeinside={},
+    keywordstyle={},
+    morekeywords={}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{PH370 Physics Labs}
+\lhead{LLR.4 - Probability Distributions}
+\rfoot{-\thepage\centering-}
+
+\begin{document}
+\begin{titlepage}
+
+\newgeometry{left=1.5in,right=1.5in,top=2.5in,bottom=2.5in}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{centering} 
+ 
+%------------------------------------------------------------------------
+%	HEADING SECTIONS
+%------------------------------------------------------------------------
+
+\includegraphics[scale=0.4]{Uni_of_Kent_Logo.png}\\[1cm]
+
+%------------------------------------------------------------------------
+%	TITLE SECTION
+%------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+\textsc{\large Astronomy, Space Science and Astrophysics}\\[0.4cm]
+{\Huge \bfseries Probability Distributions}\\[0.4cm]
+\HRule \\[1.0cm]
+
+%------------------------------------------------------------------------
+%	DATE SECTION
+%------------------------------------------------------------------------
+
+\textsc{\Large Stage 1 - PH370 Physics Labs}\\[0.5cm] 
+{\large Monday 18th/26th March 2018}\\[1.0cm]
+
+%------------------------------------------------------------------------
+%	AUTHOR SECTION
+%------------------------------------------------------------------------
+
+\begin{minipage}{0.625\textwidth}
+\centering
+
+\emph{\large Report Author:} \large Lukasz R Tomaszewski \\ [0.2cm]
+\emph{\large Lab Partner:} \large Teodora Romanova \\
+
+\end{minipage}\\[2cm]
+
+\vfill
+\end{centering} 
+\end{titlepage}
+
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+%	CONTENTS  
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+
+\newpage
+\begin{titlepage}
+\begin{tableofcontents}
+
+\end{tableofcontents}
+\end{titlepage}
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	ABSTRACT
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Abstract}
+\label{Abstract Section}
+
+The main aim of this experiment is to evaluate and prove the relation of statistical data against physically collected data in regards to three types of probability distributions: the Binomial, the Normal (Gaussian) and the Poisson distributions. Within this experiment, three main short physical experiments will take place to prove the hypothesis, and show connections between each type of distribution. The overall analysis of the data collected in this report shows a connection between the Binomial and Normal (Gaussian) distributions as well as a strong correlation between the statistical and physical data, this report will also outline the only error involved was human error as this experiment will mainly be done using computer simulations and programming software.
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	INTRODUCTION
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Introduction}
+\label{Introduction Section}
+
+This report discusses the experiment regarding probability distributions, specifically three types; the Binomial, the Normal (Gaussian) and the Poisson distributions. The main objective is to test physical data against the statistical data via each distribution. As each of three probability distributions are used in certain circumstances (which are found in section \ref{Experimental Theory SubSection}), then three different experiments will take place using ball bearings, computer simulations and dice. Therefore its imperative to analyze each distribution separately. \\
+
+The Binomial distribution will be used to calculate the probability of 1 of 500 balls landing in a specific bin (1 bin out of 17 bins), this experiment will be calculated mathematically first then test physically and compared to the statistical data. An analysis of if the statically can be proved physically will be derived. After which the results of the physical experiment will be complied into a  table \ref{Data Taking Table} and plotting via a programming software called Python 3.6, using this program it will plot a histogram from the physical data \ref{Data Taking Table} to calculate the standard error using \cite{Introduction-to-Error-Analysis} as reference. This experiment in found under section \ref{Task 1 - Data Taking SubSection} of this report. \\
+
+To compare Normal or otherwise known as Gaussian distribution statistical data with physical data, the experiment will consist of a IDE (Integrated Development Environment) using the 'Spyder' Python 3.6 software. Modifying the script changing the total number of ball bearings used and the histogram settings will allow multiple graphs to be complied and compared, through physical differences but most importantly compare how Binomial and the Normal (Gaussian) distributions relate to each other within this experiment. This experiment in found under section \ref{Task 2 - Computer Simulation SubSection} of this report.\\
+
+In the third and final experiment is to prove the Poisson and Normal (Gaussian) distributions, this will take the form of numerous dice rolls using a online simulation \cite{Dice-Roll}. Using the Normal (Gaussian) formula which is found is  section \ref{Experimental Theory SubSection}, and deriving a formula to describe the probability that a single di will land on one precise face. After which the online simulation will be used to gather a variety of random results of faces shown which will act as the physical data when compared to the statistical formula derived earlier. A final analysis of all three probability distributions will be formed in section \ref{Analysis Section} in which the experiment will end. This overall experiment is dictated by the lab brief \cite{LLR.4-2018}. 
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	AIMS & EQUIPMENT
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Aims \& Equipment}
+\label{AimsEquipmentSection}
+
+%-----------------------------------------------------------------------
+%	APPARTUS
+%-----------------------------------------------------------------------
+
+\subsection{Apparatus}
+\label{Apparatus SubSection}
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item{x500 Ball bearings }
+    \item{Python software}
+    \item{Dice computer simulation}
+\end{itemize}
+\end{multicols}
+
+%-----------------------------------------------------------------------
+%	DATA COLLECTED
+%-----------------------------------------------------------------------
+
+\subsection{Data Collected}
+\label{Data Collected SubSection}
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item{x10 Trials of 500 of ball bearings in 17 bins}
+    \item{Bi-Nominal distribution of 1 ball bearing in 1 bin}
+    \item{Averages of random rolls of dice}
+\end{itemize}
+\end{multicols}
+
+%-----------------------------------------------------------------------
+%	RISK ASSESSMENT
+%-----------------------------------------------------------------------
+
+\subsection{Risk Assessment}
+\label{Risk Assessment SubSection}
+
+This experiment contains a few hazards that need to be noticed and avoided such as equipment falling off the desk, loose ball bearings and using a the PC for extended periods of time. Such risks include bruising/ injury to lower body if equipment falls of the desk, tripping/ slipping on the ball bearings if they get loose and fall onto the floor, and electrocution and visual stress on the eyes for extended use of the PC. To control these hazards, we will be supervised constantly throughout this lab session, the equipment will be kept away from the edges of the tables at all times, random visual inspections of the board holding the ball bearings to ensure no ball bearings escape and all computers are electrically tested, the two lab partners will swap periodically on using the PC. 
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	EXPERIMENTAL PROCEDURE
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Experimental Procedure}
+\label{Experimental Procedure Section}
+
+%-----------------------------------------------------------------------
+%	EXPERIMENTAL THEORY
+%-----------------------------------------------------------------------
+
+\subsection{Experimental Theory}
+\label{Experimental Theory SubSection}
+
+\underline{\textbf{The Binomial Distribution}}:\\
+
+\begin{equation} \label{The Binomial Distribution Equation}
+B(N,r) = \left(\dfrac{N!}{r!(N-r)}\right) \times x^r (1-x)^{N-r}
+\end{equation}
+
+\begin{multicols}{2}
+\begin{equation*}
+\begin{split}
+&\text{Where;} \\
+&N \Rightarrow \text{Number of trials} \\
+&r \Rightarrow \text{Number of successes} \\
+&x \Rightarrow \text{Success in one trial} \\
+\end{split}
+\end{equation*} \\
+
+The Binomial distribution is used specifically where the outcome is uncertain but only two outcomes are possible. For example tossing a coin, the only results can be heads or tails. 
+\end{multicols}
+
+\bigskip
+
+\underline{\textbf{The Normal (Gaussian) Distribution}}:\\
+
+\begin{equation} \label{The Normal (Gaussian) Distribution Equation}
+G(x) = \dfrac{1}{\sigma \times \sqrt[]{2 \pi}} \times exp\left(\dfrac{(x-\mu)^2}{2\sigma^2}\right)
+\end{equation} \\
+
+\begin{multicols}{2}
+Standard Error:
+\begin{equation} \label{The N/G Standard Error Equation}
+\mu =  Nx
+\end{equation}
+Mean/ Average:
+\begin{equation} \label{The N/G Mean/ Average Distribution Equation}
+\sigma ^2 = Nx(1-x)
+\end{equation}
+\end{multicols}
+
+\begin{multicols}{2}
+\begin{equation*}
+\begin{split}
+&\text{Where;} \\
+&N \Rightarrow \text{Number of trials} \\
+&\sigma \Rightarrow \text{Standard Deviation/ Error} \\
+&\mu \Rightarrow \text{Mean/ Average} \\
+&x \Rightarrow \text{Success in one trial} \\
+\end{split}
+\end{equation*} \\
+
+This distribution is the most important of it kind as it's continuous, the variable can assume any listed value, it relies on two parameters; The mean (Eq.4) and the standard deviation (Eq.3).
+
+\end{multicols} 
+
+\bigskip
+
+\underline{\textbf{The Poisson Distribution}}:\\
+
+\begin{equation} \label{The Poisson Distribution Equation}
+p(N) = \dfrac{e^{-\overline{\rm N}}\overline{\rm N}^N}{N!}
+\end{equation}
+
+\begin{multicols}{2}
+\begin{equation*}
+\begin{split}
+&\text{Where;} \\
+&N \Rightarrow \text{Number of successful outcomes} \\
+&\overline{\rm N} \Rightarrow \text{Mean number of outcomes} \\
+\end{split}
+\end{equation*} \\
+
+The Poisson distribution is much like the two previous distributions but this distribution has a specific purpose in where it expresses the probability of successful outcomes. By a set number of outcomes, with the mean number of outcomes.
+
+\end{multicols}
+
+\bigskip
+
+%-----------------------------------------------------------------------
+%	EXPERIMENTAL METHOD
+%-----------------------------------------------------------------------
+
+\subsection{Experimental Method}
+\label{Experimental Method SubSection}
+
+In the first task of this experiment, is to use a symmetrical board filled with a number of round pins, and also filled with 500 ball bearings and 17 bins on each side of the board for the ball bearings to collected in to. With all the ball bearings on one side of the board, the board is turned vertically so the ball bearings fall down into a small gap which separates the two sides of the board, then flow through the gap hitting the pins on their way down. When all 500 ball bearings have filled the bins then the number of ball bearings in each individual bin must be counted. After this the process is repeated by rotating the board, this was repeated 10 times. Using "Spyder" Python 3.6 the values of this experiment were inputted into a histogram in which the standard deviation (standard error) was retrieved and calculated. \\
+
+Within the second task using "Spyder" Python 3.6, the pre-written script displayed a scenario similar to task 1, where the a histogram is plotted and the binomial distribution was calculated within the script. By editing a few lines in the script; the number of balls used, the number of bins and pins within the board, once changed the script outputted a identical graph similar to the pre-written script. Using the data and graphs, compare and "show qualitatively that the binomial distribution may be increasingly well approximated by the normal distribution"\cite{LLR.4-2018}. \\
+
+In the third and final part of this experiment, utilizing an online simulation for rolling dice \cite{Dice-Roll}. The first of many questions will be answered by predicting the calculating the peak of the Normal (Gaussian) distribution for a single di rolled over and over, this data assists in why the calculated value is unhelpful in predicting a dice roll. Plotting a chart in the form of a table (Table \ref{Dice Rolling table no.1}) with all the possible combinations two dice will shown if rolled, from this the distribution can be deduced and the common value can help predict future rolls. The second part of this experiment consisted of a having two distinguishable di, much like before, plotting a chart in the form of a table (Table \ref{Dice Rolling table no. 2}) where the plot of the distribution will be compared to the first part of this experiment. The final part of this experiment is that of data collection where a random dice rolling \cite{Dice-Roll} will be used to collect multiple values under different circumstances; number of faces on the di and total number of di where a predication algorithm can be formed in the shape of a distribution.
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	RESULT & DISSCUSSION
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Results \& Discussion}
+\label{Results Discussion Section}
+
+%-----------------------------------------------------------------------
+%	TASK 1 - DATA TAKING
+%-----------------------------------------------------------------------
+
+\subsection{Task 1 - Data Taking}
+\label{Task 1 - Data Taking SubSection}
+
+\underline{Probability of an individual ball falling into bin No.15};
+\begin{equation} \label{Q1.1}
+p(x) = ^{16}c_2 \times 0.5^2 \times 0.5^{14} = 1.83x10^{-3}
+\end{equation}
+
+\underline{Probability of an individual ball falling into bin No.12};
+\begin{equation} \label{Q1.2}
+p(x) = ^{16}c_5 \times 0.5^5 \times 0.5^{11} = 0.0667
+\end{equation}
+
+\underline{Probability of an individual ball falling into bin No.9};
+\begin{equation} \label{Q1.3}
+p(x) = ^{16}c_8 \times 0.5^8 \times 0.5^8 = 0.196
+\end{equation}
+
+\bigskip
+
+\begin{table}[H]
+\centering
+\caption{Results of Task 1 - Data Taking}
+\label{Data Taking Table}
+\begin{tabular}{cccccccccccc}
+\textbf{\begin{tabular}[c]{@{}c@{}}Trials \\ Vs Bins\end{tabular}} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{Average} \\
+\textbf{1}                                                         & 0          & 2          & 1          & 0          & 0          & 0          & 0          & 0          & 0          & 0           & 0.3              \\
+\textbf{2}                                                         & 2          & 1          & 0          & 1          & 1          & 1          & 0          & 0          & 2          & 1           & 0.9              \\
+\textbf{3}                                                         & 1          & 6          & 0          & 6          & 4          & 3          & 1          & 3          & 5          & 3           & 3.2              \\
+\textbf{4}                                                         & 18         & 18         & 9          & 19         & 20         & 9          & 2          & 17         & 6          & 8           & 12.6             \\
+\textbf{5}                                                         & 11         & 27         & 13         & 32         & 25         & 28         & 8          & 27         & 26         & 23          & 22.0             \\
+\textbf{6}                                                         & 23         & 41         & 25         & 53         & 45         & 33         & 19         & 31         & 46         & 37          & 35.3             \\
+\textbf{7}                                                         & 56         & 67         & 76         & 76         & 67         & 59         & 60         & 72         & 74         & 47          & 65.4             \\
+\textbf{8}                                                         & 76         & 79         & 69         & 61         & 80         & 78         & 60         & 66         & 69         & 81          & 71.9             \\
+\textbf{9}                                                         & 93         & 69         & 82         & 63         & 79         & 77         & 86         & 83         & 80         & 72          & 78.4             \\
+\textbf{10}                                                        & 75         & 72         & 75         & 77         & 81         & 91         & 97         & 93         & 74         & 92          & 82.7             \\
+\textbf{11}                                                        & 66         & 55         & 77         & 57         & 51         & 60         & 89         & 53         & 55         & 69          & 63.2             \\
+\textbf{12}                                                        & 37         & 30         & 36         & 34         & 20         & 40         & 41         & 34         & 33         & 38          & 34.2             \\
+\textbf{13}                                                        & 29         & 19         & 25         & 15         & 21         & 14         & 25         & 15         & 22         & 20          & 20.5             \\
+\textbf{14}                                                        & 12         & 7          & 12         & 6          & 5          & 6          & 5          & 5          & 2          & 10          & 7.0              \\
+\textbf{15}                                                        & 4          & 6          & 8          & 4          & 3          & 0          & 6          & 2          & 3          & 0           & 3.6              \\
+\textbf{16}                                                        & 1          & 1          & 1          & 0          & 3          & 0          & 1          & 0          & 2          & 0           & 0.9              \\
+\textbf{17}                                                        & 0          & 0          & 1          & 0          & 0          & 0          & 0          & 0          & 0          & 0           & 0.1              \\
+\textbf{Total}                                                     & 504        & 500        & 510        & 504        & 505        & 499        & 500        & 501        & 499        & 501         & 502.3           
+\end{tabular}
+\end{table}
+
+\bigskip
+
+The output values above are expected as the environment in which the balls have been placed into, the balls fall onto a pin within the board which allows the individual ball to fall either right or left, in terms of values 0.5 either way. The only interaction that could alter this is for human interference of defects in the pins or board, thus causing an unfair experiment.\\
+
+%-----------------------------------------------------------------------
+%	TASK 2 - COMPUTER SIMULATION
+%-----------------------------------------------------------------------
+
+\subsection{Task 2 - Computer Simulation}
+\label{Task 2 - Computer Simulation SubSection}
+
+Comparing Table \ref{Data Taking Table} and Figure \ref{T2 Graph}, it shows a strong correlation between the theoretical data in Figure \ref{T2 Graph} which is formed via mathematical methods of the Normal (Gaussian) distribution and the Table \ref{Data Taking Table} of physically collected data. Thus implying that the binomial distribution is connected with the Normal (Gaussian) distribution.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.0]{T2_Graph.png}
+\caption{Simulation of Task 1 - Data Taking}
+\label{T2 Graph}
+\end{figure}
+\bigskip
+
+\textbf{\underline{Python 3.6 Script}}
+\inputminted[breaklines]{python3}{Task_2_Script.py}
+
+%-----------------------------------------------------------------------
+%	TASK 3 - ROLLING DICE
+%-----------------------------------------------------------------------
+
+\subsection{Task 3 - Rolling Dice}
+\label{Task 3 - Rolling Dice SubSection}
+
+\underline{Probability of a di landing on a face};
+\begin{equation} \label{Q3.1}
+p() = \dfrac{1}{N} \rightarrow \dfrac{1}{6}
+\end{equation}
+
+\bigskip
+
+\underline{Average value of roll for a six sided di};
+\begin{equation} \label{Q3.2}
+p() = \dfrac{(1+2+3+4+5+6)}{6} \rightarrow \dfrac{7}{2} = 3.5
+\end{equation}
+
+\bigskip
+
+\underline{If a di is rolled N times, is the data suitable for prediction?}; \\
+1) The value is a half, it's impossible to roll a half. \\
+2) Maths does not take into account any effect of nature. \\
+
+\begin{table}[H]
+\centering
+\caption{Results for Task 3 - Rolling Dice for two identical di}
+\label{Dice Rolling table no.1}
+\begin{tabular}{lllllll}
+\textbf{x} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\
+\textbf{1} & 2          & 3          & 4          & 5          & 6          & 7          \\
+\textbf{2} & 3          & 4          & 5          & 6          & 7          & 8          \\
+\textbf{3} & 4          & 5          & 6          & 7          & 8          & 9          \\
+\textbf{4} & 5          & 6          & 7          & 8          & 9          & 10         \\
+\textbf{5} & 6          & 7          & 8          & 9          & 10         & 11         \\
+\textbf{6} & 7          & 8          & 9          & 10         & 11         & 12        
+\end{tabular}
+\end{table}
+
+\begin{equation} \label{Q3.1}
+Average = \dfrac{252}{36} = 7 (For 2 dice)
+\end{equation}
+
+\bigskip
+
+The most common value is 7 and the total number of combinations it has is 6. Thus using 2 dice allows for double the value of a single di (6 cahnges to 12) thus doubling the mean. \\
+
+\begin{table}[H]
+\centering
+\caption{Results for Task 3 - Rolling Dice for two distinguishable di}
+\label{Dice Rolling table no. 2}
+\begin{tabular}{lllllll}
+\textbf{x} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\
+\textbf{1} & 2          & 3          & 4          & 5          & 6          & 7          \\
+\textbf{2} & 3          & 4          & 5          & 6          & 7          & 8          \\
+\textbf{3} & 4          & 5          & 6          & 7          & 8          & 9          \\
+\textbf{4} & 5          & 6          & 7          & 8          & 9          & 10         \\
+\textbf{5} & 6          & 7          & 8          & 9          & 10         & 11         \\
+\textbf{6} & 7          & 8          & 9          & 10         & 11         & 12        
+\end{tabular}
+\end{table}
+
+
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	ANALYSIS
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Analysis}
+\label{Analysis Section}
+
+Analyzing the results which were concluded in Section \ref{Results Discussion Section} proves a strong correlation between statistical data and physical data, in each three experiments, the statistical data matched the physically collected data. Even thought this experiment was conducted fairly and mainly using computer simulations and the programming software "Spyder" Python 3.6 so their was no error to be calculated for such operations. The only error found and derived was from human error where the users had an impact on the ball bearings falling down the board in Task 1 - Data Taking, this was to be expected as this short experiment relies completely on human interference but it is unclear and cannot be calculated the damage it has done in terms of the fairness of this experiment overall. 
+
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+%	CONCLUSION
+%-----------------------------------------------------------------------
+%-----------------------------------------------------------------------
+
+\section{Conclusion}
+\label{Conclusion Section}
+
+In conclusion, with respect to the purpose of this report outlined in Section \ref{Introduction Section}, the experiment proved that their is a strong connection between each of the 3 probability distributions statistical data and physical data. In each short experiment, it was proved that the statistics match the physical data collected from the experiment, this is highlighted throughout Section \ref{Results Discussion Section}. The experiment was kept as fair and un-bias to promote true variation in results to fully verify the implied hypothesis of this experiment, the only error obtained within this experiment is truly human error which cannot be calculated but can be taken into account.
+
+%------------------------------------------------------------------------
+%	REFERENCES
+%------------------------------------------------------------------------
+
+\bibliographystyle{plain}
+\bibliography{mybib.bib}
+
+%------------------------------------------------------------------------
+
+\end{document}

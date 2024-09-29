@@ -1,0 +1,48 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\input{Master/Packages}
+\begin{document}
+\begin{titlepage}
+    \newgeometry{left=1.0in,right=1.0in,top=1.7in,bottom=1.7in}
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+    \begin{centering} 
+    %---------------------------------------------------------------------------
+    %	HEADING SECTIONS
+    %---------------------------------------------------------------------------
+    \includegraphics[scale=0.95]{Media/uksc_logo.png} \\
+    %---------------------------------------------------------------------------
+    %	TITLE SECTION
+    %---------------------------------------------------------------------------
+    \vspace{0.5cm} 
+    \large{\emph{Division of Computing, Engineering and Mathematical Sciences}} \\ [0.1cm]
+    \large{{Department of Computing, University of Kent \emph{in Canterbury}}} \\ [1.5cm]
+    \Huge{\bfseries{Fairness-Aware Classification Algorithms}} \\ [1.5cm]
+    {\Large{\bfseries{Written By \\ [0.2cm] \LARGE{Lukasz R G Tomaszewski}}}}\\%[-0.2cm]
+    {\Large{\bfseries{lrgt2@kent.ac.uk}}}\\[0.5cm]
+    \textsc{\Large Computer Science (Artificial Intelligence) MSc}\\ [-0.2cm]
+    \textsc{\large Module CO832: Data Mining and Knowledge Discovery}\\ %[0.2cm]
+    \textsc{\large LaTeX Word Count: 905}\\ [2cm]
+    \textbf{\Large{March 2022}}\\
+    \end{centering} 
+    \end{titlepage}
+    %---------------------------------------------------------------------------
+%--------------------------------------------------------------------------------
+\pagestyle{plain}
+\pagenumbering{roman} 
+\newgeometry{left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}
+\newpage
+\tableofcontents
+\newpage
+
+\pagestyle{fancy}
+\pagenumbering{arabic} 
+
+\input{Master/Research}
+\input{Master/Disscussion}
+\input{Master/Conclusion}
+
+\newpage
+\bibliographystyle{siam}
+\bibliography{mybib.bib}
+%--------------------------------------------------------------------------------
+\end{document}

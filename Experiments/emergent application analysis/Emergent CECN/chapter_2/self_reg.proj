@@ -1,0 +1,4702 @@
+// ta_Dump File v3.0 -- code v5.1.0.0
+LeabraProject .projects[0] { 
+  taBase_Group @.templates = [0] {
+  };
+
+  Doc_Group @.docs = [2] {
+    taDoc @[0] { };
+    taDoc @[1] { };
+  };
+
+  Wizard_Group @.wizards = [1] {
+    LeabraWizard @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+
+      LayerWizElList @.layer_cfg = [3] {
+	LayerWizEl @[0] { };
+	LayerWizEl @[1] { };
+	LayerWizEl @[2] { };
+      };
+    };
+  };
+
+  SelectEdit_Group @.edits = [1] {
+    SelectEdit @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserData_DocLink @[0] { };
+   };
+
+      EditMbrItem_Group @.mbrs = [6] {
+	EditMbrItem @[0] { };
+	EditMbrItem @[1] { };
+	EditMbrItem @[2] { };
+	EditMbrItem @[3] { };
+	EditMbrItem @[4] { };
+	EditMbrItem @[5] { };
+	EditMbrItem_Group @.gp[0] = [5] { 
+	  EditMbrItem @[0] { };
+	  EditMbrItem @[1] { };
+	  EditMbrItem @[2] { };
+	  EditMbrItem @[3] { };
+	  EditMbrItem @[4] { };
+	};
+	EditMbrItem_Group @.gp[1] { 
+	};
+      };
+
+      EditMthItem_Group @.mths = [5] {
+	EditMthItem @[0] { };
+	EditMthItem @[1] { };
+	EditMthItem @[2] { };
+	EditMthItem @[3] { };
+	EditMthItem @[4] { };
+      };
+    };
+  };
+
+  DataTable_Group @.data = [0] {
+    DataTable_Group @.gp[0] = [1] { 
+      DataTable @[0] { 
+	DataTableCols @.data = [2] {
+	  String_Data @[0] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	  float_Data @[1] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	};
+      };
+    };
+    DataTable_Group @.gp[1] = [1] { 
+      DataTable @[0] { 
+    UserDataItem_List @*(.user_data_) {
+	  UserData_DocLink @[0] { };
+    };
+
+	DataTableCols @.data = [10] {
+	  int_Data @[0] { 
+      UserDataItem_List @*(.user_data_) {
+	      UserDataItem @[0] { };
+      };
+};
+	  float_Data @[1] { };
+	  float_Data @[2] { };
+	  float_Data @[3] { };
+	  float_Data @[4] { };
+	  float_Data @[5] { };
+	  float_Data @[6] { };
+	  float_Data @[7] { };
+	  float_Data @[8] { };
+	  float_Data @[9] { };
+	};
+      };
+    };
+    DataTable_Group @.gp[2] { 
+    };
+  };
+
+  taBase_Group @.data_proc = [4] {
+    taDataProc @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+    taDataAnal @[1] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+    taDataGen @[2] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+    taImageProc @[3] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+   };
+};
+  };
+
+  Program_Group @.programs = [1] {
+    Program @[0] { 
+      ProgObjList @.objs = [0] {
+      };
+
+      ProgType_List @.types = [0] {
+      };
+
+      ProgVar_List @.args = [0] {
+      };
+
+      ProgVar_List @.vars = [16] {
+	ProgVar @[0] { };
+	ProgVar @[1] { };
+	ProgVar @[2] { };
+	ProgVar @[3] { };
+	ProgVar @[4] { };
+	ProgVar @[5] { };
+	ProgVar @[6] { };
+	ProgVar @[7] { };
+	ProgVar @[8] { };
+	ProgVar @[9] { };
+	ProgVar @[10] { };
+	ProgVar @[11] { };
+	ProgVar @[12] { };
+	ProgVar @[13] { };
+	ProgVar @[14] { };
+	ProgVar @[15] { };
+      };
+
+      Function_List @.functions = [0] {
+      };
+
+      ProgEl_List @.load_code = [0] {
+      };
+
+      ProgEl_List @.init_code = [23] {
+	MemberAssign @[0] { };
+	MemberAssign @[1] { };
+	MemberAssign @[2] { };
+	MemberAssign @[3] { };
+	MemberAssign @[4] { };
+	MemberAssign @[5] { };
+	MemberAssign @[6] { };
+	MemberAssign @[7] { };
+	MemberAssign @[8] { };
+	MemberAssign @[9] { };
+	MemberAssign @[10] { };
+	MemberAssign @[11] { };
+	MemberAssign @[12] { };
+	MemberAssign @[13] { };
+	MemberAssign @[14] { };
+	MemberAssign @[15] { };
+	MemberAssign @[16] { };
+	MemberAssign @[17] { };
+	MemberAssign @[18] { };
+	MemberAssign @[19] { };
+	OtherProgramVar @[20] { };
+	OtherProgramVar @[21] { };
+	MethodCall @[22] { 
+	  ProgArg_List @.meth_args = [0] {
+	  };
+	};
+      };
+
+      ProgEl_List @.prog_code = [0] {
+      };
+    };
+    Program_Group @.gp[0] = [3] { 
+      Program @[0] { 
+	ProgObjList @.objs = [0] {
+	};
+
+	ProgType_List @.types = [0] {
+	};
+
+	ProgVar_List @.args = [1] {
+	  ProgVar @[0] { };
+	};
+
+	ProgVar_List @.vars = [9] {
+	  ProgVar @[0] { };
+	  ProgVar @[1] { };
+	  ProgVar @[2] { };
+	  ProgVar @[3] { };
+	  ProgVar @[4] { };
+	  ProgVar @[5] { };
+	  ProgVar @[6] { };
+	  ProgVar @[7] { };
+	  ProgVar @[8] { };
+	};
+
+	Function_List @.functions = [0] {
+	};
+
+	ProgEl_List @.load_code = [0] {
+	};
+
+	ProgEl_List @.init_code = [1] {
+	  NetCounterInit @[0] { };
+	};
+
+	ProgEl_List @.prog_code = [10] {
+	  MethodCall @[0] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  NetCounterInit @[1] { };
+	  MethodCall @[2] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  MethodCall @[3] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  IfElse @[4] { 
+	    ProgEl_List @.true_code = [1] {
+	      AssignExpr @[0] { };
+	    };
+
+	    ProgEl_List @.false_code = [1] {
+	      AssignExpr @[0] { };
+	    };
+	  };
+	  WhileLoop @[5] { 
+	    ProgEl_List @.loop_code = [8] {
+	      IfElse @[0] { 
+		ProgEl_List @.true_code = [1] {
+		  AssignExpr @[0] { };
+		};
+
+		ProgEl_List @.false_code = [1] {
+		  AssignExpr @[0] { };
+		};
+	      };
+	      MemberAssign @[1] { };
+	      ProgramCall @[2] { 
+		ProgArg_List @.prog_args = [1] {
+		  ProgArg @[0] { };
+		};
+	      };
+	      MemberAssign @[3] { };
+	      NetUpdateView @[4] { };
+	      NetCounterIncr @[5] { };
+	      IfContinue @[6] { };
+	      IfBreak @[7] { };
+	    };
+	  };
+	  MethodCall @[6] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  IfElse @[7] { 
+	    ProgEl_List @.true_code = [1] {
+	      MethodCall @[0] { 
+		ProgArg_List @.meth_args = [0] {
+		};
+	      };
+	    };
+
+	    ProgEl_List @.false_code = [0] {
+	    };
+	  };
+	  IfElse @[8] { 
+	    ProgEl_List @.true_code = [1] {
+	      MethodCall @[0] { 
+		ProgArg_List @.meth_args = [0] {
+		};
+	      };
+	    };
+
+	    ProgEl_List @.false_code = [0] {
+	    };
+	  };
+	  NetUpdateView @[9] { };
+	};
+      };
+      Program @[1] { 
+	ProgObjList @.objs = [0] {
+	};
+
+	ProgType_List @.types = [0] {
+	};
+
+	ProgVar_List @.args = [1] {
+	  ProgVar @[0] { };
+	};
+
+	ProgVar_List @.vars = [1] {
+	  ProgVar @[0] { };
+	};
+
+	Function_List @.functions = [0] {
+	};
+
+	ProgEl_List @.load_code = [0] {
+	};
+
+	ProgEl_List @.init_code = [0] {
+	};
+
+	ProgEl_List @.prog_code = [4] {
+	  PrintExpr @[0] { };
+	  MethodCall @[1] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  NetUpdateView @[2] { };
+	  ProgramCall @[3] { 
+	    ProgArg_List @.prog_args = [1] {
+	      ProgArg @[0] { };
+	    };
+	  };
+	};
+      };
+      Program @[2] { 
+	ProgObjList @.objs = [1] {
+	  NetMonitor @[0] { 
+	    NetMonItem_List @.items = [10] {
+	      NetMonItem @[0] { };
+	      NetMonItem @[1] { };
+	      NetMonItem @[2] { };
+	      NetMonItem @[3] { };
+	      NetMonItem @[4] { };
+	      NetMonItem @[5] { };
+	      NetMonItem @[6] { };
+	      NetMonItem @[7] { };
+	      NetMonItem @[8] { };
+	      NetMonItem @[9] { };
+	    };
+	  };
+	};
+
+	ProgType_List @.types = [0] {
+	};
+
+	ProgVar_List @.args = [1] {
+	  ProgVar @[0] { };
+	};
+
+	ProgVar_List @.vars = [2] {
+	  ProgVar @[0] { };
+	  ProgVar @[1] { };
+	};
+
+	Function_List @.functions = [0] {
+	};
+
+	ProgEl_List @.load_code = [0] {
+	};
+
+	ProgEl_List @.init_code = [3] {
+	  MethodCall @[0] { 
+	    ProgArg_List @.meth_args = [2] {
+	      ProgArg @[0] { };
+	      ProgArg @[1] { };
+	    };
+	  };
+	  MethodCall @[1] { 
+	    ProgArg_List @.meth_args = [1] {
+	      ProgArg @[0] { };
+	    };
+	  };
+	  MethodCall @[2] { 
+	    ProgArg_List @.meth_args = [1] {
+	      ProgArg @[0] { };
+	    };
+	  };
+	};
+
+	ProgEl_List @.prog_code = [6] {
+	  MethodCall @[0] { 
+	    ProgArg_List @.meth_args = [1] {
+	      ProgArg @[0] { };
+	    };
+	  };
+	  MethodCall @[1] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  MethodCall @[2] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  MethodCall @[3] { 
+	    ProgArg_List @.meth_args = [0] {
+	    };
+	  };
+	  MethodCall @[4] { 
+	    ProgArg_List @.meth_args = [1] {
+	      ProgArg @[0] { };
+	    };
+	  };
+	  MethodCall @[5] { 
+	    ProgArg_List @.meth_args = [2] {
+	      ProgArg @[0] { };
+	      ProgArg @[1] { };
+	    };
+	  };
+	};
+      };
+    };
+  };
+
+  DataViewer_List @.viewers = [1] {
+    MainWindowViewer @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+	UserDataItem @[1] { };
+	UserDataItem @[2] { };
+	UserDataItem @[3] { };
+	UserDataItem @[4] { };
+	UserDataItem @[5] { };
+   };
+
+      ToolBar_List @.toolbars = [1] {
+	ToolBar @[0] { 
+     UserDataItem_List @*(.user_data_) {
+	    UserDataItem @[0] { };
+     };
+};
+      };
+
+      FrameViewer_List @.frames = [3] {
+	tabBrowseViewer @[0] { };
+	PanelViewer @[1] { };
+	T3DataViewer @[2] { 
+	  T3DataViewFrame_List @.frames = [2] {
+	    T3DataViewFrame @[0] { 
+	      T3DataView_List @.children = [1] {
+		NetView @[0] { 
+		  ScaleRange_List @.scale_ranges = [3] {
+		    ScaleRange @[0] { };
+		    ScaleRange @[1] { };
+		    ScaleRange @[2] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	    T3DataViewFrame @[1] { 
+	      T3DataView_List @.children = [1] {
+		GraphTableView @[0] { 
+		  T3DataView_List @.children = [10] {
+		    GraphColView @[0] { };
+		    GraphColView @[1] { };
+		    GraphColView @[2] { };
+		    GraphColView @[3] { };
+		    GraphColView @[4] { };
+		    GraphColView @[5] { };
+		    GraphColView @[6] { };
+		    GraphColView @[7] { };
+		    GraphColView @[8] { };
+		    GraphColView @[9] { };
+		  };
+		};
+	      };
+
+	      T3SavedView_List @.saved_views = [6] {
+		T3SavedView @[0] { };
+		T3SavedView @[1] { };
+		T3SavedView @[2] { };
+		T3SavedView @[3] { };
+		T3SavedView @[4] { };
+		T3SavedView @[5] { };
+	      };
+	    };
+	  };
+	};
+      };
+
+      DockViewer_List @.docks = [1] {
+	ToolBoxDockViewer @[0] { 
+     UserDataItem_List @*(.user_data_) {
+	    UserDataItem @[0] { };
+	    UserDataItem @[1] { };
+	    UserDataItem @[2] { };
+	    UserDataItem @[3] { };
+	    UserDataItem @[4] { };
+	    UserDataItem @[5] { };
+     };
+};
+      };
+    };
+  };
+
+  Network_Group @.networks = [1] {
+    LeabraNetwork @[0] { 
+   UserDataItem_List @*(.user_data_) {
+	UserDataItem @[0] { };
+	UserDataItem @[1] { };
+	UserDataItem @[2] { };
+	UserDataItem @[3] { };
+	UserDataItem @[4] { };
+	UserDataItem @[5] { };
+	UserDataItem @[6] { };
+	UserDataItem @[7] { };
+	UserDataItem @[8] { };
+	UserDataItem @[9] { };
+	UserDataItem @[10] { };
+	UserDataItem @[11] { };
+	UserDataItem @[12] { };
+	UserDataItem @[13] { };
+	UserDataItem @[14] { };
+	UserDataItem @[15] { };
+	UserDataItem @[16] { };
+	UserDataItem @[17] { };
+	UserDataItem @[18] { };
+   };
+
+      BaseSpec_Group @.specs = [5] {
+	LeabraUnitSpec @[0] { 
+	  BaseSpec_Group @.children = [0] {
+	  };
+
+	  Schedule @.noise_sched = [0] {
+	  };
+	};
+	LeabraConSpec @[1] { 
+	  BaseSpec_Group @.children = [1] {
+	    LeabraBiasSpec @[0] { 
+	      BaseSpec_Group @.children = [0] {
+	      };
+
+	      Schedule @.lrate_sched = [0] {
+	      };
+	    };
+	  };
+
+	  Schedule @.lrate_sched = [0] {
+	  };
+	};
+	LeabraLayerSpec @[2] { 
+	  BaseSpec_Group @.children = [0] {
+	  };
+	};
+	FullPrjnSpec @[3] { 
+	  BaseSpec_Group @.children = [0] {
+	  };
+	};
+	LeabraUnitSpec @[4] { 
+	  BaseSpec_Group @.children = [0] {
+	  };
+
+	  Schedule @.noise_sched = [0] {
+	  };
+	};
+      };
+
+      Layer_Group @.layers = [2] {
+	LeabraLayer @[0] { 
+	  Projection_Group @.projections = [0] {
+	  };
+
+	  Unit_Group @.units = [1] {
+	    LeabraUnit @[0] { 
+	      RecvCons_List @.recv = [0] {
+	      };
+
+	      SendCons_List @.send = [1] {
+		LeabraSendCons @[0] { 
+	  [1]		};
+	      };
+	    };
+	  };
+	};
+	LeabraLayer @[1] { 
+	  Projection_Group @.projections = [1] {
+	    LeabraPrjn @[0] { };
+	  };
+
+	  Unit_Group @.units = [1] {
+	    LeabraUnit @[0] { 
+       UserDataItem_List @*(.user_data_) {
+       };
+
+	      RecvCons_List @.recv = [1] {
+		LeabraRecvCons @[0] { 
+	  [1]		};
+	      };
+
+	      SendCons_List @.send = [0] {
+	      };
+	    };
+	  };
+	};
+      };
+
+      NetViewObj_Group @.view_objs = [0] {
+      };
+    };
+  };
+};
+LeabraProject .projects[0] {
+ name="Project_0";
+ desc="
+
+
+";
+ tags=;
+ version {
+  major=0;
+  minor=0;
+  step=0;
+ };
+ wiki_url {
+  sync=0;
+  wiki=;
+  url=;
+ };
+ templates {
+  name=;
+  el_typ=taBase;
+  el_def=0;
+ };
+ docs {
+  name=;
+  el_typ=taDoc;
+  el_def=0;
+  taDoc @[0] {
+   name="ProjectDocs";
+   desc=;
+   auto_open=1;
+   web_doc=0;
+   wiki=;
+   url="local";
+   full_url="local";
+   text_size=1;
+   text="<html>
+<head></head>
+<body>
+
+= Exploration of Self-Regulation (Accommodation and Hysteresis) =
+
+* To start, it is usually a good idea to do <code>Object/Edit Dialog</code> in the menu just above this text, which will open this documentation in a separate window that you can more easily come back to.  Alternatively, you can always return by clicking on the <code>ProjectDocs</code> tab at the top of this middle panel.
+
+This project looks pretty much like the unit.pro simulation you explored earlier, except that it plots more variables (the basis and conductance values for accommodation and hysteresis), and contains more parameters to control these self-regulatory channels in the control panel.  On the [[.PanelTab.ControlPanel]], you should notice at the bottom that there are on_cycle and off_cycle parameters for two \"stimuli\", and the overall run is for 500 cycles.
+
+* Click on the [[.T3Tab.CycleOutputData]] tab to view the graph, which now contains new variables, in addition to net and act_eq.  Go ahead and [[.programs.LeabraSettle.Init()|Init]] and [[.programs.LeabraSettle.Run()|Run]].
+
+You should see that the activation result (without either accommodation or hysteresis turned on yet) is just as one would expect -- a bump at 10 cycles lasting until 100, and another from 300 to 400.  Note in particular that there is no apparent effect of the prior activation on the response to the latter one.
+
+Now, let's turn on accommodation.  
+
+* Click the on! button in the acc field (which contains the accommodation channel parameters) of the control panel and press Apply.  Make sure the graph view window is still displayed on the right. Press Run again.
+
+You should observe that the vcb.acc line in the graph increases when the unit becomes active, but that it does not quite reach the activation threshold, which is set to .7 (see a_thr in the acc field of the control panel).
+
+The unit needs to remain active for a little bit longer for the basis variable to accumulate to the point of activation.  One way we could achieve this is to set the off_cycle1 time for the first stimulus to be somewhat later.  
+
+* Set the off_cycle1 to 150 instead of 100, and then press Run again.
+
+Now you should observe that the gc.a accommodation conductance starts to increase just before the stimulus goes off.  Even though the unit becomes inactive, it takes a while for the basis variable to decrease to the deactivation threshold (.1, in d_thr of the acc field).  Indeed, it takes so long that by the time the next input stimulus comes in at 300 cycles, there is still a strong accommodation current (gc.a), and the unit is not immediately activated by the input.  Only at around 350 cycles, when the basis variable finally goes below the deactivation threshold, and thus gc.a starts to decrease, does the unit then become active.
+
+Had this unit been in a network with other units that received input from the second stimulus, but some of these were not activated by the first stimulus, then these other units would get active immediately because they were not \"fatigued,\" and they would produce a different representation of the input.  Thus, accommodation provides one means for a network to respond differently to subsequent inputs based on prior activity.
+
+At this point, you can explore the various parameters in the acc field and other associated parameters to make sure you understand what they do.  
+
+* For example, play with g_bar.a, which determines the strength of the overall accommodation current. Change g_bar.a from .5 to .3, and you should see that this is too weak to completely prevent the unit from immediately becoming active when the second stimulus comes in at 300 cycles.
+
+Now, let's add hysteresis into the mix.  
+
+* First press the Defaults button to return to the default parameters.  Then click on the hyst.on! button on, and do Run.
+
+You should see that the unit remains active for some time after the input stimulus goes off at 100 cycles --- this is caused by the hysteresis.  Further, this additional period of activation causes the accommodation current to get activated, which eventually turns the unit off.  As a result of this accommodation, as we saw before, the unit does not then get activated immediately by the second input.
+
+* Now, you can play with the hyst parameters and see what they do to the unit's response properties.
+
+In summary, you can see that there is considerable potential for complex dynamics to emerge from the interactions of these different channels.  The fact that actual neurons have many such channels with even more complex dynamics suggests that our basic point neuron model is probably a lot simpler than the real thing.  Due to pragmatic constraints, we typically ignore much of this complexity.  As the simulations later in the text demonstrate, such simplifications do not make that much of a difference in the core aspects of behavior that we are modeling.
+
+</body>
+</html>";
+   html_text="<html><head></head><body>
+<p>
+</p><h1> Exploration of Self-Regulation (Accommodation and Hysteresis) </h1>
+<p>
+</p><ul><li> To start, it is usually a good idea to do <code>Object/Edit Dialog</code> in the menu just above this text, which will open this documentation in a separate window that you can more easily come back to.  Alternatively, you can always return by clicking on the <code>ProjectDocs</code> tab at the top of this middle panel.
+</li></ul>
+This project looks pretty much like the unit.pro simulation you explored earlier, except that it plots more variables (the basis and conductance values for accommodation and hysteresis), and contains more parameters to control these self-regulatory channels in the control panel.  On the <a href=\"ta:.PanelTab.ControlPanel\">ControlPanel</a>, you should notice at the bottom that there are on_cycle and off_cycle parameters for two \"stimuli\", and the overall run is for 500 cycles.
+<p>
+</p><ul><li> Click on the <a href=\"ta:.T3Tab.CycleOutputData\">CycleOutputData</a> tab to view the graph, which now contains new variables, in addition to net and act_eq.  Go ahead and <a href=\"ta:.programs.LeabraSettle.Init()\">Init</a> and <a href=\"ta:.programs.LeabraSettle.Run()\">Run</a>.
+</li></ul>
+You should see that the activation result (without either accommodation or hysteresis turned on yet) is just as one would expect -- a bump at 10 cycles lasting until 100, and another from 300 to 400.  Note in particular that there is no apparent effect of the prior activation on the response to the latter one.
+<p>
+Now, let's turn on accommodation.  
+</p><p>
+</p><ul><li> Click the on! button in the acc field (which contains the accommodation channel parameters) of the control panel and press Apply.  Make sure the graph view window is still displayed on the right. Press Run again.
+</li></ul>
+You should observe that the vcb.acc line in the graph increases when the unit becomes active, but that it does not quite reach the activation threshold, which is set to .7 (see a_thr in the acc field of the control panel).
+<p>
+The unit needs to remain active for a little bit longer for the basis variable to accumulate to the point of activation.  One way we could achieve this is to set the off_cycle1 time for the first stimulus to be somewhat later.  
+</p><p>
+</p><ul><li> Set the off_cycle1 to 150 instead of 100, and then press Run again.
+</li></ul>
+Now you should observe that the gc.a accommodation conductance starts to increase just before the stimulus goes off.  Even though the unit becomes inactive, it takes a while for the basis variable to decrease to the deactivation threshold (.1, in d_thr of the acc field).  Indeed, it takes so long that by the time the next input stimulus comes in at 300 cycles, there is still a strong accommodation current (gc.a), and the unit is not immediately activated by the input.  Only at around 350 cycles, when the basis variable finally goes below the deactivation threshold, and thus gc.a starts to decrease, does the unit then become active.
+<p>
+Had this unit been in a network with other units that received input from the second stimulus, but some of these were not activated by the first stimulus, then these other units would get active immediately because they were not \"fatigued,\" and they would produce a different representation of the input.  Thus, accommodation provides one means for a network to respond differently to subsequent inputs based on prior activity.
+</p><p>
+At this point, you can explore the various parameters in the acc field and other associated parameters to make sure you understand what they do.  
+</p><p>
+</p><ul><li> For example, play with g_bar.a, which determines the strength of the overall accommodation current. Change g_bar.a from .5 to .3, and you should see that this is too weak to completely prevent the unit from immediately becoming active when the second stimulus comes in at 300 cycles.
+</li></ul>
+Now, let's add hysteresis into the mix.  
+<p>
+</p><ul><li> First press the Defaults button to return to the default parameters.  Then click on the hyst.on! button on, and do Run.
+</li></ul>
+You should see that the unit remains active for some time after the input stimulus goes off at 100 cycles --- this is caused by the hysteresis.  Further, this additional period of activation causes the accommodation current to get activated, which eventually turns the unit off.  As a result of this accommodation, as we saw before, the unit does not then get activated immediately by the second input.
+<p>
+</p><ul><li> Now, you can play with the hyst parameters and see what they do to the unit's response properties.
+</li></ul>
+In summary, you can see that there is considerable potential for complex dynamics to emerge from the interactions of these different channels.  The fact that actual neurons have many such channels with even more complex dynamics suggests that our basic point neuron model is probably a lot simpler than the real thing.  Due to pragmatic constraints, we typically ignore much of this complexity.  As the simulations later in the text demonstrate, such simplifications do not make that much of a difference in the core aspects of behavior that we are modeling.
+<p>
+
+</p></body></html>";
+  };
+  taDoc @[1] {
+   name="GraphHelp";
+   desc=;
+   auto_open=0;
+   web_doc=0;
+   wiki=;
+   url="local";
+   full_url="local";
+   text_size=1;
+   text="<html>
+<head></head>
+<body>
+
+= Graph Help =
+
+The parameters that control what is graphed (and how) are in the [[.T3Tab.CycleOutputData]] tab in the middle panel of the window.  This tab is only visible when you have clicked to view the graph in the right panel, by clicking on the CycleOutputData tab.
+
+The different variables to view (each of which gets its own colored line in the graph) are listed by row, with labels Y1, Y2, etc.  By default:
+* Y1 = the net input (net excitatory synaptic input, or g_e)
+* Y2 = I_net (net current, reflecting the balance of the excitatory and inhibitory inputs, and driving changes in the membrane potential V_m).  Mathematically, and according to Ohm's Law, this is equivalent to the time derivative of the membrane potential.
+* Y3 = V_m (membrane potential) -- this is the current internal state of the neuron reflecting prior and current inputs -- it is fully graded, without a threshold, and forms the internal basis for the thresholded activation output.
+* Y4 = act (raw activation output) -- when V_m goes over threshold, the neuron sends activation.  If the activation function is a rate code (e.g., NOISY_XX1), then this continuously-varying activation value reflects the average rate of spiking that would otherwise occur for the given membrane potential.  If the activation function is SPIKE, it is 1 when the neuron has spiked, and quickly decays back to 0.
+* Y5= act_eq (rate-code equivalent activation) -- when using SPIKE activations, this value represents the equivalent rate code for the rate of spiking that is occurring.  Otherwise, it is the same as act.
+
+Sometimes, it can be useful to not plot some of the variables.  The little \"on\" button next to the variable name will toggle on or off the display of that variable.
+
+</body>
+</html>";
+   html_text="<html>
+<head></head>
+<body>
+<P>
+<h1> Graph Help </h1>
+<P>
+The parameters that control what is graphed (and how) are in the <a href=\"ta:.T3Tab.CycleOutputData\">CycleOutputData</a> tab in the middle panel of the window.  This tab is only visible when you have clicked to view the graph in the right panel, by clicking on the CycleOutputData tab.
+<P>
+The different variables to view (each of which gets its own colored line in the graph) are listed by row, with labels Y1, Y2, etc.  By default:
+<ul><li> Y1 = the net input (net excitatory synaptic input, or g_e)
+<li> Y2 = I_net (net current, reflecting the balance of the excitatory and inhibitory inputs, and driving changes in the membrane potential V_m).  Mathematically, and according to Ohm's Law, this is equivalent to the time derivative of the membrane potential.
+<li> Y3 = V_m (membrane potential) -- this is the current internal state of the neuron reflecting prior and current inputs -- it is fully graded, without a threshold, and forms the internal basis for the thresholded activation output.
+<li> Y4 = act (raw activation output) -- when V_m goes over threshold, the neuron sends activation.  If the activation function is a rate code (e.g., NOISY_XX1), then this continuously-varying activation value reflects the average rate of spiking that would otherwise occur for the given membrane potential.  If the activation function is SPIKE, it is 1 when the neuron has spiked, and quickly decays back to 0.
+<li> Y5= act_eq (rate-code equivalent activation) -- when using SPIKE activations, this value represents the equivalent rate code for the rate of spiking that is occurring.  Otherwise, it is the same as act.
+</ul>
+Sometimes, it can be useful to not plot some of the variables.  The little \"on\" button next to the variable name will toggle on or off the display of that variable.
+<P>
+</body>
+";
+  };
+ };
+ wizards {
+  name=;
+  el_typ=LeabraWizard;
+  el_def=0;
+  LeabraWizard @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItemBase;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+     val_type_fixed=0;
+    };
+   };
+   name="LeabraWizard_1";
+   auto_open=0;
+   n_layers=3;
+   layer_cfg {
+    name=;
+    el_typ=LayerWizEl;
+    el_def=0;
+    LayerWizEl @[0] {
+     name="LayerWizEl";
+     n_units=25;
+     io_type=190578;
+    };
+    LayerWizEl @[1] {
+     name="LayerWizEl";
+     n_units=25;
+     io_type=131072;
+    };
+    LayerWizEl @[2] {
+     name="LayerWizEl";
+     n_units=25;
+     io_type=131073;
+    };
+   };
+   connectivity=BIDIRECTIONAL;
+   default_net_type=LeabraNetwork;
+  };
+ };
+ edits {
+  name=;
+  el_typ=SelectEdit;
+  el_def=0;
+  SelectEdit @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserData_DocLink;
+    el_def=0;
+    UserData_DocLink @[0] {
+     name="DocLink";
+     doc=.projects[0].docs[0]$$;
+    };
+   };
+   name="ControlPanel";
+   auto_edit=1;
+   desc="The master control panel for the simulation -- see the Doc panel for more info";
+   mbrs {
+    name=;
+    el_typ=EditMbrItem;
+    el_def=0;
+    EditMbrItem @[0] {
+     label="act_fun";
+     desc=" activation function to use<br>  GELIN:  linear in the excitatory conductance (g_e), compared to excitatory current required to get to firing threshold (based on current currents..)<br>  NOISY XX1:  x over x plus 1 convolved with Gaussian noise (noise is nvar)<br>  XX1:  x over x plus 1, hard threshold, no noise convolution<br>  NOISY LINEAR:  simple linear output function (still thesholded) convolved with Gaussian noise (noise is nvar)<br>  LINEAR:  simple linear output function (still thesholded)<br>  SPIKE:  discrete spiking activations (spike when > thr)";
+     cust_desc=0;
+     base=.projects[0].networks[0].specs[0]$$;
+     mbr=LeabraUnitSpec::act_fun;
+     is_numeric=0;
+     param_search {
+      search=0;
+      min_val=0;
+      max_val=1;
+      next_val=0;
+      incr=0.1000000014901161;
+     };
+    };
+    EditMbrItem @[1] {
+     label="g_bar";
+     desc=" [Defaults: 1, .1, 1, .1, .5] maximal conductances for channels<br>  e:  Excitatory (glutamatergic synaptic sodium (Na) channel)<br>  l:  Constant leak (potassium, K+) channel <br>  i:  inhibitory<br>  h:  hysteresis (Ca)<br>  a:  accomodation (k)";
+     cust_desc=0;
+     base=$.projects[0].networks[0].specs[0]$;
+     mbr=LeabraUnitSpec::g_bar;
+     is_numeric=0;
+     param_search {
+      search=0;
+      min_val=0;
+      max_val=1;
+      next_val=0;
+      incr=0.1000000014901161;
+     };
+    };
+    EditMbrItem @[2] {
+     label="e_rev";
+     desc=" [Defaults: 1, .15, .15, 1, 0] reversal potentials for each channel<br>  e:  Excitatory (glutamatergic synaptic sodium (Na) channel)<br>  l:  Constant leak (potassium, K+) channel <br>  i:  inhibitory<br>  h:  hysteresis (Ca)<br>  a:  accomodation (k)";
+     cust_desc=0;
+     base=$.projects[0].networks[0].specs[0]$;
+     mbr=LeabraUnitSpec::e_rev;
+     is_numeric=0;
+     param_search {
+      search=0;
+      min_val=0;
+      max_val=1;
+      next_val=0;
+      incr=0.1000000014901161;
+     };
+    };
+    EditMbrItem @[3] {
+     label="noise var";
+     desc=" 'varibility' parameter for the random numbers (gauss = standard deviation, not variance; uniform = half-range)";
+     cust_desc=0;
+     base=.projects[0].networks[0].specs[0].noise$$;
+     mbr=Random::var;
+     is_numeric=1;
+     param_search {
+      search=0;
+      min_val=0;
+      max_val=1;
+      next_val=0;
+      incr=0.1000000014901161;
+     };
+    };
+    EditMbrItem @[4] {
+     label="acc";
+     desc=" [Defaults: .01, .5, .1, .1] accomodation (inhibitory) v-gated chan (K+)<br>  on: [Default: false]  true if channel is on<br>  b inc dt:  time constant for increases in basis variable (basis ~ intracellular calcium which builds up slowly as function of activation)<br>  b dec dt:  time constant for decreases in basis variable (basis ~ intracellular calcium which builds up slowly as function of activation)<br>  a thr:  activation threshold of the channel: when basis > a_thr, conductance starts to build up (channels open)<br>  d thr:  deactivation threshold of the channel: when basis < d_thr, conductance diminshes (channels close)<br>  g dt:  time constant for changing conductance (activating or deactivating) -- if = 1, then gc is equal to the basis if channel is on<br>  init:  initialize variables when state is intialized between trials (else with weights)<br>  trl:  update after every trial instead of every cycle -- time constants need to be much larger in general";
+     cust_desc=0;
+     base=$.projects[0].networks[0].specs[0]$;
+     mbr=LeabraUnitSpec::acc;
+     is_numeric=0;
+     param_search {
+      search=0;
+      min_val=0;
+      max_val=1;
+      next_val=0;
+      incr=0.1000000014901161;
+     };
+    };
+    EditMbrItem @[5] {
+     label="hyst";
+     desc=" [Defaults: .05, .8, .7, .1] hysteresis (excitatory) v-gated chan (Ca2+, NMDA)<br>  on: [Default: false]  true if channel is on<br>  b inc dt:  time constant for increases in basis variable (basis ~ intracellular calcium which builds up slowly as function of activation)<br>  b dec dt:  time constant for decreases in basis variable (basis ~ intracellular calcium which builds up slowly as function of activation)<br>  a thr:  activation threshold of the channel: when basis > a_thr, conductance starts to build up (channels open)<br>  d thr:  deactivation threshold of the channel: when basis < d_thr, conductance diminshes (channels close)<br>  g dt:  time constant for changing conductance (activating or deactivating) -- if = 1, then gc is equal to the basis if channel is on<br>  init:  initialize variables when state is intialized between trials (else with weights)<br>  trl:  update after every trial instead of every cycle -- time constants need to be much larger in general";
+     cust_desc=0;
+     base=$.projects[0].networks[0].specs[0]$;
+     mbr=LeabraUnitSpec::hyst;
+     is_numeric=0;
+     param_search {
+      search=0;
+      min_val=0;
+      max_val=1;
+      next_val=0;
+      incr=0.1000000014901161;
+     };
+    };
+    EditMbrItem_Group @.gp[0] {
+     name="Sending Unit Activation Timing";
+     el_typ=EditMbrItem;
+     el_def=0;
+     EditMbrItem @[0] {
+      label="n_cycles";
+      desc=" integer value (also for enum types)";
+      cust_desc=0;
+      base=.projects[0].programs.gp[0][0].vars[0]$$;
+      mbr=ProgVar::int_val;
+      is_numeric=1;
+      param_search {
+       search=0;
+       min_val=0;
+       max_val=1;
+       next_val=0;
+       incr=0.1000000014901161;
+      };
+     };
+     EditMbrItem @[1] {
+      label="on_cycle1";
+      desc=" integer value (also for enum types)";
+      cust_desc=0;
+      base=.projects[0].programs.gp[0][0].vars[1]$$;
+      mbr=ProgVar::int_val;
+      is_numeric=1;
+      param_search {
+       search=0;
+       min_val=0;
+       max_val=1;
+       next_val=0;
+       incr=0.1000000014901161;
+      };
+     };
+     EditMbrItem @[2] {
+      label="off_cycle1";
+      desc=" integer value (also for enum types)";
+      cust_desc=0;
+      base=.projects[0].programs.gp[0][0].vars[2]$$;
+      mbr=ProgVar::int_val;
+      is_numeric=1;
+      param_search {
+       search=0;
+       min_val=0;
+       max_val=1;
+       next_val=0;
+       incr=0.1000000014901161;
+      };
+     };
+     EditMbrItem @[3] {
+      label="on_cycle2";
+      desc=" integer value (also for enum types)";
+      cust_desc=0;
+      base=.projects[0].programs.gp[0][0].vars[3]$$;
+      mbr=ProgVar::int_val;
+      is_numeric=1;
+      param_search {
+       search=0;
+       min_val=0;
+       max_val=1;
+       next_val=0;
+       incr=0.1000000014901161;
+      };
+     };
+     EditMbrItem @[4] {
+      label="off_cycle2";
+      desc=" integer value (also for enum types)";
+      cust_desc=0;
+      base=.projects[0].programs.gp[0][0].vars[4]$$;
+      mbr=ProgVar::int_val;
+      is_numeric=1;
+      param_search {
+       search=0;
+       min_val=0;
+       max_val=1;
+       next_val=0;
+       incr=0.1000000014901161;
+      };
+     };
+    };
+    EditMbrItem_Group @.gp[1] {
+     name="Net Data";
+     el_typ=EditMbrItem;
+     el_def=0;
+    };
+   };
+   mths {
+    name=;
+    el_typ=EditMthItem;
+    el_def=0;
+    group_type=GT_BUTTONS;
+    EditMthItem @[0] {
+     label="Init";
+     desc=" set the program state back to the beginning";
+     cust_desc=0;
+     base=.projects[0].programs.gp[0][0]$$;
+     mth=Program::Init;
+    };
+    EditMthItem @[1] {
+     label="Run";
+     desc=" run the program -- if not yet Init, will run Init first";
+     cust_desc=0;
+     base=$.projects[0].programs.gp[0][0]$;
+     mth=Program::Run_Gui;
+    };
+    EditMthItem @[2] {
+     label="Step";
+     desc=" step the program at the level of the given program -- if NULL then step_prog default value will be used";
+     cust_desc=0;
+     base=$.projects[0].programs.gp[0][0]$;
+     mth=Program::Step_Gui;
+    };
+    EditMthItem @[3] {
+     label="Stop";
+     desc=" stop the current program at its next natural stopping point (i.e., cleanly stopping when appropriate chunks of computation have completed)";
+     cust_desc=0;
+     base=$.projects[0].programs.gp[0][0]$;
+     mth=Program::Stop;
+    };
+    EditMthItem @[4] {
+     label="Defaults";
+     desc=" set the program state back to the beginning";
+     cust_desc=0;
+     base=.projects[0].programs[0]$$;
+     mth=Program::Init;
+    };
+   };
+  };
+ };
+ data {
+  name=;
+  el_typ=DataTable;
+  el_def=0;
+  DataTable_Group @.gp[0] {
+   name="InputData";
+   el_typ=DataTable;
+   el_def=0;
+   DataTable @[0] {
+    name="Environment_0";
+    desc=;
+    data {
+     name="data";
+     el_typ=String_Data;
+     el_def=0;
+     String_Data @[0] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.4579606354236603;
+	val_type_fixed=0;
+       };
+      };
+      name="Name";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [1] "Event_0";      };
+     };
+     float_Data @[1] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="view_panel_wd";
+	value 6 0=0.1788908839225769;
+	val_type_fixed=0;
+       };
+      };
+      name="Input";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=1;
+      cell_geom{ 1;1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [2] ;;      };
+      ar {
+       name=;
+	    [1 1 1] 0;      };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+  };
+  DataTable_Group @.gp[1] {
+   name="OutputData";
+   el_typ=DataTable;
+   el_def=0;
+   DataTable @[0] {
+    UserDataItem_List @*(.user_data_) {
+     name=;
+     el_typ=UserData_DocLink;
+     el_def=0;
+     UserData_DocLink @[0] {
+      name="DocLink";
+      doc=$.projects[0].docs[0]$;
+     };
+    };
+    name="CycleOutputData";
+    desc=;
+    data {
+     name="data";
+     el_typ=int_Data;
+     el_def=0;
+     int_Data @[0] {
+      UserDataItem_List @*(.user_data_) {
+       name=;
+       el_typ=UserDataItemBase;
+       el_def=0;
+       UserDataItem @[0] {
+	name="NARROW";
+	value 1 0=1;
+	val_type_fixed=0;
+       };
+      };
+      name="cycle";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[1] {
+      name="net";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[2] {
+      name="I_net";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[3] {
+      name="v_m";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[4] {
+      name="act";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[5] {
+      name="act_eq";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[6] {
+      name="vcb_acc";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[7] {
+      name="gc_a";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[8] {
+      name="vcb_hyst";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+     float_Data @[9] {
+      name="gc_h";
+      col_flags=SAVE_ROWS|SAVE_DATA;
+      is_matrix=0;
+      cell_geom{ 1;      };
+      calc_expr {
+       expr=;
+      };
+      dim_names {
+       name=;
+	    [0]       };
+      ar {
+       name=;
+	    [0]       };
+     };
+    };
+    data_flags=SAVE_ROWS|AUTO_CALC;
+    auto_load=NO_AUTO_LOAD;
+    auto_load_file=;
+    keygen 4 0=0;
+   };
+  };
+  DataTable_Group @.gp[2] {
+   name="AnalysisData";
+   el_typ=DataTable;
+   el_def=0;
+  };
+ };
+ data_proc {
+  name=;
+  el_typ=taDataProc;
+  el_def=0;
+  taDataProc @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItemBase;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+     val_type_fixed=0;
+    };
+   };
+   name="data_base";
+  };
+  taDataAnal @[1] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItemBase;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+     val_type_fixed=0;
+    };
+   };
+   name="data_anal";
+  };
+  taDataGen @[2] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItemBase;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+     val_type_fixed=0;
+    };
+   };
+   name="data_gen";
+  };
+  taImageProc @[3] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItemBase;
+    el_def=0;
+    UserDataItem @[0] {
+     name="NO_CLIP";
+     value 1 0=1;
+     val_type_fixed=0;
+    };
+   };
+   name="image_proc";
+  };
+ };
+ programs {
+  name=;
+  el_typ=Program;
+  el_def=0;
+  tags=;
+  desc=;
+  Program @[0] {
+   name="SetDefaults";
+   short_nm="SDflts";
+   tags=;
+   desc="restores default initial parameters in the simulation";
+   flags=;
+   objs {
+    name=;
+    el_typ=taNBase;
+    el_def=0;
+   };
+   types {
+    name=;
+    el_typ=ProgType;
+    el_def=0;
+   };
+   args {
+    name=;
+    el_typ=ProgVar;
+    el_def=0;
+   };
+   vars {
+    name=;
+    el_typ=ProgVar;
+    el_def=0;
+    ProgVar @[0] {
+     name="act_fun";
+     var_type=T_HardEnum;
+     int_val=0;
+     hard_enum_type=LeabraUnitSpec::ActFun;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[1] {
+     name="g_bar_e";
+     var_type=T_Real;
+     real_val=0.4;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default g_bar.e value";
+     init_from=NULL;
+    };
+    ProgVar @[2] {
+     name="g_bar_l";
+     var_type=T_Real;
+     real_val=2;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default g_bar.l value";
+     init_from=NULL;
+    };
+    ProgVar @[3] {
+     name="g_bar_a";
+     var_type=T_Real;
+     real_val=0.5;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[4] {
+     name="g_bar_h";
+     var_type=T_Real;
+     real_val=0.3;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[5] {
+     name="e_rev_e";
+     var_type=T_Real;
+     real_val=1;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default g_rev_e value";
+     init_from=NULL;
+    };
+    ProgVar @[6] {
+     name="e_rev_l";
+     var_type=T_Real;
+     real_val=0.15;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default e_rev_l value";
+     init_from=NULL;
+    };
+    ProgVar @[7] {
+     name="noise_var";
+     var_type=T_Real;
+     real_val=0;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default noise val";
+     init_from=NULL;
+    };
+    ProgVar @[8] {
+     name="n_cycles";
+     var_type=T_Int;
+     int_val=500;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default number of cycles";
+     init_from=NULL;
+    };
+    ProgVar @[9] {
+     name="on_cycle1";
+     var_type=T_Int;
+     int_val=10;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default input on cycle";
+     init_from=NULL;
+    };
+    ProgVar @[10] {
+     name="off_cycle1";
+     var_type=T_Int;
+     int_val=100;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc="default input off cycle";
+     init_from=NULL;
+    };
+    ProgVar @[11] {
+     name="on_cycle2";
+     var_type=T_Int;
+     int_val=300;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[12] {
+     name="off_cycle2";
+     var_type=T_Int;
+     int_val=400;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[13] {
+     name="unit_spec";
+     var_type=T_Object;
+     object_type=LeabraUnitSpec;
+     object_val=$.projects[0].networks[0].specs[0]$;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[14] {
+     name="settle";
+     var_type=T_Object;
+     object_type=Program;
+     object_val=$.projects[0].programs.gp[0][0]$;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+    ProgVar @[15] {
+     name="ControlPanel";
+     var_type=T_Object;
+     object_type=SelectEdit;
+     object_val=.projects[0].edits[0]$$;
+     objs_ptr=0;
+     flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+     reference=0;
+     desc=;
+     init_from=NULL;
+    };
+   };
+   functions {
+    name=;
+    el_typ=Function;
+    el_def=0;
+   };
+   load_code {
+    name=;
+    el_typ=ProgEl;
+    el_def=0;
+   };
+   init_code {
+    name=;
+    el_typ=ProgEl;
+    el_def=0;
+    MemberAssign @[0] {
+     desc=;
+     flags=;
+     obj=.projects[0].programs[0].vars[13]$$;
+     path="g_bar.e";
+     expr {
+      expr="g_bar_e";
+     };
+     update_after=0;
+    };
+    MemberAssign @[1] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="g_bar.l";
+     expr {
+      expr="g_bar_l";
+     };
+     update_after=0;
+    };
+    MemberAssign @[2] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="g_bar.a";
+     expr {
+      expr="g_bar_a";
+     };
+     update_after=0;
+    };
+    MemberAssign @[3] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="g_bar.h";
+     expr {
+      expr="g_bar_h";
+     };
+     update_after=0;
+    };
+    MemberAssign @[4] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="e_rev.e";
+     expr {
+      expr="e_rev_e";
+     };
+     update_after=0;
+    };
+    MemberAssign @[5] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="e_rev.l";
+     expr {
+      expr="e_rev_l";
+     };
+     update_after=0;
+    };
+    MemberAssign @[6] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="acc.a_thr";
+     expr {
+      expr=".7";
+     };
+     update_after=0;
+    };
+    MemberAssign @[7] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="acc.b_dec_dt";
+     expr {
+      expr=".01";
+     };
+     update_after=0;
+    };
+    MemberAssign @[8] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="acc.b_inc_dt";
+     expr {
+      expr=".01";
+     };
+     update_after=0;
+    };
+    MemberAssign @[9] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="acc.d_thr";
+     expr {
+      expr=".1";
+     };
+     update_after=0;
+    };
+    MemberAssign @[10] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="acc.g_dt";
+     expr {
+      expr=".05";
+     };
+     update_after=0;
+    };
+    MemberAssign @[11] {
+     desc=;
+     flags=OFF;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="acc.on";
+     expr {
+      expr="false";
+     };
+     update_after=0;
+    };
+    MemberAssign @[12] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="hyst.a_thr";
+     expr {
+      expr=".8";
+     };
+     update_after=0;
+    };
+    MemberAssign @[13] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="hyst.b_dec_dt";
+     expr {
+      expr=".05";
+     };
+     update_after=0;
+    };
+    MemberAssign @[14] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="hyst.b_inc_dt";
+     expr {
+      expr=".05";
+     };
+     update_after=0;
+    };
+    MemberAssign @[15] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="hyst.d_thr";
+     expr {
+      expr=".7";
+     };
+     update_after=0;
+    };
+    MemberAssign @[16] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="hyst.g_dt";
+     expr {
+      expr=".1";
+     };
+     update_after=0;
+    };
+    MemberAssign @[17] {
+     desc=;
+     flags=OFF;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="hyst.on";
+     expr {
+      expr="false";
+     };
+     update_after=0;
+    };
+    MemberAssign @[18] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="noise.var";
+     expr {
+      expr="noise_var";
+     };
+     update_after=0;
+    };
+    MemberAssign @[19] {
+     desc=;
+     flags=;
+     obj=$.projects[0].programs[0].vars[13]$;
+     path="act_fun";
+     expr {
+      expr="act_fun";
+     };
+     update_after=1;
+    };
+    OtherProgramVar @[20] {
+     desc=;
+     flags=;
+     other_prog=$.projects[0].programs.gp[0][0]$;
+     set_other=1;
+     var_1=.projects[0].programs[0].vars[8]$$;
+     var_2=.projects[0].programs[0].vars[10]$$;
+     var_3=.projects[0].programs[0].vars[9]$$;
+     var_4=NULL;
+    };
+    OtherProgramVar @[21] {
+     desc=;
+     flags=;
+     other_prog=$.projects[0].programs.gp[0][0]$;
+     set_other=1;
+     var_1=.projects[0].programs[0].vars[12]$$;
+     var_2=.projects[0].programs[0].vars[11]$$;
+     var_3=NULL;
+     var_4=NULL;
+    };
+    MethodCall @[22] {
+     desc=;
+     flags=;
+     result_var=NULL;
+     obj=.projects[0].programs[0].vars[15]$$;
+     method=SelectEdit::UpdateAfterEdit;
+     meth_args {
+      name=;
+      el_typ=ProgArg;
+      el_def=0;
+     };
+    };
+   };
+   prog_code {
+    name=;
+    el_typ=ProgEl;
+    el_def=0;
+   };
+   step_prog=NULL;
+   step_n=1;
+  };
+  Program_Group @.gp[0] {
+   name="LeabraAll_Std";
+   el_typ=Program;
+   el_def=0;
+   tags="Leabra, Std, All";
+   desc="The full set of programs for training a standard Leabra network";
+   Program @[0] {
+    name="LeabraSettle";
+    short_nm="Settle";
+    tags="Leabra, Std";
+    desc="iterates over cycles of updating until network has settled into a stable state, or output activations have exceeded a threshold";
+    flags=;
+    objs {
+     name=;
+     el_typ=taOBase;
+     el_def=0;
+    };
+    types {
+     name=;
+     el_typ=ProgType;
+     el_def=0;
+    };
+    args {
+     name=;
+     el_typ=ProgVar;
+     el_def=0;
+     ProgVar @[0] {
+      name="network";
+      var_type=T_Object;
+      object_type=LeabraNetwork;
+      object_val=.projects[0].networks[0]$$;
+      objs_ptr=0;
+      flags=NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc=;
+      init_from=NULL;
+     };
+    };
+    vars {
+     name=;
+     el_typ=ProgVar;
+     el_def=0;
+     ProgVar @[0] {
+      name="n_cycles";
+      var_type=T_Int;
+      int_val=500;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="total number of cycles to process";
+      init_from=NULL;
+     };
+     ProgVar @[1] {
+      name="on_cycle1";
+      var_type=T_Int;
+      int_val=10;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="cycle number to turn input on";
+      init_from=NULL;
+     };
+     ProgVar @[2] {
+      name="off_cycle1";
+      var_type=T_Int;
+      int_val=100;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="cycle number to turn input off";
+      init_from=NULL;
+     };
+     ProgVar @[3] {
+      name="on_cycle2";
+      var_type=T_Int;
+      int_val=300;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="cycle number to turn input on";
+      init_from=NULL;
+     };
+     ProgVar @[4] {
+      name="off_cycle2";
+      var_type=T_Int;
+      int_val=400;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="cycle number to turn input off";
+      init_from=NULL;
+     };
+     ProgVar @[5] {
+      name="cycle";
+      var_type=T_Int;
+      int_val=0;
+      objs_ptr=0;
+      flags=CTRL_PANEL|CTRL_READ_ONLY|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="current cycle of settling (local loop counter)";
+      init_from=NULL;
+     };
+     ProgVar @[6] {
+      name="min_cycles";
+      var_type=T_Int;
+      int_val=15;
+      objs_ptr=0;
+      flags=NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="IMPORTANT: this value is obtained from the network min_cycles and min_cycles_phase2 -- change the value on the network object, not here in this program!
+sets the minimum number of cycles to settle for, regardless of network state changes, etc";
+      init_from=NULL;
+     };
+     ProgVar @[7] {
+      name="send_act";
+      var_type=T_Real;
+      real_val=0;
+      objs_ptr=0;
+      flags=CTRL_READ_ONLY|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="sending unit activation";
+      init_from=NULL;
+     };
+     ProgVar @[8] {
+      name="update_net_view";
+      var_type=T_Bool;
+      bool_val=1;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="if true, will update network views at end of settling";
+      init_from=NULL;
+     };
+    };
+    functions {
+     name=;
+     el_typ=Function;
+     el_def=0;
+    };
+    load_code {
+     name=;
+     el_typ=ProgEl;
+     el_def=0;
+    };
+    init_code {
+     name=;
+     el_typ=NetCounterInit;
+     el_def=0;
+     NetCounterInit @[0] {
+      desc="initialize local cycle counter and corresponding counter on network";
+      flags=;
+      network_var=.projects[0].programs.gp[0][0].args[0]$$;
+      local_ctr_var=.projects[0].programs.gp[0][0].vars[5]$$;
+      counter=Network::cycle;
+      update_after=0;
+     };
+    };
+    prog_code {
+     name=;
+     el_typ=NetCounterInit;
+     el_def=0;
+     MethodCall @[0] {
+      desc=;
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][0].args[0]$;
+      method=Network::Init_Acts;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     NetCounterInit @[1] {
+      desc="initialize local cycle counter and corresponding counter on network";
+      flags=;
+      network_var=$.projects[0].programs.gp[0][0].args[0]$;
+      local_ctr_var=$.projects[0].programs.gp[0][0].vars[5]$;
+      counter=Network::cycle;
+      update_after=1;
+     };
+     MethodCall @[2] {
+      desc="resets input data, before getting new external inputs data from apply inputs call";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][0].args[0]$;
+      method=Network::Init_InputData;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     MethodCall @[3] {
+      desc="initializes various counters at start of settling";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][0].args[0]$;
+      method=LeabraNetwork::Settle_Init;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     IfElse @[4] {
+      desc="get appropriate min_cycles value depending on which phase we're in";
+      flags=OFF;
+      cond {
+       expr="network.phase_no <= 1";
+      };
+      true_code {
+       name=;
+       el_typ=ProgEl;
+       el_def=0;
+       AssignExpr @[0] {
+	desc="get minimum number of cycles from parameter on network (which is where you should change this value!)";
+	flags=;
+	result_var=.projects[0].programs.gp[0][0].vars[6]$$;
+	expr {
+	 expr="network.min_cycles";
+	};
+       };
+      };
+      false_code {
+       name=;
+       el_typ=ProgEl;
+       el_def=0;
+       AssignExpr @[0] {
+	desc="get minimum number of cycles from parameter on network (which is where you should change this value!)";
+	flags=;
+	result_var=$.projects[0].programs.gp[0][0].vars[6]$;
+	expr {
+	 expr="network.min_cycles_phase2";
+	};
+       };
+      };
+     };
+     WhileLoop @[5] {
+      desc="the main loop over cycles of updating";
+      flags=;
+      loop_code {
+       name=;
+       el_typ=ProgramCall;
+       el_def=0;
+       IfElse @[0] {
+	desc=;
+	flags=;
+	cond {
+	 expr="cycle >= on_cycle1 && cycle < off_cycle1 ||
+cycle >= on_cycle2 && cycle < off_cycle2";
+	};
+	true_code {
+	 name=;
+	 el_typ=ProgEl;
+	 el_def=0;
+	 AssignExpr @[0] {
+	  desc="on";
+	  flags=;
+	  result_var=.projects[0].programs.gp[0][0].vars[7]$$;
+	  expr {
+	   expr="1.0";
+	  };
+	 };
+	};
+	false_code {
+	 name=;
+	 el_typ=ProgEl;
+	 el_def=0;
+	 AssignExpr @[0] {
+	  desc="off";
+	  flags=;
+	  result_var=$.projects[0].programs.gp[0][0].vars[7]$;
+	  expr {
+	   expr="0.0";
+	  };
+	 };
+	};
+       };
+       MemberAssign @[1] {
+	desc="set to network";
+	flags=;
+	obj=$.projects[0].programs.gp[0][0].args[0]$;
+	path="layers[0].units[0].act";
+	expr {
+	 expr="send_act";
+	};
+	update_after=0;
+       };
+       ProgramCall @[2] {
+	desc="run the cycle program, which computes one cycle of activations";
+	flags=;
+	prog_args {
+	 name=;
+	 el_typ=ProgArg;
+	 el_def=0;
+	 ProgArg @[0] {
+	  arg_type=LeabraNetwork;
+	  type="LeabraNetwork*";
+	  name="network";
+	  required=1;
+	  def_val=;
+	  expr {
+	   expr="network";
+	  };
+	 };
+	};
+	target=.projects[0].programs.gp[0][1]$$;
+	targ_ld_init="*LeabraCycle*";
+       };
+       MemberAssign @[3] {
+	desc="need to set again for display because network turns it off..";
+	flags=;
+	obj=$.projects[0].programs.gp[0][0].args[0]$;
+	path="layers[0].units[0].act";
+	expr {
+	 expr="send_act";
+	};
+	update_after=0;
+       };
+       NetUpdateView @[4] {
+	desc="update network views, if update_net_view == true";
+	flags=;
+	network_var=$.projects[0].programs.gp[0][0].args[0]$;
+	update_var=.projects[0].programs.gp[0][0].vars[8]$$;
+       };
+       NetCounterIncr @[5] {
+	desc="increment cycle counter (also on network)";
+	flags=;
+	network_var=$.projects[0].programs.gp[0][0].args[0]$;
+	local_ctr_var=$.projects[0].programs.gp[0][0].vars[5]$;
+	counter=Network::cycle;
+	update_after=1;
+       };
+       IfContinue @[6] {
+	desc="avoid subsequent stopping criteria if below min_cycles";
+	flags=OFF;
+	cond {
+	 expr="cycle < min_cycles";
+	};
+       };
+       IfBreak @[7] {
+	desc="stopping criterion for settling: based either on maximum change in activation (maxda) or on the maximum activation value in the network getting over threshold (which ever comes first).  Set either parmeter to values that are always false (e.g., trg_max_act_stopcrit = -1) to eliminate associated source of criterion for stopping settling.";
+	flags=OFF;
+	cond {
+	 expr="(network.maxda < network.maxda_stopcrit) ||
+ (network.trg_max_act > network.trg_max_act_stopcrit)";
+	};
+       };
+      };
+      test {
+       expr="cycle < n_cycles";
+      };
+     };
+     MethodCall @[6] {
+      desc="perform final operations at end of settling (storing final activations, etc)";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][0].args[0]$;
+      method=LeabraNetwork::Settle_Final;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     IfElse @[7] {
+      desc="only run trial-level statistics in minus phase (otherwise network may have correct answer clamped on!).  IMPORTANT: this assumes that you've got target activation values for output layers already
+presented in the minus phase -- if this is not the case (values are computed on the fly), you may want to run this instead at the start of the plus phase, after ApplyInputs";
+      flags=;
+      cond {
+       expr="network.phase == LeabraNetwork::MINUS_PHASE";
+      };
+      true_code {
+       name=;
+       el_typ=MethodCall;
+       el_def=0;
+       MethodCall @[0] {
+	desc="compute trial-level statistics";
+	flags=;
+	result_var=NULL;
+	obj=$.projects[0].programs.gp[0][0].args[0]$;
+	method=LeabraNetwork::Compute_TrialStats;
+	meth_args {
+	 name=;
+	 el_typ=ProgArg;
+	 el_def=0;
+	};
+       };
+      };
+      false_code {
+       name=;
+       el_typ=ProgEl;
+       el_def=0;
+      };
+     };
+     IfElse @[8] {
+      desc="this stat must be called in plus phase when reward information is avail";
+      flags=;
+      cond {
+       expr="network.phase_no == 1";
+      };
+      true_code {
+       name=;
+       el_typ=ProgEl;
+       el_def=0;
+       MethodCall @[0] {
+	desc="get external reward information";
+	flags=;
+	result_var=NULL;
+	obj=$.projects[0].programs.gp[0][0].args[0]$;
+	method=LeabraNetwork::Compute_ExtRew;
+	meth_args {
+	 name=;
+	 el_typ=ProgArg;
+	 el_def=0;
+	};
+       };
+      };
+      false_code {
+       name=;
+       el_typ=ProgEl;
+       el_def=0;
+      };
+     };
+     NetUpdateView @[9] {
+      desc="update network views, if update_net_view == true";
+      flags=;
+      network_var=$.projects[0].programs.gp[0][0].args[0]$;
+      update_var=$.projects[0].programs.gp[0][0].vars[8]$;
+     };
+    };
+    step_prog=NULL;
+    step_n=1;
+   };
+   Program @[1] {
+    name="LeabraCycle";
+    short_nm="Cycle";
+    tags="Leabra, Std";
+    desc="runs one cycle of leabra processing (updating net inputs and activations)";
+    flags=;
+    objs {
+     name=;
+     el_typ=taOBase;
+     el_def=0;
+    };
+    types {
+     name=;
+     el_typ=ProgType;
+     el_def=0;
+    };
+    args {
+     name=;
+     el_typ=ProgVar;
+     el_def=0;
+     ProgVar @[0] {
+      name="network";
+      var_type=T_Object;
+      object_type=LeabraNetwork;
+      object_val=$.projects[0].networks[0]$;
+      objs_ptr=0;
+      flags=NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc=;
+      init_from=NULL;
+     };
+    };
+    vars {
+     name=;
+     el_typ=ProgVar;
+     el_def=0;
+     ProgVar @[0] {
+      name="update_net_view";
+      var_type=T_Bool;
+      bool_val=0;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="determines whether network views will be updated on a cycle-by-cycle basis (slow, but often quite useful for seeing how processing is proceeding)";
+      init_from=NULL;
+     };
+    };
+    functions {
+     name=;
+     el_typ=Function;
+     el_def=0;
+    };
+    load_code {
+     name=;
+     el_typ=ProgEl;
+     el_def=0;
+    };
+    init_code {
+     name=;
+     el_typ=ProgEl;
+     el_def=0;
+    };
+    prog_code {
+     name=;
+     el_typ=MethodCall;
+     el_def=0;
+     PrintExpr @[0] {
+      desc=;
+      flags=OFF;
+      expr {
+       expr="network.cycle";
+      };
+     };
+     MethodCall @[1] {
+      desc="this does all the standard leabra processing for one cycle of activation updating";
+      flags=;
+      result_var=NULL;
+      obj=.projects[0].programs.gp[0][1].args[0]$$;
+      method=LeabraNetwork::Cycle_Run;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     NetUpdateView @[2] {
+      desc="update network views if update_net_view == true";
+      flags=OFF;
+      network_var=$.projects[0].programs.gp[0][1].args[0]$;
+      update_var=.projects[0].programs.gp[0][1].vars[0]$$;
+     };
+     ProgramCall @[3] {
+      desc=;
+      flags=;
+      prog_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=Network;
+	type="LeabraNetwork*";
+	name="network";
+	required=1;
+	def_val=;
+	expr {
+	 expr="network";
+	};
+       };
+      };
+      target=.projects[0].programs.gp[0][2]$$;
+      targ_ld_init="*LeabraCycleMonitor*";
+     };
+    };
+    step_prog=NULL;
+    step_n=1;
+   };
+   Program @[2] {
+    name="LeabraCycleMonitor";
+    short_nm="CycMnt";
+    tags="Leabra, Std, Monitor";
+    desc="monitor trial-level data from the network (and potentially other sources) -- stores results in datatable (TrialOutputData typically) that can be used for graph/grid views and further analysis ";
+    flags=NO_STOP_STEP;
+    objs {
+     name=;
+     el_typ=NetMonitor;
+     el_def=0;
+     NetMonitor @[0] {
+      name="trial_netmon";
+      items {
+       name=;
+       el_typ=NetMonItem;
+       el_def=0;
+       NetMonItem @[0] {
+	name="cycle";
+	computed=0;
+	object_type=LeabraNetwork;
+	object=$.projects[0].networks[0]$;
+	variable="cycle";
+	var_label=;
+	name_style=AUTO_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[1] {
+	name="net";
+	computed=0;
+	object_type=LeabraUnit;
+	object=.projects[0].networks[0].layers[1].units[0]$$;
+	variable="net";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="SimpleMathSpec": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="SimpleMathSpec": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="SimpleMathSpec": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[2] {
+	name="I_net";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="I_net";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[3] {
+	name="v_m";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="v_m";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[4] {
+	name="act";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="act";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[5] {
+	name="act_eq";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="act_eq";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[6] {
+	name="vcb_acc";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="vcb.acc";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[7] {
+	name="gc_a";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="gc.a";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[8] {
+	name="vcb_hyst";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="vcb.hyst";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+       NetMonItem @[9] {
+	name="gc_h";
+	computed=0;
+	object_type=LeabraUnit;
+	object=$.projects[0].networks[0].layers[1].units[0]$;
+	variable="gc.h";
+	var_label=;
+	name_style=MY_NAME;
+	max_name_len=6;
+	val_type=VT_FLOAT;
+	matrix=0;
+	matrix_geom{ 	};
+	data_agg=0;
+	data_src=NULL;
+	agg_col {
+	 col_name=;
+	};
+	agg {name="": op=NONE: rel={name="": rel=LESSTHANOREQUAL: val=0: use_var=0: var=NULL: }: };
+	select_rows=0;
+	select_spec {
+	 col_name=;
+	 on=1;
+	 rel=EQUAL;
+	 use_var=0;
+	 cmp 0 1;
+	 var=NULL;
+	 enable_var=NULL;
+	};
+	pre_proc_1 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_2 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+	pre_proc_3 {name="": opr=NONE: arg=0: lw=-1: hi=1: };
+       };
+      };
+      network=$.projects[0].networks[0]$;
+      data=.projects[0].data.gp[1][0]$$;
+      rmv_orphan_cols=1;
+     };
+    };
+    types {
+     name=;
+     el_typ=ProgType;
+     el_def=0;
+    };
+    args {
+     name=;
+     el_typ=ProgVar;
+     el_def=0;
+     ProgVar @[0] {
+      name="network";
+      var_type=T_Object;
+      object_type=Network;
+      object_val=$.projects[0].networks[0]$;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="network to record data from";
+      init_from=NULL;
+     };
+    };
+    vars {
+     name=;
+     el_typ=ProgVar;
+     el_def=0;
+     ProgVar @[0] {
+      name="trial_mon_data";
+      var_type=T_Object;
+      object_type=DataTable;
+      object_val=$.projects[0].data.gp[1][0]$;
+      objs_ptr=0;
+      flags=CTRL_PANEL|NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="data table to record trial-level data to (this program writes new data to this table!)";
+      init_from=NULL;
+     };
+     ProgVar @[1] {
+      name="trial_netmon";
+      var_type=T_Object;
+      object_type=NetMonitor;
+      object_val=.projects[0].programs.gp[0][2].objs[0]$$;
+      objs_ptr=1;
+      flags=NULL_CHECK|USED|EDIT_VAL;
+      reference=0;
+      desc="pointer to the NetMonitor object in objs secton of this program that contains configuration for what to record and where to get it";
+      init_from=NULL;
+     };
+    };
+    functions {
+     name=;
+     el_typ=Function;
+     el_def=0;
+    };
+    load_code {
+     name=;
+     el_typ=ProgEl;
+     el_def=0;
+    };
+    init_code {
+     name=;
+     el_typ=MethodCall;
+     el_def=0;
+     MethodCall @[0] {
+      desc="set the network and datatable for the NetMonitor";
+      flags=;
+      result_var=NULL;
+      obj=.projects[0].programs.gp[0][2].vars[1]$$;
+      method=NetMonitor::SetDataNetwork;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=DataTable_ptr;
+	type="DataTable*";
+	name="dt";
+	required=1;
+	def_val=;
+	expr {
+	 expr="trial_mon_data";
+	};
+       };
+       ProgArg @[1] {
+	arg_type=Network_ptr;
+	type="Network*";
+	name="net";
+	required=1;
+	def_val=;
+	expr {
+	 expr="network";
+	};
+       };
+      };
+     };
+     MethodCall @[1] {
+      desc="check the configuration of the network monitor -- will emit warnings and errors for misconfigurations";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][2].vars[1]$;
+      method=taBase::CheckConfig;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=bool;
+	type="bool";
+	name="quiet";
+	required=0;
+	def_val="false";
+	expr {
+	 expr="false";
+	};
+       };
+      };
+     };
+     MethodCall @[2] {
+      desc="update the monitor items and data schema based on current settings of the NetMonitor object";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][2].vars[1]$;
+      method=NetMonitor::UpdateMonitors;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=bool;
+	type="bool";
+	name="reset_first";
+	required=0;
+	def_val="false";
+	expr {
+	 expr="true";
+	};
+       };
+      };
+     };
+    };
+    prog_code {
+     name=;
+     el_typ=MethodCall;
+     el_def=0;
+     MethodCall @[0] {
+      desc="add a new blank row to the data";
+      flags=OFF;
+      result_var=NULL;
+      obj=.projects[0].programs.gp[0][2].vars[0]$$;
+      method=taBase::DataUpdate;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=bool;
+	type="bool";
+	name="begin";
+	required=1;
+	def_val=;
+	expr {
+	 expr="true";
+	};
+       };
+      };
+     };
+     MethodCall @[1] {
+      desc="add a new blank row to the data";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][2].vars[0]$;
+      method=DataTable::AddBlankRow;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     MethodCall @[2] {
+      desc="get the new monitor data from the network and other sources -- this does the main work";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][2].vars[1]$;
+      method=NetMonitor::GetMonVals;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     MethodCall @[3] {
+      desc="update views and other things after writing new data to monitor data table";
+      flags=;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][2].vars[0]$;
+      method=DataBlock::WriteClose;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+      };
+     };
+     MethodCall @[4] {
+      desc="add a new blank row to the data";
+      flags=OFF;
+      result_var=NULL;
+      obj=$.projects[0].programs.gp[0][2].vars[0]$;
+      method=taBase::DataUpdate;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=bool;
+	type="bool";
+	name="begin";
+	required=1;
+	def_val=;
+	expr {
+	 expr="false";
+	};
+       };
+      };
+     };
+     MethodCall @[5] {
+      desc="only functional for dmem projects: synchronizes trial data across processes so that all distributed memory processors have the same trial-level data, despite having run only a subset of them each";
+      flags=OFF;
+      result_var=NULL;
+      obj=.projects[0].programs.gp[0][2].args[0]$$;
+      method=Network::DMem_ShareTrialData;
+      meth_args {
+       name=;
+       el_typ=ProgArg;
+       el_def=0;
+       ProgArg @[0] {
+	arg_type=DataTable_ptr;
+	type="DataTable*";
+	name="dt";
+	required=1;
+	def_val=;
+	expr {
+	 expr="trial_mon_data";
+	};
+       };
+       ProgArg @[1] {
+	arg_type=int;
+	type="int";
+	name="n_rows";
+	required=0;
+	def_val="1";
+	expr {
+	 expr="1";
+	};
+       };
+      };
+     };
+    };
+    step_prog=NULL;
+    step_n=1;
+   };
+  };
+ };
+ viewers {
+  name=;
+  el_typ=TopLevelViewer;
+  el_def=0;
+  MainWindowViewer @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItemBase;
+    el_def=0;
+    UserDataItem @[0] {
+     name="view_win_lft";
+     value 6 0=0;
+     val_type_fixed=0;
+    };
+    UserDataItem @[1] {
+     name="view_win_top";
+     value 6 0=0;
+     val_type_fixed=0;
+    };
+    UserDataItem @[2] {
+     name="view_win_wd";
+     value 6 0=1;
+     val_type_fixed=0;
+    };
+    UserDataItem @[3] {
+     name="view_win_ht";
+     value 6 0=0.7996109127998352;
+     val_type_fixed=0;
+    };
+    UserDataItem @[4] {
+     name="view_win_iconified";
+     value 1 0=0;
+     val_type_fixed=0;
+    };
+    UserDataItem @[5] {
+     name="view_splitter_state";
+     value 9 0="AAAA/wAAAAAAAAADAAAAkgAAAt4AAALqAQAAAAYBAAAAAQ==";
+     val_type_fixed=0;
+    };
+   };
+   name="Browser";
+   m_data=.projects[0]$$;
+   visible=1;
+   m_is_root=0;
+   m_is_viewer_xor_browser=0;
+   m_is_proj_viewer=1;
+   m_is_dialog=0;
+   toolbars {
+    name=;
+    el_typ=ToolBar;
+    el_def=0;
+    ToolBar @[0] {
+     UserDataItem_List @*(.user_data_) {
+      name=;
+      el_typ=UserDataItemBase;
+      el_def=0;
+      UserDataItem @[0] {
+       name="view_win_visible";
+       value 1 0=0;
+       val_type_fixed=0;
+      };
+     };
+     name="Application";
+     m_data=NULL;
+     visible=0;
+     lft=0;
+     top=0;
+     o=Horizontal;
+    };
+   };
+   frames {
+    name=;
+    el_typ=FrameViewer;
+    el_def=0;
+    tabBrowseViewer @[0] {
+     name="Tree";
+     m_data=NULL;
+     visible=1;
+     root_typ=LeabraProject;
+     root_md=NULL;
+     m_root=$.projects[0]$;
+    };
+    PanelViewer @[1] {
+     name="Panels";
+     m_data=NULL;
+     visible=1;
+    };
+    T3DataViewer @[2] {
+     name="T3Frames";
+     m_data=NULL;
+     visible=1;
+     frames {
+      name=;
+      el_typ=T3DataViewFrame;
+      el_def=0;
+      T3DataViewFrame @[0] {
+       name="Network";
+       m_data=NULL;
+       visible=1;
+       root_view {
+	name=;
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataView;
+	 el_def=0;
+	 NetView @[0] {
+	  name=;
+	  m_data=$.projects[0].networks[0]$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=1: y=0: z=0: rot=0.35: }: translate={x=0: y=0: z=0: }: };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=1: y=0: z=0: rot=0.35: }: translate={x=0: y=0: z=0: }: };
+	  display=1;
+	  lay_mv=0;
+	  net_text=0;
+	  net_text_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=0: y=-0.5: z=0: }: };
+	  net_text_rot=0;
+	  cur_unit_vals{ act;	  };
+	  unit_src_path=".layers[1].units[0]";
+	  hist_idx=0;
+	  hist_save=1;
+	  hist_max=100;
+	  hist_ff=5;
+	  unit_disp_mode=UDM_BLOCK;
+	  unit_text_disp=UTD_BOTH;
+	  max_size {x=1: y=1: z=1.5: };
+	  font_sizes {
+	   net_name=0.05;
+	   net_vals=0.05;
+	   layer=0.04;
+	   layer_min=0.01;
+	   layer_vals=0.03;
+	   prjn=0.01;
+	   unit=0.1;
+	   un_nm_len=3;
+	  };
+	  view_params {
+	   xy_square=0;
+	   unit_spacing=0.05;
+	   prjn_disp=L_R_B;
+	   prjn_name=0;
+	   prjn_width=0.002;
+	   prjn_trans=0.5;
+	   lay_trans=0.5;
+	   unit_trans=0.6;
+	   laygp_width=1;
+	   show_laygp=1;
+	  };
+	  wt_line_disp=0;
+	  wt_line_width=4;
+	  wt_line_thr=0.5;
+	  wt_line_swt=0;
+	  wt_prjn_k_un=4;
+	  wt_prjn_k_gp=1;
+	  wt_prjn_lay=NULL;
+	  snap_bord_disp=0;
+	  snap_bord_width=4;
+	  scale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=1;
+	   zero=0;
+	   spec=.colorspecs[0]$$<ColorScaleSpec,C_ColdHot>;
+	   auto_scale=0;
+	  };
+	  scale_ranges {
+	   name=;
+	   el_typ=ScaleRange;
+	   el_def=0;
+	   ScaleRange @[0] {
+	    name="act";
+	    auto_scale=0;
+	    min=-1;
+	    max=1;
+	   };
+	   ScaleRange @[1] {
+	    name="ext";
+	    auto_scale=0;
+	    min=-1;
+	    max=1;
+	   };
+	   ScaleRange @[2] {
+	    name="net";
+	    auto_scale=0;
+	    min=-1;
+	    max=1;
+	   };
+	  };
+	  lay_disp_modes{ Input=;Receiver=;	  };
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       text_color {r=0: g=0: b=0: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=0.5: y=0.5616201: z=1.989481: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=2.072964;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+      T3DataViewFrame @[1] {
+       name="CycleOutputData";
+       m_data=NULL;
+       visible=1;
+       root_view {
+	name=;
+	m_data=NULL;
+	m_transform=NULL;
+	children {
+	 name=;
+	 el_typ=T3DataView;
+	 el_def=0;
+	 GraphTableView @[0] {
+	  name=;
+	  m_data=$.projects[0].data.gp[1][0]$;
+FloatTransform @*(.m_transform) {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  children {
+	   name=;
+	   el_typ=GraphColView;
+	   el_def=0;
+	   GraphColView @[0] {
+	    name="cycle";
+	    m_data=.projects[0].data.gp[1][0].data[0]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=1: min=0: fix_max=1: max=500: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[1] {
+	    name="net";
+	    m_data=.projects[0].data.gp[1][0].data[1]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=1: min=-0.5: fix_max=1: max=1: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[2] {
+	    name="I_net";
+	    m_data=.projects[0].data.gp[1][0].data[2]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[3] {
+	    name="v_m";
+	    m_data=.projects[0].data.gp[1][0].data[3]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[4] {
+	    name="act";
+	    m_data=.projects[0].data.gp[1][0].data[4]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[5] {
+	    name="act_eq";
+	    m_data=.projects[0].data.gp[1][0].data[5]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[6] {
+	    name="vcb_acc";
+	    m_data=.projects[0].data.gp[1][0].data[6]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[7] {
+	    name="gc_a";
+	    m_data=.projects[0].data.gp[1][0].data[7]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[8] {
+	    name="vcb_hyst";
+	    m_data=.projects[0].data.gp[1][0].data[8]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	   GraphColView @[9] {
+	    name="gc_h";
+	    m_data=.projects[0].data.gp[1][0].data[9]$$;
+	    m_transform=NULL;
+	    visible=1;
+	    fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	    data_range {min=0: max=0: };
+	   };
+	  };
+	  main_xform {scale={x=1: y=1: z=1: }: rotate={x=0: y=0: z=1: rot=0: }: translate={x=1: y=0: z=0: }: };
+	  view_rows=10000;
+	  view_range {min=0: max=-1: };
+	  display_on=1;
+	  manip_ctrl_on=1;
+	  graph_type=XY;
+	  plot_style=LINE;
+	  negative_draw=0;
+	  negative_draw_z=1;
+	  line_width=2;
+	  point_size=MEDIUM;
+	  point_spacing=1;
+	  bar_space=0.2;
+	  label_spacing=-1;
+	  width=1.2;
+	  depth=1;
+	  axis_font_size=0.05;
+	  label_font_size=0.04;
+	  x_axis {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=1;
+	   axis=X;
+	   col_name="cycle";
+	   fixed_range {fix_min=1: min=0: fix_max=1: max=500: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=500: };
+	   range {min=0: max=500: };
+	   n_ticks=10;
+	   axis_length=1.2;
+	   row_num=0;
+	  };
+	  z_axis {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Z;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   row_num=0;
+	  };
+	  plot_1 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=1;
+	   axis=Y;
+	   col_name="net";
+	   fixed_range {fix_min=1: min=-0.5: fix_max=1: max=1: };
+	   color {name="red": r=1: g=0: b=0: a=1: desc="": };
+	   data_range {min=-0.5: max=1: };
+	   range {min=-0.5: max=1: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  plot_2 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=1;
+	   axis=Y;
+	   col_name="vcb_acc";
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="orange": r=1: g=0.6470588: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=-6e-19: max=6e-19: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=SQUARE;
+	   alt_y=0;
+	  };
+	  plot_3 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=1;
+	   axis=Y;
+	   col_name="gc_a";
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="yellow": r=1: g=1: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=-6e-19: max=6e-19: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=DIAMOND;
+	   alt_y=0;
+	  };
+	  plot_4 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=1;
+	   axis=Y;
+	   col_name="vcb_hyst";
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="green3": r=0: g=0.8039216: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=-6e-19: max=6e-19: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=TRIANGLE;
+	   alt_y=0;
+	  };
+	  plot_5 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=1;
+	   axis=Y;
+	   col_name="act_eq";
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="blue": r=0: g=0: b=1: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=-6e-19: max=6e-19: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=PLUS;
+	   alt_y=0;
+	  };
+	  plot_6 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="orange": r=1: g=0.6470588: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CROSS;
+	   alt_y=0;
+	  };
+	  plot_7 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="brown": r=0.6470588: g=0.1647059: b=0.1647059: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=STAR;
+	   alt_y=0;
+	  };
+	  plot_8 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="chartreuse": r=0.4980392: g=1: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=MINUS;
+	   alt_y=0;
+	  };
+	  alt_y_1=0;
+	  alt_y_2=0;
+	  alt_y_3=0;
+	  alt_y_4=0;
+	  alt_y_5=0;
+	  err_1 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_2 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_3 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_4 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_5 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_6 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_7 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_8 {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   line_style=SOLID;
+	   point_style=CIRCLE;
+	   alt_y=0;
+	  };
+	  err_spacing=1;
+	  err_bar_width=0.02;
+	  color_mode=FIXED_COLOR;
+	  color_axis {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   row_num=0;
+	  };
+	  colorscale {
+	   name="ColorScale";
+	   chunks=133;
+	   min=-1;
+	   max=1;
+	   range=0;
+	   zero=0;
+	   spec=$.colorspecs[0]$;
+	   auto_scale=0;
+	  };
+	  raster_axis {
+	   name=;
+	   m_data=NULL;
+	   m_transform=NULL;
+	   on=0;
+	   axis=Y;
+	   col_name=;
+	   fixed_range {fix_min=0: min=0: fix_max=0: max=0: };
+	   color {name="black": r=0: g=0: b=0: a=1: desc="": };
+	   data_range {min=0: max=0: };
+	   range {min=0: max=0: };
+	   n_ticks=10;
+	   axis_length=1;
+	   row_num=0;
+	  };
+	  thresh=0.5;
+	  thr_line_len=0.48;
+	  matrix_mode=SEP_GRAPHS;
+	  mat_layout=BOT_ZERO;
+	  mat_odd_vert=1;
+	  two_d_font=0;
+	  two_d_font_scale=350;
+	 };
+	};
+       };
+       bg_color {r=0.8: g=0.8: b=0.8: a=1: };
+       text_color {r=0: g=0: b=0: a=1: };
+       headlight_on=1;
+       stereo_view=STEREO_NONE;
+       saved_views {
+	name=;
+	el_typ=T3SavedView;
+	el_def=0;
+	T3SavedView @[0] {
+	 name="View 0";
+	 view_saved=1;
+	 pos {x=1.53344: y=0.4449999: z=1.750624: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=1.763124;
+	};
+	T3SavedView @[1] {
+	 name="View 1";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[2] {
+	 name="View 2";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[3] {
+	 name="View 3";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[4] {
+	 name="View 4";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+	T3SavedView @[5] {
+	 name="View 5";
+	 view_saved=0;
+	 pos {x=0: y=0: z=0: };
+	 orient {x=0: y=0: z=1: rot=0: };
+	 focal_dist=0;
+	};
+       };
+      };
+     };
+    };
+   };
+   docks {
+    name=;
+    el_typ=DockViewer;
+    el_def=0;
+    ToolBoxDockViewer @[0] {
+     UserDataItem_List @*(.user_data_) {
+      name=;
+      el_typ=UserDataItemBase;
+      el_def=0;
+      UserDataItem @[0] {
+       name="view_win_lft";
+       value 6 0=0;
+       val_type_fixed=0;
+      };
+      UserDataItem @[1] {
+       name="view_win_top";
+       value 6 0=0.02140077762305737;
+       val_type_fixed=0;
+      };
+      UserDataItem @[2] {
+       name="view_win_wd";
+       value 6 0=0.05921855941414833;
+       val_type_fixed=0;
+      };
+      UserDataItem @[3] {
+       name="view_win_ht";
+       value 6 0=0.7159532904624939;
+       val_type_fixed=0;
+      };
+      UserDataItem @[4] {
+       name="view_win_iconified";
+       value 1 0=0;
+       val_type_fixed=0;
+      };
+      UserDataItem @[5] {
+       name="view_visible";
+       value 1 0=0;
+       val_type_fixed=0;
+      };
+     };
+     name="Tools";
+     m_data=NULL;
+     visible=1;
+     dock_flags=DV_MOVABLE|DV_FLOATABLE;
+     dock_area=1;
+    };
+   };
+  };
+ };
+ last_change_desc=;
+ networks {
+  name=;
+  el_typ=LeabraNetwork;
+  el_def=0;
+  LeabraNetwork @[0] {
+   UserDataItem_List @*(.user_data_) {
+    name=;
+    el_typ=UserDataItem;
+    el_def=0;
+    UserDataItem @[0] {
+     name="norm_err";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[1] {
+     name="ext_rew";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[2] {
+     name="maxda";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[3] {
+     name="minus_output_name";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[4] {
+     name="minus_cycles";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[5] {
+     name="ct_cycle";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[6] {
+     name="phase_no";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[7] {
+     name="phase";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[8] {
+     name="sse";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[9] {
+     name="output_name";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[10] {
+     name="trial_name";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[11] {
+     name="group_name";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[12] {
+     name="time";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[13] {
+     name="cycle";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[14] {
+     name="tick";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[15] {
+     name="trial";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[16] {
+     name="group";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[17] {
+     name="epoch";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+    UserDataItem @[18] {
+     name="batch";
+     value 1 0=1;
+     val_type_fixed=1;
+    };
+   };
+   name="SelfRegNet";
+   desc=;
+   specs {
+    name=;
+    el_typ=BaseSpec;
+    el_def=0;
+    LeabraUnitSpec @[0] {
+     name="UnitSpec_0";
+     desc=;
+     unique{      };
+     children {
+      name=;
+      el_typ=LeabraUnitSpec;
+      el_def=0;
+     };
+     act_range {min=0: max=1: range=1: scale=1: };
+     bias_con_type=LeabraCon;
+     bias_spec {type=LeabraBiasSpec: spec=.projects[0].networks[0].specs[1].children[0]$$: };
+     sse_tol=0.5;
+     act_fun=NOISY_XX1;
+     act {thr=0.25: gain=600: nvar=0.005: avg_dt=0.005: avg_init=0.15: i_thr=STD: };
+     spike {rise=0: decay=0.05: g_gain=5: window=3: eq_gain=9: eq_dt=0: };
+     spike_misc {
+      exp_slope=0.02;
+      spk_thr=1.2;
+      clamp_max_p=0.11;
+      clamp_type=REGULAR;
+      vm_r=0.3;
+      vm_dend=0.3;
+      vm_dend_dt=0.16;
+      vm_dend_time=6.25;
+     };
+     opt_thresh {send=0.1: delta=0.005: phase_dif=0: };
+     maxda {val=INET_DA: inet_scale=1: lay_avg_thr=0.01: };
+     clamp_range {min=0: max=0.95: range=0.95: scale=1.052632: };
+     vm_range {min=0: max=1: range=1: scale=1: };
+     v_m_init {name="": type=UNIFORM: mean=0.15: var=0: par=1: };
+     dt {integ=1: vm=0.1: net=0.7: midpoint=0: d_vm_max=0.025: vm_eq_cyc=0: vm_eq_dt=1: integ_time=1: vm_time=10: net_time=1.428571: };
+     act_avg {l_gain=3: l_dt=0.005: ml_dt=0.4: m_dt=0.1: s_dt=0.2: ss_dt=1: use_nd=0: l_time=200: ml_time=2.5: m_time=10: s_time=5: ss_time=1: };
+     g_bar {e=0.4: l=2: i=1: h=0.3: a=0.5: };
+     e_rev {e=1: l=0.15: i=0.15: h=1: a=0: };
+     hyst {on=0: b_inc_dt=0.05: b_dec_dt=0.05: a_thr=0.8: d_thr=0.7: g_dt=0.1: init=1: trl=0: };
+     acc {on=0: b_inc_dt=0.01: b_dec_dt=0.01: a_thr=0.7: d_thr=0.1: g_dt=0.05: init=1: trl=0: };
+     adapt {
+      on=0;
+      dt=0.007;
+      vm_gain=0.04;
+      spike_gain=0.00805;
+      interval=10;
+      dt_time=142.8571;
+     };
+     depress {on=0: rec=0.2: asymp_act=0.5: depl=0.2105263: interval=1: max_amp=2: };
+     syn_delay {
+      on=0;
+      delay=4;
+     };
+     da_mod {on=0: mod=PLUS_CONT: gain=0.1: };
+     noise_type=VM_NOISE;
+     noise {name="": type=GAUSSIAN: mean=0: var=0: par=1: };
+     noise_adapt {trial_fixed=1: k_pos_noise=0: mode=FIXED_NOISE: min_pct=0.5: min_pct_c=0.5: };
+     noise_sched {
+      name=;
+      el_typ=SchedItem;
+      el_def=0;
+      last_ctr=-1;
+      default_val=1;
+      interpolate=1;
+      cur_val=0;
+     };
+    };
+    LeabraConSpec @[1] {
+     name="ConSpec_0";
+     desc=;
+     unique{      };
+     children {
+      name=;
+      el_typ=LeabraConSpec;
+      el_def=0;
+      LeabraBiasSpec @[0] {
+       name="BiasSpec_0";
+       desc=;
+       unique{ rnd;wt_limits;wt_scale;wt_scale_init;       };
+       children {
+	name=;
+	el_typ=LeabraBiasSpec;
+	el_def=0;
+       };
+       rnd {name="": type=UNIFORM: mean=0: var=0: par=1: };
+       wt_limits {type=NONE: min=-1: max=5: sym=0: };
+       learn_rule=LEABRA_CHL;
+       inhib=0;
+       wt_scale {abs=1: rel=0.02: sem_extra=2: old=0: };
+       wt_scale_init {init=0: abs=1: rel=1: };
+       lrate=0;
+       cur_lrate=0;
+       lrs_value=EPOCH;
+       lrate_sched {
+	name=;
+	el_typ=SchedItem;
+	el_def=0;
+	last_ctr=-1;
+	default_val=1;
+	interpolate=0;
+	cur_val=0;
+       };
+       wt_sig {gain=6: off=1.25: };
+       lmix {hebb=0.01: err=0.99: err_sb=1: };
+       xcal {s_mix=0.9: m_mix=0.1: thr_l_mix=0.01: thr_m_mix=0.99: d_rev=0.1: d_gain=1: d_thr=0.0001: d_rev_ratio=9: };
+       savg_cor {cor=1: thresh=0.01: norm_con_n=0: };
+       rel_net_adapt {
+	on=0;
+	trg_fm_input=0.85;
+	trg_fm_output=0.15;
+	trg_lateral=0;
+	trg_sum=1;
+	tol_lg=0.05;
+	tol_sm=0.2;
+	rel_lrate=0.1;
+       };
+       dwt_thresh=0.1;
+      };
+     };
+     rnd {name="": type=UNIFORM: mean=1: var=0: par=1: };
+     wt_limits {type=MIN_MAX: min=0: max=1: sym=1: };
+     learn_rule=LEABRA_CHL;
+     inhib=0;
+     wt_scale {abs=1: rel=1: sem_extra=2: old=0: };
+     wt_scale_init {init=0: abs=1: rel=1: };
+     lrate=0;
+     cur_lrate=0;
+     lrs_value=EPOCH;
+     lrate_sched {
+      name=;
+      el_typ=SchedItem;
+      el_def=0;
+      last_ctr=-1;
+      default_val=1;
+      interpolate=0;
+      cur_val=0;
+     };
+     wt_sig {gain=6: off=1.25: };
+     lmix {hebb=0.01: err=0.99: err_sb=1: };
+     xcal {s_mix=0.9: m_mix=0.1: thr_l_mix=0.01: thr_m_mix=0.99: d_rev=0.1: d_gain=1: d_thr=0.0001: d_rev_ratio=9: };
+     savg_cor {cor=1: thresh=0.01: norm_con_n=0: };
+     rel_net_adapt {
+      on=0;
+      trg_fm_input=0.85;
+      trg_fm_output=0.15;
+      trg_lateral=0;
+      trg_sum=1;
+      tol_lg=0.05;
+      tol_sm=0.2;
+      rel_lrate=0.1;
+     };
+    };
+    LeabraLayerSpec @[2] {
+     name="LayerSpec_0";
+     desc=;
+     unique{      };
+     children {
+      name=;
+      el_typ=LeabraLayerSpec;
+      el_def=0;
+     };
+     inhib_group=ENTIRE_LAYER;
+     inhib {
+      type=KWTA_INHIB;
+      kwta_pt=0.25;
+      min_i=0;
+      fb_act_thr=0;
+      ff_pct=0;
+      fb_max_dt=0.1;
+      comp_thr=0.5;
+      comp_gain=2;
+      gp_pt=0.2;
+     };
+     kwta {k_from=USE_PCT: k=12: pct=0.23: pat_q=0.5: diff_act_pct=0: act_pct=0.1: gp_i=0: gp_g=0.5: };
+     gp_kwta {k_from=USE_PCT: k=12: pct=0.23: pat_q=0.5: diff_act_pct=0: act_pct=0.1: gp_i=0: gp_g=0.5: };
+     tie_brk {on=0: k_thr=1: diff_thr=0.2: thr_gain=0.005: loser_gain=1: };
+     i_netin_mod {on=0: max_mod=0.02: mod_gain=10: max_top_k=0.4: };
+     adapt_i {type=NONE: tol=0.05: p_dt=0: mx_d=0.2: l=0.2: a_dt=0.005: };
+     clamp {hard=0: gain=0.5: max_plus=0: plus=0.01: min_clamp=0.5: };
+     decay {event=1: phase=1: phase2=0: clamp_phase2=0: };
+     ct_inhib_mod {
+      use_sin=0;
+      burst_i=0.02;
+      trough_i=0.02;
+      use_fin=0;
+      inhib_i=0;
+     };
+     abs_net_adapt {
+      on=0;
+      trg_net=0.5;
+      tol=0.1;
+      abs_lrate=0.1;
+     };
+    };
+    FullPrjnSpec @[3] {
+     name="FullPrjnSpec_0";
+     desc=;
+     unique{      };
+     children {
+      name=;
+      el_typ=FullPrjnSpec;
+      el_def=0;
+     };
+     self_con=0;
+     init_wts=0;
+     add_rnd_wts=0;
+    };
+    LeabraUnitSpec @[4] {
+     name="BioUnitSpec_0";
+     desc=;
+     unique{      };
+     children {
+      name=;
+      el_typ=LeabraUnitSpec;
+      el_def=0;
+     };
+     act_range {min=0: max=1: range=1: scale=1: };
+     bias_con_type=LeabraCon;
+     bias_spec {type=LeabraBiasSpec: spec=$.projects[0].networks[0].specs[1].children[0]$: };
+     sse_tol=0.5;
+     act_fun=NOISY_XX1;
+     act {thr=-55: gain=4.14: nvar=0.005: avg_dt=0.005: avg_init=0.15: i_thr=STD: };
+     spike {rise=0: decay=0.05: g_gain=5: window=3: eq_gain=9: eq_dt=0: };
+     spike_misc {
+      exp_slope=0.02;
+      spk_thr=1.2;
+      clamp_max_p=0.11;
+      clamp_type=REGULAR;
+      vm_r=0.3;
+      vm_dend=0.3;
+      vm_dend_dt=0.16;
+      vm_dend_time=6.25;
+     };
+     opt_thresh {send=0.1: delta=0.005: phase_dif=0: };
+     maxda {val=INET_DA: inet_scale=1: lay_avg_thr=0.01: };
+     clamp_range {min=0: max=0.95: range=0.95: scale=1.052632: };
+     vm_range {min=-90: max=55: range=145: scale=0.006896552: };
+     v_m_init {name="": type=UNIFORM: mean=-70: var=0: par=1: };
+     dt {integ=1: vm=0.1: net=0.7: midpoint=0: d_vm_max=0.025: vm_eq_cyc=0: vm_eq_dt=1: integ_time=1: vm_time=10: net_time=1.428571: };
+     act_avg {l_gain=3: l_dt=0.005: ml_dt=0.4: m_dt=0.1: s_dt=0.2: ss_dt=1: use_nd=0: l_time=200: ml_time=2.5: m_time=10: s_time=5: ss_time=1: };
+     g_bar {e=0.4: l=2.8: i=1: h=0.1: a=0.1: };
+     e_rev {e=55: l=-70: i=-70: h=55: a=-90: };
+     hyst {on=0: b_inc_dt=0.01: b_dec_dt=0.05: a_thr=0.5: d_thr=0.1: g_dt=0.1: init=1: trl=0: };
+     acc {on=0: b_inc_dt=0.01: b_dec_dt=0.01: a_thr=0.5: d_thr=0.1: g_dt=0.1: init=1: trl=0: };
+     adapt {
+      on=0;
+      dt=0.007;
+      vm_gain=0.04;
+      spike_gain=0.00805;
+      interval=10;
+      dt_time=142.8571;
+     };
+     depress {on=0: rec=0.2: asymp_act=0.5: depl=0.2105263: interval=1: max_amp=2: };
+     syn_delay {
+      on=0;
+      delay=4;
+     };
+     da_mod {on=0: mod=PLUS_CONT: gain=0.1: };
+     noise_type=VM_NOISE;
+     noise {name="": type=GAUSSIAN: mean=0: var=0: par=1: };
+     noise_adapt {trial_fixed=1: k_pos_noise=0: mode=FIXED_NOISE: min_pct=0.5: min_pct_c=0.5: };
+     noise_sched {
+      name=;
+      el_typ=SchedItem;
+      el_def=0;
+      last_ctr=-1;
+      default_val=1;
+      interpolate=1;
+      cur_val=0;
+     };
+    };
+   };
+   layers {
+    name=;
+    el_typ=LeabraLayer;
+    el_def=0;
+    pos {x=0: y=0: z=0: };
+    max_size {x=1: y=1: z=2: };
+    LeabraLayer @[0] {
+     name="Input";
+     desc=;
+     flags=;
+     layer_type=INPUT;
+     pos {x=0: y=0: z=0: };
+     disp_scale=1;
+     un_geom {x=1: y=1: n_not_xy=0: n=1: };
+     unit_groups=0;
+     gp_geom {x=0: y=0: n_not_xy=0: n=0: };
+     gp_spc {x=0: y=0: };
+     act_geom {x=1: y=1: n_not_xy=0: n=1: };
+     scaled_act_geom {x=1: y=1: n_not_xy=0: n=1: };
+     projections {
+      name=;
+      el_typ=LeabraPrjn;
+      el_def=0;
+     };
+     send_prjns {
+      name=;
+      el_typ=LeabraPrjn;
+      el_def=0;
+	    Projection_Group @. = [0] = LeabraPrjn .projects[0].networks[0].layers[1].projections[0];
+     };
+     units {
+      name=;
+      el_typ=LeabraUnit;
+      el_def=0;
+      pos {x=0: y=0: z=0: };
+      unique_geom=0;
+      geom {x=1: y=1: n_not_xy=0: n=1: };
+      units_lesioned=0;
+      output_name=;
+      LeabraUnit @[0] {
+       name="SendingUnit";
+       ext_flag=;
+       targ=0;
+       ext=0;
+       act=0;
+       net=0;
+       recv {
+	name=;
+	el_typ=RecvCons;
+	el_def=0;
+       };
+       send {
+	name=;
+	el_typ=LeabraSendCons;
+	el_def=0;
+	LeabraSendCons @[0] {
+	 con_type=LeabraCon;
+	 prjn=.projects[0].networks[0].layers[1].projections[0]$$;
+	 other_idx=0;
+	};
+       };
+       bias {
+	con_type=LeabraCon;
+	prjn=NULL;
+	other_idx=-1;
+       };
+       { con_alloc = 1;
+	units = {0; };
+	wt = {0; };
+       };
+       n_recv_cons=0;
+       pos {x=0: y=0: z=0: };
+       act_eq=0;
+       act_nd=0;
+       act_avg=0.05997281;
+       act_m=0;
+       act_p=0;
+       act_dif=0;
+       act_m2=0;
+       act_p2=0;
+       act_dif2=0;
+       avg_ss=0.15;
+       avg_s=0.15;
+       avg_m=0.12;
+       avg_ml=0.15;
+       avg_l=0.15;
+       l_thr=0.15;
+       davg=0;
+       vcb {hyst=0: acc=0: hyst_on=0: acc_on=0: g_h=0: g_a=0: };
+       dav=0;
+       maint_h=0;
+       spk_amp=2;
+      };
+     };
+     unit_spec {type=LeabraUnitSpec: spec=$.projects[0].networks[0].specs[0]$: };
+     ext_flag=;
+     dmem_dist=DMEM_DIST_DEFAULT;
+     dist {
+      fm_input=-1;
+      fm_output=-1;
+     };
+     output_name="SendingUnit";
+     sse=0;
+     icon_value=0;
+     netin {cmpt=1: avg=0: max=0: max_i=0: };
+     netin_top_k {cmpt=1: avg=0: max=0: max_i=-1: };
+     i_thrs {cmpt=1: avg=-2: max=-2: max_i=0: };
+     acts {cmpt=1: avg=0: max=0: max_i=0: };
+     acts_p {cmpt=1: avg=0: max=0: max_i=0: };
+     acts_m {cmpt=1: avg=0: max=0: max_i=0: };
+     phase_dif_ratio=1;
+     acts_p2 {cmpt=1: avg=0: max=0: max_i=-1: };
+     acts_m2 {cmpt=1: avg=0: max=0: max_i=-1: };
+     kwta {k=1: pct=1: pct_c=0: adth_k=1: k_ithr=0: k1_ithr=0: ithr_r=0: ithr_diff=0: tie_brk_gain=0: eff_loser_gain=1: tie_brk=0: };
+     i_val {kwta=0: g_i=0: gp_g_i=0: g_i_orig=0: i_netin_mod=0: };
+     un_g_i {cmpt=0: avg=0: max=-3.402823e+38: max_i=-1: };
+     adapt_i {avg_avg=0: i_kwta_pt=0: g_bar_i=1: g_bar_l=0.1: };
+     maxda=0;
+     act_max_avg=0;
+     spec {type=LeabraLayerSpec: spec=.projects[0].networks[0].specs[2]$$: };
+     hard_clamped=0;
+     avg_l_avg=nan;
+     dav=0;
+     avg_netin {cmpt=1: avg=0: max=0: max_i=-1: };
+     avg_netin_sum {cmpt=1: avg=0: max=0: max_i=-1: };
+     avg_netin_n=0;
+     norm_err=-1;
+     da_updt=0;
+    };
+    LeabraLayer @[1] {
+     name="Receiver";
+     desc=;
+     flags=;
+     layer_type=HIDDEN;
+     pos {x=0: y=0: z=1: };
+     disp_scale=1;
+     un_geom {x=1: y=1: n_not_xy=0: n=1: };
+     unit_groups=0;
+     gp_geom {x=0: y=0: n_not_xy=0: n=0: };
+     gp_spc {x=0: y=0: };
+     act_geom {x=1: y=1: n_not_xy=0: n=1: };
+     scaled_act_geom {x=1: y=1: n_not_xy=0: n=1: };
+     projections {
+      name=;
+      el_typ=LeabraPrjn;
+      el_def=0;
+      LeabraPrjn @[0] {
+       name="Fm_Input";
+       from_type=CUSTOM;
+       from=.projects[0].networks[0].layers[0]$$;
+       spec {type=FullPrjnSpec: spec=.projects[0].networks[0].specs[3]$$: };
+       con_type=LeabraCon;
+       recvcons_type=LeabraRecvCons;
+       sendcons_type=LeabraSendCons;
+       con_spec {type=LeabraConSpec: spec=.projects[0].networks[0].specs[1]$$: };
+       recv_idx=0;
+       send_idx=0;
+       recv_n=1;
+       send_n=1;
+       projected=1;
+       direction=DIR_UNKNOWN;
+       netin_avg=0;
+       netin_rel=0;
+       avg_netin_avg=0;
+       avg_netin_avg_sum=0;
+       avg_netin_rel=0;
+       avg_netin_rel_sum=0;
+       avg_netin_n=0;
+       trg_netin_rel=-1;
+      };
+     };
+     send_prjns {
+      name=;
+      el_typ=LeabraPrjn;
+      el_def=0;
+     };
+     units {
+      name=;
+      el_typ=LeabraUnit;
+      el_def=0;
+      pos {x=0: y=0: z=0: };
+      unique_geom=0;
+      geom {x=1: y=1: n_not_xy=0: n=1: };
+      units_lesioned=0;
+      output_name=;
+      LeabraUnit @[0] {
+       UserDataItem_List @*(.user_data_) {
+	name=;
+	el_typ=UserDataItem;
+	el_def=0;
+       };
+       name="ReceivingUnit";
+       ext_flag=;
+       targ=0;
+       ext=0;
+       act=0;
+       net=0;
+       recv {
+	name=;
+	el_typ=LeabraRecvCons;
+	el_def=0;
+	LeabraRecvCons @[0] {
+	 con_type=LeabraCon;
+	 prjn=$.projects[0].networks[0].layers[1].projections[0]$;
+	 other_idx=0;
+	};
+	{ con_alloc = 1;
+	 units = {0; };
+	 wt = {1; };
+	};
+       };
+       send {
+	name=;
+	el_typ=SendCons;
+	el_def=0;
+       };
+       bias {
+	con_type=LeabraCon;
+	prjn=NULL;
+	other_idx=-1;
+       };
+       { con_alloc = 1;
+	units = {0; };
+	wt = {0; };
+       };
+       n_recv_cons=1;
+       pos {x=0: y=0: z=0: };
+       act_eq=0;
+       act_nd=0;
+       act_avg=0.07033175;
+       act_m=0;
+       act_p=0;
+       act_dif=0;
+       act_m2=0;
+       act_p2=0;
+       act_dif2=0;
+       avg_ss=0.15;
+       avg_s=0.15;
+       avg_m=0.312245;
+       avg_ml=0.15;
+       avg_l=0.15;
+       l_thr=0.15;
+       davg=0;
+       vcb {hyst=0: acc=0: hyst_on=0: acc_on=0: g_h=0: g_a=0: };
+       dav=0;
+       maint_h=0;
+       spk_amp=2;
+      };
+     };
+     unit_spec {type=LeabraUnitSpec: spec=$.projects[0].networks[0].specs[0]$: };
+     ext_flag=;
+     dmem_dist=DMEM_DIST_DEFAULT;
+     dist {
+      fm_input=-1;
+      fm_output=-1;
+     };
+     output_name="ReceivingUnit";
+     sse=0;
+     icon_value=0;
+     netin {cmpt=1: avg=0: max=0: max_i=0: };
+     netin_top_k {cmpt=1: avg=0: max=0: max_i=-1: };
+     i_thrs {cmpt=1: avg=-2: max=-2: max_i=0: };
+     acts {cmpt=1: avg=0: max=0: max_i=0: };
+     acts_p {cmpt=1: avg=0: max=0: max_i=0: };
+     acts_m {cmpt=1: avg=0: max=0: max_i=0: };
+     phase_dif_ratio=1;
+     acts_p2 {cmpt=1: avg=0: max=0: max_i=-1: };
+     acts_m2 {cmpt=1: avg=0: max=0: max_i=-1: };
+     kwta {k=1: pct=1: pct_c=0: adth_k=1: k_ithr=0: k1_ithr=0: ithr_r=0: ithr_diff=0: tie_brk_gain=0: eff_loser_gain=1: tie_brk=0: };
+     i_val {kwta=0: g_i=0: gp_g_i=0: g_i_orig=0: i_netin_mod=0: };
+     un_g_i {cmpt=0: avg=0: max=-3.402823e+38: max_i=-1: };
+     adapt_i {avg_avg=0: i_kwta_pt=0: g_bar_i=1: g_bar_l=0.1: };
+     maxda=5.960464e-08;
+     act_max_avg=2.916035e-05;
+     spec {type=LeabraLayerSpec: spec=$.projects[0].networks[0].specs[2]$: };
+     hard_clamped=0;
+     avg_l_avg=nan;
+     dav=0;
+     avg_netin {cmpt=1: avg=0: max=0: max_i=-1: };
+     avg_netin_sum {cmpt=1: avg=0: max=0: max_i=-1: };
+     avg_netin_n=0;
+     norm_err=-1;
+     da_updt=0;
+    };
+   };
+   view_objs {
+    name=;
+    el_typ=NetViewObj;
+    el_def=0;
+   };
+   flags=SAVE_UNITS;
+   auto_build=NO_BUILD;
+   train_mode=TRAIN;
+   wt_update=ON_LINE;
+   small_batch_n=10;
+   batch=0;
+   epoch=0;
+   group=0;
+   trial=0;
+   tick=0;
+   cycle=0;
+   time=2500;
+   group_name=;
+   trial_name=;
+   output_name=;
+   sse_unit_avg=0;
+   sse_sqrt=0;
+   sse=0;
+   sum_sse=0;
+   avg_sse=0;
+   cnt_err_tol=0;
+   cnt_err=0;
+   pct_err=0;
+   pct_cor=0;
+   cur_sum_sse=0;
+   avg_sse_n=111;
+   cur_cnt_err=0;
+   train_time {name="train_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   epoch_time {name="epoch_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   trial_time {name="trial_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   settle_time {name="settle_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   cycle_time {name="cycle_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   wt_sync_time {name="wt_sync_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   misc_time {name="misc_time": start={usr=0: sys=0: tot=0: }: end={usr=0: sys=0: tot=0: }: used={usr=0: sys=0: tot=0: }: s_used=0: n_used=0: };
+   threads {
+    run_time {name="": s_used=0: n_used=0: };
+    sync_time {name="": s_used=0: n_used=0: };
+    total_time {name="": s_used=0: n_used=0: };
+    n_wake_in_sync=0;
+    run_time_pct=0;
+    sync_time_pct=0;
+    wake_in_sync_pct=0;
+    interleave=1;
+    ignore_lay_sync=0;
+   };
+   dmem_sync_level=DMEM_SYNC_NETWORK;
+   dmem_nprocs=1;
+   usr1_save_fmt=FULL_NET;
+   wt_save_fmt=TEXT;
+   lay_layout=THREE_D;
+   n_units=2;
+   n_cons=1;
+   max_size {x=1: y=1: z=2: };
+   learn_rule=LEABRA_CHL;
+   phase_order=PLUS_ONLY;
+   no_plus_test=1;
+   sequence_init=DO_NOTHING;
+   phase=MINUS_PHASE;
+   nothing_phase=0;
+   phase_no=0;
+   phase_max=2;
+   ct_cycle=500;
+   time_inc=1;
+   cycle_max=200;
+   mid_minus_cycle=-1;
+   min_cycles=15;
+   min_cycles_phase2=35;
+   ct_time {
+    minus=50;
+    plus=20;
+    inhib=1;
+    n_avg_only_epcs=1;
+    total_cycles=71;
+    inhib_start=70;
+   };
+   ct_sravg {
+    start=30;
+    end=1;
+    interval=1;
+    plus_s_st=19;
+    force_con=0;
+   };
+   ct_sin_i {
+    start=30;
+    duration=20;
+    n_pi=2;
+    burst_i=0.02;
+    trough_i=0.02;
+   };
+   ct_fin_i {
+    start=20;
+    end=25;
+    inhib_i=0;
+   };
+   sravg_vals {
+    s_sum=0;
+    s_nrm=1;
+    m_sum=205;
+    m_nrm=0.004878049;
+    do_s=0;
+   };
+   ct_lrn_trig {
+    plus_lrn_cyc=-1;
+    davg_dt=0.1;
+    davg_s_dt=0.05;
+    davg_m_dt=0.03;
+    davg_l_dt=0.0005;
+    thr_min=0;
+    thr_max=0.5;
+    loc_max_cyc=8;
+    loc_max_dec=0.01;
+    lrn_delay=40;
+    lrn_refract=100;
+    davg_l_init=0;
+    davg_max_init=0.001;
+    davg_time=10;
+    davg_s_time=20;
+    davg_m_time=33.33334;
+    davg_l_time=2000;
+    lrn_delay_inc=0.025;
+    lrn_refract_inc=0.01;
+   };
+   lrn_trig {
+    davg=0;
+    davg_s=0;
+    davg_m=0;
+    davg_smd=0;
+    davg_l=0;
+    davg_max=0.001;
+    cyc_fm_inc=0;
+    cyc_fm_dec=0;
+    loc_max=0.001;
+    lrn_max=0;
+    lrn_trig=0;
+    lrn=0;
+    lrn_min=0;
+    lrn_min_cyc=0;
+    lrn_min_thr=0;
+    lrn_min_sum=0;
+    lrn_min_cyc_sum=0;
+    lrn_min_thr_sum=0;
+    lrn_plus=0;
+    lrn_plus_cyc=0;
+    lrn_plus_thr=0;
+    lrn_plus_sum=0;
+    lrn_plus_cyc_sum=0;
+    lrn_plus_thr_sum=0;
+    lrn_noth=0;
+    lrn_noth_cyc=0;
+    lrn_noth_thr=0;
+    lrn_noth_sum=0;
+    lrn_noth_cyc_sum=0;
+    lrn_noth_thr_sum=0;
+    lrn_stats_n=0;
+   };
+   minus_cycles=500;
+   avg_cycles=0;
+   avg_cycles_sum=26300;
+   avg_cycles_n=111;
+   minus_output_name=;
+   net_misc {
+    cyc_syn_dep=0;
+    syn_dep_int=20;
+   };
+   send_pct=0;
+   send_pct_n=0;
+   send_pct_tot=2;
+   avg_send_pct=0;
+   avg_send_pct_sum=4277.5;
+   avg_send_pct_n=11300;
+   maxda_stopcrit=0.005;
+   maxda=5.960464e-08;
+   trg_max_act_stopcrit=1;
+   trg_max_act=0;
+   ext_rew=0;
+   ext_rew_avail=0;
+   norew_val=0.5;
+   avg_ext_rew=0;
+   pvlv_pvi=0;
+   pvlv_pvr=0;
+   pvlv_lve=0;
+   pvlv_lvi=0;
+   pv_detected=0;
+   avg_ext_rew_sum=0;
+   avg_ext_rew_n=0;
+   off_errs=1;
+   on_errs=1;
+   norm_err=0;
+   avg_norm_err=0;
+   avg_norm_err_sum=0;
+   avg_norm_err_n=0;
+  };
+ };
+};

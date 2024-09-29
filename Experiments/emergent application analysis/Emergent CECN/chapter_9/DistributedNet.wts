@@ -1,0 +1,74 @@
+<Fmt TEXT>
+<Name DistributedNet>
+<Epoch 0>
+<Lay Input>
+<Ug>
+<UgUn 0 >
+<Un>
+0
+</Un>
+</UgUn>
+<UgUn 1 >
+<Un>
+0
+</Un>
+</UgUn>
+<UgUn 2 >
+<Un>
+0
+</Un>
+</UgUn>
+</Ug>
+</Lay>
+<Lay Hidden>
+<Ug>
+<UgUn 0 Monitor>
+<Un>
+0
+<Cg 0 Fm:Input>
+<Cn 1>
+0 0.9
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden>
+<Cn 2>
+1 0.9
+2 0.9
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 1 Speakers>
+<Un>
+0
+<Cg 0 Fm:Input>
+<Cn 1>
+1 0.9
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden>
+<Cn 2>
+0 0.9
+2 0.9
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+<UgUn 2 Keyboard>
+<Un>
+0
+<Cg 0 Fm:Input>
+<Cn 1>
+2 0.9
+</Cn>
+</Cg>
+<Cg 1 Fm:Hidden>
+<Cn 2>
+0 0.9
+1 0.9
+</Cn>
+</Cg>
+</Un>
+</UgUn>
+</Ug>
+</Lay>
